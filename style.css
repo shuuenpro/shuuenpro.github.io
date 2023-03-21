@@ -28,13 +28,22 @@
   }
 }
 
+html {
+  background: linear-gradient(to right, #4965f185, #e1483d85), url('remind.png');
+  min-height: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
 body {
-  background-color: #232323;
   color: #e0e0e0;
   font-family: "Open Sans";
   margin-top: 10px;
+  background: #333333c7;
+  padding: 20px;
 }
-
 /*Columns*/
 .column {
   float: left;
@@ -72,7 +81,7 @@ a {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333;
+  background-color: #6b6b6b4c;
 }
 
 .nav li {
