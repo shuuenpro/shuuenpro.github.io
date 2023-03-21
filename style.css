@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Palanquin&family=Open+Sans&display=swap');
+
+@media (max-width: 999px) {
+  img {
+    min-width: 80px;
+    max-height: 100%;
+    max-width: 100%;
+  }
+  body {
+    margin: 15px;
+    line-height: 1.6;
+  }
+  h2 {
+    font-size: 125%;
+  }
+  .column {
+    width: 100%;
+  }
+}
+
+@media (min-width: 1000px) {
+  body {
+    margin: 100px;
+  }
+  img {
+    max-height: 50%;
+    max-width: 50%;
+  }
+}
+
+body {
+  background-color: #232323;
+  color: #e0e0e0;
+  font-family: "Open Sans";
+  margin-top: 10px;
+}
+
+/*Columns*/
+.column {
+  float: left;
+  width: 48%;
+  margin-right: 2%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/*header*/
+h2 {
+  color: #e6cfa5;
+  font-family: "Palanquin";
+}
+
+/*hyperlink color*/
+a {
+  color: #FFBF00 ;
+}
+
+/*active nav tab*/
+.active {
+  background-color: #c9932e;
+}
+
+.highlight {
+  color: #FFBF00;
+}
+
+.light {
+  color: #dbb367;
+}
+
+/* Navigation bar styles */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #a8730f;
+}
