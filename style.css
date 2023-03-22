@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inconsolata&family=Source+Sans+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&family=Source+Sans+Pro&family=Actor&display=swap');
 
 @media (max-width: 999px) {
   img {
@@ -6,15 +6,18 @@
     max-height: 100%;
     max-width: 100%;
   }
+
   body {
     padding: 10px;
     min-width: 100%;
     margin: 0px;
     line-height: 1.5;
   }
+
   h2 {
     font-size: 1.25rem;
   }
+
   .column {
     width: 100%;
   }
@@ -22,17 +25,22 @@
 
 @media (min-width: 1000px) {
   body {
-    margin-top: 20px!important;
-    margin-bottom: 20px!important;
+    margin-top: 20px !important;
+    margin-bottom: 20px !important;
     border-radius: 20px;
     padding: 2.5rem;
     width: 38rem;
     margin: auto;
     line-height: 1.75;
   }
+
   img {
     max-height: 50%;
     max-width: 50%;
+  }
+
+  .nav li {
+    float: left;
   }
 }
 
@@ -41,8 +49,8 @@ html {
   min-height: 100%;
   background-attachment: fixed;
   background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 body {
@@ -53,8 +61,13 @@ body {
   letter-spacing: 0.025rem;
 }
 
+code {
+  text-shadow: 0px 0px 5px #433b3b;
+  background: #716d67a6;
+}
+
 ::selection {
-  background: rgba(101, 205, 250, 0.646);
+  background: #65cdfaa5;
 }
 
 /*Columns*/
@@ -72,18 +85,30 @@ body {
 }
 
 /*header*/
-h2 {
-  color:#FFBF00;
+h1 {
   font-family: "Inconsolata";
   text-transform: uppercase;
-  letter-spacing: 1px;
-  font-weight: bold;
-  font-size: 1.5rem;
+  font-size: 2.4rem;
+  line-height: 1.4;
+  font-weight: 700;
+}
+
+h2 {
+  color: #ff685d;
+  font-family: "Actor";
+  text-transform: uppercase;
+  font-size: 1.3rem;
+  text-decoration: underline;
 }
 
 /*hyperlink color*/
 a {
-  color: #adc6ff ;
+  color: #e8f1f9;
+  font-weight: bolder;
+}
+
+a:hover {
+  color: #8a9ebde7;
 }
 
 .highlight {
@@ -92,32 +117,129 @@ a {
   text-shadow: 0px 0px 3px #9f2a2a;
 }
 
+.dropdown-active {
+  background-color: #8b2b5087;
+}
+
+.dropdown-content a:nth-child(1):hover {
+  background-color: #522a2a80;
+}
+
+.dropdown-content a:nth-child(2):hover {
+  background-color: #8721ac80;
+}
+
+.dropdown-content a:nth-child(3):hover {
+  background-color: #1ab13380;
+}
+
+.dropdown-content a:nth-child(4):hover {
+  background-color: #2680c880;
+}
+
+/*Youtube & Spotify*/
+.yt {
+  color: #ffc3c3;
+}
+
+.spotify {
+  color: #acffac
+}
+
+/*Columns*/
+.column {
+  float: left;
+  width: 48%;
+  margin-right: 2%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 /* Navigation bar styles */
-.nav ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
+.navbar {
   overflow: hidden;
   background-color: #6b6b6b4c;
 }
 
-.nav li {
+.navbar a {
   float: left;
-}
-
-.nav li a {
-  display: block;
+  font-size: 1rem;
   color: white;
   text-align: center;
-  padding: 12px 12px;
+  padding: 14px 14px;
   text-decoration: none;
 }
 
-.nav li a:hover {
+.navbar a:hover, .dropdown:hover .dropbtn {
   background-color: #a01b3a;
 }
 
 /*active nav tab*/
 .active {
   background-color: #c92e52;
+}
+
+/* The dropdown container */
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+  letter-spacing: 0.025rem;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: bolder;
+  border: none;
+  outline: none;
+  text-align: center;
+  color: white;
+  padding: 18px 14px;
+  background-color: #00000000;
+  font-family: "Source Sans Pro";
+}
+
+.dropbtn-active {
+  letter-spacing: 0.025rem;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: bolder;
+  border: none;
+  outline: none;
+  text-align: center;
+  color: white;
+  padding: 18px 14px;
+  background-color: #c92e52;
+  font-family: "Source Sans Pro";
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #454751ea;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: rgb(234, 234, 234);
+  padding: 12px 14px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
 }
