@@ -2,9 +2,8 @@
 
 @media (max-width: 999px) {
   body {
-    padding: 3%;
-    width: 97%;
     margin: 0;
+    width: 100%;
     line-height: 1.5;
     position: absolute;
     font-size: 1rem;
