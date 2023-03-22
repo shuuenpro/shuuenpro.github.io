@@ -14,7 +14,7 @@
 			<a href="../index.html">Home</a>
 			<a href="../guide.html">New Fan's Guide</a>
 			<div class="dropdown">
-				<button class="dropbtn-active">Masterpost</button>
+				<button class="dropbtn-active">Masterlists</button>
 				<div class="dropdown-content">
 					<a class="dropdown-active" href="../albums.html">Albums / Songs</a>
 					<a href="../novels.html">Novels</a>
@@ -26,9 +26,9 @@
 		</div>
 	</header>
 	<h2>Shuuen -Re:act-</h2>
-	<p>(There is no proper -Re:act- masterpost as far as I'm aware.) Because most of these songs aren't new, most of them already have translations. These tracks have been uploaded onto Youtube as well.</p>
+	<p>(There is no proper -Re:act- translation masterlist as far as I'm aware.) Because most of these songs aren't new, most of them already have translations. These tracks have been uploaded onto Youtube as well.</p>
 	<p>Track names listed are according to the respective translator's interpretations.</p>
-	<p><b>Format:</b> <span class="yt">(Youtube)</span> <u>Translation link</u></p>
+	<p><b>Format:</b> <span class="yt">(Youtube)</span> <u>Translation Link</u></p>
 	<ul>
 		<li><p><a class="yt" href="https://youtu.be/XCST9xj8u_4">(YT)</a>
 			衝撃リアクト (Shougeki React)</p></li>
@@ -57,7 +57,7 @@
 		<li><p><a class="yt" href="https://youtu.be/Lk_CQhzFvsw">(YT)</a>
 			<a href="https://amesubs.tumblr.com/post/52609374998/ia-mundane-everyday-%E5%B9%B3%E5%87%A1%E3%81%AA%E6%97%A5%E5%B8%B8-shuuen-rewrite">平凡な日常 (Mundane Everyday)</a> (NOTE: the -Re:act- version of this song has a different final chorus than -Re:write-'s version, which has been translated <a href="https://www.facebook.com/ShuuenNoShiori1713/photos/pb.679318715454984.-2207520000.1448254320./890844247635762/">here</a>.)</p></li>
 	</ul>
-	<b><u>SPECIAL TRACKS</u></b>
+	<b class="highlight"><u>SPECIAL TRACKS</u></b>
 	<ul>
 		<li><p><a href="https://soundcloud.com/kanzenhanzailoveletter/makeinu-shijou-shugi-megumi">(Soundcloud)</a>
 			<a href="https://vocaloidlyrics.fandom.com/wiki/%E8%B2%A0%E3%81%91%E7%8A%AC%E8%87%B3%E4%B8%8A%E4%B8%BB%E7%BE%A9_(Makeinu_Shijou-shugi)">負け犬至上主義 (Underdog Supremacist)</a></p></li>
@@ -80,14 +80,14 @@
 		<center>
 			<a href=https://discord.gg/xmBBA2b><img src="../discord.png" style="margin-top:10px;"></a>
 			<br>
-			<span style="color:#d9d9d9" id="last-updated"><b>Last updated at:</b></span>
+			<span style="color:#d9d9d9" id="last-updated"><b>Last updated:</b></span>
 		</center>
 		<script>
 			fetch('https://api.github.com/repos/ALTCODE255/shuuenpro/commits?per_page=1')
 				.then(res => res.json())
 				.then(res => {
 					date = new Date(res[0].commit.committer.date)
-					document.getElementById('last-updated').innerHTML = "<b>Last updated at:</b> " + date.toLocaleString().replace(",", " @") + " (PDT)";
+					document.getElementById('last-updated').innerHTML = "<b>Last updated:</b> " + date.toLocaleString().replace(",", " @") + " (PDT)";
 				})
 		</script>
 	</footer>
