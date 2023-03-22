@@ -7,6 +7,8 @@
     margin: 0;
     line-height: 1.5;
     position: absolute;
+    font-size: 1rem;
+    letter-spacing: 0.01rem;
   }
 
   h2 {
@@ -15,6 +17,13 @@
 
   .column {
     width: 100%;
+  }
+
+  .dropdown .dropbtn {
+    padding: 16px 16px;
+  }
+  .dropbtn-active {
+    padding: 16px 16px;
   }
 }
 
@@ -27,10 +36,18 @@
     width: 38rem;
     margin: auto;
     line-height: 1.75;
+    font-size: 1.05rem;
+    letter-spacing: 0.025rem;
   }
 
   .nav li {
     float: left;
+  }
+  .dropdown .dropbtn {
+    padding: 18px 16px;
+  }
+  .dropbtn-active {
+    padding: 18px 16px;
   }
 }
 
@@ -46,8 +63,6 @@ body {
   color: #fff;
   font-family: "Source Sans Pro";
   background: #2C2A36CC;
-  font-size: 1.05rem;
-  letter-spacing: 0.025rem;
 }
 
 code {
@@ -164,7 +179,7 @@ a:hover {
   font-size: 1rem;
   color: white;
   text-align: center;
-  padding: 14px 14px;
+  padding: 14px 16px;
   text-decoration: none;
 }
 
@@ -193,9 +208,9 @@ a:hover {
   outline: none;
   text-align: center;
   color: white;
-  padding: 18px 14px;
   background-color: #00000000;
-  font-family: "Source Sans Pro";
+  font-family: inherit;
+  margin: 0;
 }
 
 .dropbtn-active {
@@ -207,9 +222,9 @@ a:hover {
   outline: none;
   text-align: center;
   color: white;
-  padding: 18px 14px;
   background-color: #c92e52;
-  font-family: "Source Sans Pro";
+  font-family: inherit;
+  margin: 0;
 }
 
 /* Dropdown content (hidden by default) */
