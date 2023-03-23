@@ -56,7 +56,10 @@ body {
   color: #fff;
   font-family: "Source Sans Pro";
   background: #2C2A36CC;
-  animation: fadeInAnimation ease 2s;
+}
+
+text {
+  animation: fadeInAnimation ease 1s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
 }
