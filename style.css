@@ -189,10 +189,6 @@ a:hover {
   background-color: #a01b3a;
 }
 
-.navbar .icon {
-  display: none;
-}
-
 /*active nav tab*/
 .navbar a.active {
   background-color: #c92e52;
