@@ -76,6 +76,10 @@ img {
   width: 2.5rem;
 }
 
+hr {
+  margin: 25px;
+}
+
 ::selection {
   background: #65cdfaa5;
 }
