@@ -1,253 +1,207 @@
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata&family=Source+Sans+Pro&family=Actor&display=swap');
 
 @media (max-width: 600px) {
-  body {
-    margin: 0;
-    padding: 5%;
-    width: 90%;
-    line-height: 1.5;
-    position: absolute;
-    font-size: 1rem;
-    letter-spacing: 0.01rem;
-  }
-  h1 {
-    font-size: 1.75rem;
-  }
-  h2 {
-    font-size: 1.25rem;
-  }
-  .column {
-    width: 100%;
-  }
-  .dropdown .dropbtn, .dropbtn-active {
+	body {
+		margin: 0;
+		padding: 5%;
+		width: 90%;
+		line-height: 1.5;
+		position: absolute;
+		font-size: 1rem;
+		letter-spacing: 0.01rem;
+	}
+
+	h1 {
+		font-size: 1.75rem;
+	}
+
+	h2 {
+		font-size: 1.25rem;
+	}
+
+	.column {
+		width: 100%;
+	}
+
+	/* .dropdown .dropbtn, .dropbtn-active {
     padding: 16px 16px;
-  }
+  } */
 }
 
 @media (min-width: 601px) {
-  body {
-    margin-top: 3% !important;
-    margin-bottom: 3% !important;
-    border-radius: 30px;
-    padding: 2.5rem;
-    width: 38rem;
-    margin: auto;
-    line-height: 1.75;
-    font-size: 1.05rem;
-    letter-spacing: 0.025rem;
-  }
-  h1 {
-    font-size: 2.4rem;
-  }
-  .dropdown .dropbtn, .dropbtn-active {
+	body {
+		margin-top: 3% !important;
+		margin-bottom: 3% !important;
+		border-radius: 30px;
+		padding: 2.5rem;
+		width: 38rem;
+		margin: auto;
+		line-height: 1.75;
+		font-size: 1.05rem;
+		letter-spacing: 0.025rem;
+	}
+
+	h1 {
+		font-size: 2.4rem;
+	}
+
+	/* .dropdown .dropbtn, .dropbtn-active {
     padding: 18px 16px;
-  }
+  } */
 }
 
 html {
-  background: linear-gradient(90deg, #1458bea3 0%, #b35353a1 50%), url('remind.png');
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+	background: linear-gradient(90deg, #1458bea3 0%, #b35353a1 50%), url('remind.png');
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 body {
-  color: #fff;
-  font-family: "Source Sans Pro";
-  background: #2C2A36CC;
+	color: #fff;
+	font-family: "Source Sans Pro";
+	background: #2C2A36CC;
 }
 
 code {
-  text-shadow: 0px 0px 5px #433b3b;
-  background: #716d67a6;
+	text-shadow: 0px 0px 5px #433b3b;
+	background: #716d67a6;
 }
 
 img {
-  width: 2.5rem;
+	width: 2.5rem;
 }
 
 hr {
-  margin: 25px;
+	margin: 25px;
 }
 
 ::selection {
-  background: #65cdfaa5;
+	background: #65cdfaa5;
 }
 
 /*Columns*/
 .column {
-  float: left;
-  width: 48%;
-  margin-right: 2%;
+	float: left;
+	width: 48%;
+	margin-right: 2%;
 }
 
 /* Clear floats after the columns */
 .row:after {
-  content: "";
-  display: table;
-  clear: both;
+	content: "";
+	display: table;
+	clear: both;
 }
 
 /*header*/
 h1 {
-  font-family: "Inconsolata";
-  text-transform: uppercase;
-  line-height: 1.4;
-  font-weight: 700;
+	font-family: "Inconsolata";
+	text-transform: uppercase;
+	line-height: 1.4;
+	font-weight: 700;
 }
 
 h2 {
-  color: #ff685d;
-  font-family: "Actor";
-  text-transform: uppercase;
-  font-size: 1.3rem;
-  text-decoration: underline;
+	color: #ff685d;
+	font-family: "Actor";
+	text-transform: uppercase;
+	font-size: 1.3rem;
+	text-decoration: underline;
 }
 
 /*hyperlink color*/
 a {
-  color: #cad3f5;
-  font-weight: 600;
+	color: #cad3f5;
+	font-weight: 600;
 }
 
 .fake_link {
-  color: #cad3f5;
-  font-weight: 600;
+	color: #cad3f5;
+	font-weight: 600;
 }
 
 a:hover {
-  color: #8a9ebde7;
+	color: #8a9ebde7;
 }
 
 .highlight {
-  font-weight: 600;
-  color: #f3cee4;
-  text-shadow: 0px 0px 3px #9f2a2a;
-}
-
-.dropdown-active {
-  background-color: #8b2b5087;
-}
-
-.dropdown-content a:nth-child(1):hover {
-  background-color: #b7404080;
-}
-
-.dropdown-content a:nth-child(2):hover {
-  background-color: #8721ac80;
-}
-
-.dropdown-content a:nth-child(3):hover {
-  background-color: #1ab13380;
-}
-
-.dropdown-content a:nth-child(4):hover {
-  background-color: #2680c880;
+	font-weight: 600;
+	color: #f3cee4;
+	text-shadow: 0px 0px 3px #9f2a2a;
 }
 
 /*Youtube & Spotify*/
 .yt {
-  color: #ffc3c3;
+	color: #ffc3c3;
 }
 
 .spotify {
-  color: #acffac
+	color: #acffac
 }
 
 /*Columns*/
 .column {
-  float: left;
-  width: 48%;
-  margin-right: 2%;
+	float: left;
+	width: 48%;
+	margin-right: 2%;
 }
 
 /* Clear floats after the columns */
 .row:after {
-  content: "";
-  display: table;
-  clear: both;
+	content: "";
+	display: table;
+	clear: both;
 }
 
-/* Navigation bar styles */
+/* Navigation CSS */
 .navbar {
-  overflow: hidden;
-  background-color: #6b6b6b4c;
+	background: #6b6b6b4c;
 }
 
-.navbar a {
-  float: left;
-  display: block;
-  font-size: 1rem;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
+.navbar-nav,
+.dropdown-item {
+	font-family: "Source Sans Pro";
+	font-weight: 600;
+	color: white;
+	font-size: 1rem;
 }
 
-.navbar a:hover, .dropdown:hover .dropbtn {
-  background-color: #a01b3a;
+.nav-link {
+	padding: 10px;
 }
 
-/*active nav tab*/
-.navbar a.active {
-  background-color: #c92e52;
+.navbar-toggler {
+	margin-bottom: 20px;
 }
 
-/* The dropdown container */
-.dropdown {
-  float: left;
-  overflow: hidden;
+.nav-link.active, .dropdown-item.active {
+	background-color: #c92e52;
 }
 
-/* Dropdown button */
-.dropdown .dropbtn {
-  font-size: inherit;
-  text-decoration: none;
-  font-weight: bolder;
-  border: none;
-  outline: none;
-  text-align: center;
-  color: white;
-  background-color: #00000000;
-  font-family: inherit;
-  margin: 0;
+
+.dropdown-toggle[aria-expanded="true"],
+.nav-link:hover {
+	background-color: #a01b3a;
+	color: white;
 }
 
-.dropbtn-active {
-  font-size: inherit;
-  text-decoration: none;
-  font-weight: bolder;
-  border: none;
-  outline: none;
-  text-align: center;
-  color: white;
-  background-color: #c92e52;
-  font-family: inherit;
-  margin: 0;
+.dropdown-menu {
+	background-color: #454751ea;
 }
 
-/* Dropdown content (hidden by default) */
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #454751ea;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
+.dropdown-menu li:nth-of-type(1) a:hover {
+	background-color: #b7404080;
+}
+.dropdown-menu li:nth-of-type(2) a:hover {
+	background-color: #8721ac80;
 }
 
-/* Links inside the dropdown */
-.dropdown-content a {
-  float: none;
-  color: rgb(234, 234, 234);
-  padding: 12px 14px;
-  text-decoration: none;
-  display: block;
-  text-align: left;
+.dropdown-menu li:nth-of-type(3) a:hover {
+	background-color: #1ab13380;
 }
 
-/* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content {
-  display: block;
+.dropdown-menu li:nth-of-type(4) a:hover {
+	background-color: #2680c880;
 }
