@@ -9,7 +9,7 @@
 	--bs-body-line-height: 1.6;
 	--bs-body-color: white;
 	--bs-body-color-rgb: 255, 255, 255;
-	--bs-body-bg: #2c2a36cc;
+	--bs-body-bg: rgba(44, 42, 54, 0.8);
 	--bs-body-bg-rgb: 44, 42, 54;
 	--bs-emphasis-color: #000;
 	--bs-emphasis-color-rgb: 0, 0, 0;
@@ -21,8 +21,8 @@
 	--bs-tertiary-color-rgb: 33, 37, 41;
 	--bs-tertiary-bg: #f8f9fa;
 	--bs-tertiary-bg-rgb: 248, 249, 250;
-	--bs-link-color: rgb(147, 186, 245);
-	--bs-link-color-rgb: 147, 186, 245;
+	--bs-link-color: rgb(228, 248, 253);
+	--bs-link-color-rgb: 228, 248, 253;
 	--bs-link-decoration: underline;
 	--bs-link-hover-color: rgba(152, 199, 214, 0.906);
 	--bs-link-hover-color-rgb: 152, 199, 214;
@@ -46,10 +46,6 @@
 	--bs-focus-ring-width: 0.25rem;
 	--bs-focus-ring-opacity: 0.25;
 	--bs-focus-ring-color: rgba(13, 110, 253, 0.25);
-	--bs-form-valid-color: #198754;
-	--bs-form-valid-border-color: #198754;
-	--bs-form-invalid-color: #dc3545;
-	--bs-form-invalid-border-color: #dc3545;
 }
 
 @media (max-width: 600px) {
@@ -106,8 +102,8 @@ h2 {
 	text-decoration: underline;
 }
 
-hr {
-	margin: 25px;
+hr, i {
+	margin-bottom: 20px;
 }
 
 .fake_link {
