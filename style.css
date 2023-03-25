@@ -102,7 +102,8 @@ h2 {
 	text-decoration: underline;
 }
 
-hr, i {
+hr,
+i {
 	margin-bottom: 20px;
 }
 
@@ -125,14 +126,6 @@ hr, i {
 	margin-bottom: 20px;
 }
 
-.navbar-nav,
-.dropdown-item {
-	font-family: "Source Sans Pro";
-	font-weight: 600;
-	color: white;
-	font-size: 1rem;
-}
-
 .nav-link {
 	padding: 10px;
 }
@@ -145,7 +138,6 @@ hr, i {
 .dropdown-item.active {
 	background-color: #e24368a4;
 }
-
 
 .dropdown-toggle[aria-expanded="true"],
 .nav-link:hover {
