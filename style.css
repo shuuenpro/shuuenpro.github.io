@@ -136,12 +136,12 @@ i {
 
 .nav-link.active,
 .dropdown-item.active {
-	background-color: #e24368a4;
+	background-color: #a01b3a;
 }
 
 .dropdown-toggle[aria-expanded="true"],
 .nav-link:hover {
-	background-color: #a01b3a;
+	background-color: #e24368a4;
 	color: white;
 }
 
