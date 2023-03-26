@@ -93,9 +93,12 @@ h4 {
 }
 
 .nav-item.active,
-.dropdown.active,
-.dropdown-item.active {
+.dropdown.active {
 	background-color: #a01b3a;
+}
+
+.dropdown-item.active {
+	background-color: #c84f6c;
 }
 
 .nav-item.active a,
