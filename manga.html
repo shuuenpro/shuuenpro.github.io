@@ -13,21 +13,21 @@
 
 <body>
 	<header>
-		<nav class="navbar navbar-expand-lg navbar-dark">
+		<nav class="navbar navbar-expand-lg navbar-dark mb-2">
 			<div class="container-fluid">
-				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMenu" aria-controls="navbarMenu" aria-expanded="false" aria-label="Toggle navigation">
+				<button class="navbar-toggler mb-1" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMenu" aria-controls="navbarMenu" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon"></span>
 				</button>
 				<div class="collapse navbar-collapse" id="navbarMenu">
-					<ul class="navbar-nav">
+					<ul class="navbar-nav mx-auto">
 						<li class="nav-item">
 							<a class="nav-link" href="index">Home</a>
 						</li>
 						<li class="nav-item">
 							<a class="nav-link" href="guide">New Fan's Guide</a>
 						</li>
-						<li class="nav-item dropdown">
-							<a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+						<li class="nav-item dropdown active">
+							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
 								Masterlists
 							</a>
 							<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -76,23 +76,22 @@
 				</div>
 			</div>
 		</ul>
+		<footer>
+			<hr>
+			<center>
+				<a href=https://discord.gg/xmBBA2b><i class="fa-brands fa-discord fa-2x"></i></a>
+				<br>
+				<span id="last-updated"><b>Last Updated:</b></span>
+			</center>
+			<script>
+				fetch('https://api.github.com/repos/ALTCODE255/shuuenpro/commits?per_page=1')
+					.then(res => res.json())
+					.then(res => {
+						date = new Date(res[0].commit.committer.date)
+						document.getElementById('last-updated').innerHTML = "<b>Last Updated:</b> " + date.toLocaleString().replace(",", " @") + " (PDT)";
+					})
+			</script>
 		</footer>
-	</div>
-	<hr>
-	<center>
-		<a href=https://discord.gg/xmBBA2b><i class="fa-brands fa-discord fa-2x"></i></a>
-		<br>
-		<span id="last-updated"><b>Last Updated:</b></span>
-	</center>
-	<script>
-		fetch('https://api.github.com/repos/ALTCODE255/shuuenpro/commits?per_page=1')
-			.then(res => res.json())
-			.then(res => {
-				date = new Date(res[0].commit.committer.date)
-				document.getElementById('last-updated').innerHTML = "<b>Last Updated:</b> " + date.toLocaleString().replace(",", " @") + " (PDT)";
-			})
-	</script>
-	</footer>
 </body>
 
 </html>
