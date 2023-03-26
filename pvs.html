@@ -48,8 +48,8 @@
 			</div>
 		</nav>
 	</header>
-	<div class="container-fluid">
-		<h2>Song PVs</h2>
+	<div class="container-fluid p-2">
+		<h4>Song PVs</h4>
 		<p><a href="https://drive.google.com/open?id=1Jzz59O1oqLwgrcV7AqmVzs7eaBfBbpw-">PV Snapshots</a></p>
 		<p><b>Format:</b> (Youtube) <u>Niconico link</u> (Release date)</p>
 		<ul>
@@ -107,7 +107,9 @@
 				<p><a href="https://shuuen-scans.tumblr.com/song-links">Translations</a></p>
 			</li>
 		</ul>
-		<h2>Album Crossfades / PVs</h2>
+	</div>
+	<div class="container-fluid p-2"
+		 <h4>Album Crossfades / PVs</h4>
 		<p>Format: (Niconico / Youtube link) <u>Translation link</u> (Release date)</p>
 		<ul>
 			<li>
@@ -145,21 +147,22 @@
 				</p>
 			</li>
 		</ul>
-		<footer>
-	<hr>
-	<center>
-		<a href=https://discord.gg/xmBBA2b><i class="fa-brands fa-discord fa-2x"></i></a>
-		<br>
-		<span id="last-updated"><b>Last Updated:</b></span>
-	</center>
-	<script>
-		fetch('https://api.github.com/repos/ALTCODE255/shuuenpro/commits?per_page=1')
-			.then(res => res.json())
-			.then(res => {
-				date = new Date(res[0].commit.committer.date)
-				document.getElementById('last-updated').innerHTML = "<b>Last Updated:</b> " + date.toLocaleString().replace(",", " @") + " (PDT)";
-			})
-	</script>
+	</div>
+	<footer>
+		<hr>
+		<center>
+			<a href=https://discord.gg/xmBBA2b><i class="fa-brands fa-discord fa-2x"></i></a>
+			<br>
+			<span id="last-updated"><b>Last Updated:</b></span>
+		</center>
+		<script>
+			fetch('https://api.github.com/repos/ALTCODE255/shuuenpro/commits?per_page=1')
+				.then(res => res.json())
+				.then(res => {
+					date = new Date(res[0].commit.committer.date)
+					document.getElementById('last-updated').innerHTML = "<b>Last Updated:</b> " + date.toLocaleString().replace(",", " @") + " (PDT)";
+				})
+		</script>
 	</footer>
 </body>
 

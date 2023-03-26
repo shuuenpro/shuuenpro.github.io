@@ -48,7 +48,7 @@
 			</div>
 		</nav>
 	</header>
-	<div class="container-fluid">
+	<div class="container-fluid p-2">
 		<p>Much of Novel 3 & 4 is missing translations.</p>
 		<p>(NOTE: some blogs have changed urls)<br>
 			<code>re-missedcall</code> -> <code>re-missedcall-blog1</code><br>
@@ -56,8 +56,8 @@
 		</p>
 		<div class="row">
 			<div class="col">
-				<h2><a href="https://shuuen-scans.tumblr.com/novel-masterpost">Novel 1 Masterpost</a></h2>
-				<h2>Novel 3</h2>
+				<h4><a href="https://shuuen-scans.tumblr.com/novel-masterpost">Novel 1 Masterpost</a></h4>
+				<h4>Novel 3</h4>
 				<ul>
 					<li><a href="https://amesubs.tumblr.com/post/79872205533/bookmark-of-demise-novel-3-chapter-1-the-very">Chapter 1</a></li>
 					<li><a href="https://renna-translations.tumblr.com/post/124289776489/shuuen-no-shiori-3-shuumatsu-rewrite-chapter">Chapter 2</a></li>
@@ -67,8 +67,8 @@
 				</ul>
 			</div>
 			<div class="col">
-				<h2><a href="https://shuuen-scans.tumblr.com/novel2-masterpost">Novel 2 Masterpost</a></h2>
-				<h2>Novel 4</h2>
+				<h4><a href="https://shuuen-scans.tumblr.com/novel2-masterpost">Novel 2 Masterpost</a></h4>
+				<h4>Novel 4</h4>
 				<ul>
 					<li><a href="https://ketsuraku--recode.tumblr.com/post/120524997578/shuuen-no-shiori-4-ketsuraku-recode-prologue">Prologue</a></li>
 					<li><a href="https://fairy-4pril.tumblr.com/post/97272149302/shuuen-no-shiori-4-ketsuraku-recode-prologue">Prologue (alt. translation)</a></li>
@@ -79,22 +79,23 @@
 				</ul>
 			</div>
 		</div>
-		<footer>
-			<hr>
-			<center>
-				<a href=https://discord.gg/xmBBA2b><i class="fa-brands fa-discord fa-2x"></i></a>
-				<br>
-				<span id="last-updated"><b>Last Updated:</b></span>
-			</center>
-			<script>
-				fetch('https://api.github.com/repos/ALTCODE255/shuuenpro/commits?per_page=1')
-					.then(res => res.json())
-					.then(res => {
-						date = new Date(res[0].commit.committer.date)
-						document.getElementById('last-updated').innerHTML = "<b>Last Updated:</b> " + date.toLocaleString().replace(",", " @") + " (PDT)";
-					})
-			</script>
-		</footer>
+	</div>
+	<footer>
+		<hr>
+		<center>
+			<a href=https://discord.gg/xmBBA2b><i class="fa-brands fa-discord fa-2x"></i></a>
+			<br>
+			<span id="last-updated"><b>Last Updated:</b></span>
+		</center>
+		<script>
+			fetch('https://api.github.com/repos/ALTCODE255/shuuenpro/commits?per_page=1')
+				.then(res => res.json())
+				.then(res => {
+					date = new Date(res[0].commit.committer.date)
+					document.getElementById('last-updated').innerHTML = "<b>Last Updated:</b> " + date.toLocaleString().replace(",", " @") + " (PDT)";
+				})
+		</script>
+	</footer>
 </body>
 
 </html>
