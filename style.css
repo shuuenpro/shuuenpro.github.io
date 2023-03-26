@@ -27,11 +27,11 @@
 	--bs-body-color-rgb: 255, 255, 255;
 	--bs-body-bg: rgba(44, 42, 55, 0.85);
 	--bs-body-bg-rgb: 44, 42, 54;
-	--bs-link-color: rgb(219, 161, 61);
-	--bs-link-color-rgb: 219, 161, 61;
+	--bs-link-color: rgb(249, 199, 72);
+	--bs-link-color-rgb: 249, 199, 72;
 	--bs-link-decoration: underline;
-	--bs-link-hover-color: rgba(213, 214, 152, 0.906);
-	--bs-link-hover-color-rgb: 213, 214, 152;
+	--bs-link-hover-color: rgba(255, 233, 109, 0.906);
+	--bs-link-hover-color-rgb: 255, 233, 109;
 	--bs-code-color: #e6d5dd;
 	--bs-highlight-bg: #fff3cd;
 }
