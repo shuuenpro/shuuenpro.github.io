@@ -1,6 +1,6 @@
 @font-face {
-    font-family: "Source Sans Pro";
-    src: url("Source Code Pro.ttf");
+    font-family: "Source Sans 3";
+    src: url("Source Sans 3.ttf");
     font-weight: normal;
 }
 
@@ -35,7 +35,7 @@
     --bs-dark: #212529;
     --bs-dark-rgb: 33, 37, 41;
     --bs-gradient: linear-gradient(90deg, #1458bea3 0%, #b35353a1 50%);
-    --bs-body-font-family: "Source Sans Pro";
+    --bs-body-font-family: "Source Sans 3";
     --bs-body-font-size: 1rem;
     --bs-body-font-weight: 500;
     --bs-body-line-height: 1.6;
