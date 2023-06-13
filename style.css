@@ -1,170 +1,181 @@
-@import url('https://fonts.googleapis.com/css2?family=Inconsolata&family=Source+Sans+Pro&family=Actor&display=swap');
+@font-face {
+    font-family: "Source Sans Pro";
+    src: url("Source Sans Pro.ttf");
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Actor";
+    src: url("Actor.ttf");
+    font-weight: normal;
+}
+
 @import url("https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css");
 
 :root {
-	--bs-primary: #ffbf00;
-	--bs-primary-rgb: 255, 191, 0;
-	--bs-secondary: #ead5ae;
-	--bs-secondary-rgb: 226, 191, 127;
-	--bs-success: #198754;
-	--bs-success-rgb: 25, 135, 84;
-	--bs-info: rgb(235, 178, 245);
-	--bs-info-rgb: 235, 178, 245;
-	--bs-warning: #ffc107;
-	--bs-warning-rgb: 255, 193, 7;
-	--bs-danger: #e55765;
-	--bs-danger-rgb: 220, 53, 69;
-	--bs-light: rgba(103, 103, 143, 0.569);
-	--bs-light-rgb: 103, 103, 143;
-	--bs-dark: #212529;
-	--bs-dark-rgb: 33, 37, 41;
-	--bs-gradient: linear-gradient(90deg, #1458bea3 0%, #b35353a1 50%);
-	--bs-body-font-family: "Source Sans Pro";
-	--bs-body-font-size: 1rem;
-	--bs-body-font-weight: 500;
-	--bs-body-line-height: 1.6;
-	--bs-body-color: white;
-	--bs-body-color-rgb: 255, 255, 255;
-	--bs-body-bg: rgba(44, 42, 55, 0.85);
-	--bs-body-bg-rgb: 44, 42, 54;
-	--bs-link-color: rgb(249, 199, 72);
-	--bs-link-color-rgb: 249, 199, 72;
-	--bs-link-decoration: underline;
-	--bs-link-hover-color: rgba(255, 233, 109, 0.906);
-	--bs-link-hover-color-rgb: 255, 233, 109;
-	--bs-code-color: #e6d5dd;
-	--bs-highlight-bg: #fff3cd;
+    --bs-primary: #ffbf00;
+    --bs-primary-rgb: 255, 191, 0;
+    --bs-secondary: #ead5ae;
+    --bs-secondary-rgb: 226, 191, 127;
+    --bs-success: #198754;
+    --bs-success-rgb: 25, 135, 84;
+    --bs-info: rgb(235, 178, 245);
+    --bs-info-rgb: 235, 178, 245;
+    --bs-warning: #ffc107;
+    --bs-warning-rgb: 255, 193, 7;
+    --bs-danger: #e55765;
+    --bs-danger-rgb: 220, 53, 69;
+    --bs-light: rgba(103, 103, 143, 0.569);
+    --bs-light-rgb: 103, 103, 143;
+    --bs-dark: #212529;
+    --bs-dark-rgb: 33, 37, 41;
+    --bs-gradient: linear-gradient(90deg, #1458bea3 0%, #b35353a1 50%);
+    --bs-body-font-family: "Source Sans Pro";
+    --bs-body-font-size: 1rem;
+    --bs-body-font-weight: 500;
+    --bs-body-line-height: 1.6;
+    --bs-body-color: white;
+    --bs-body-color-rgb: 255, 255, 255;
+    --bs-body-bg: rgba(44, 42, 55, 0.85);
+    --bs-body-bg-rgb: 44, 42, 54;
+    --bs-link-color: rgb(249, 199, 72);
+    --bs-link-color-rgb: 249, 199, 72;
+    --bs-link-decoration: underline;
+    --bs-link-hover-color: rgba(255, 233, 109, 0.906);
+    --bs-link-hover-color-rgb: 255, 233, 109;
+    --bs-code-color: #e6d5dd;
+    --bs-highlight-bg: #fff3cd;
 }
 
 @media (min-width: 601px) {
-	body {
-		padding: 30px;
-	}
+    body {
+        padding: 30px;
+    }
 }
 
 /* Main Components */
 html {
-	background: var(--bs-gradient), url('remind.png');
-	background-attachment: fixed;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
+    background: var(--bs-gradient), url('remind.png');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 body {
-	margin-right: auto;
-	margin-left: auto;
-	max-width: 45rem;
-	letter-spacing: 0.015rem;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 45rem;
+    letter-spacing: 0.015rem;
 }
 
 p {
-	text-shadow: 0px 0px 1px #b95b5b !important;
+    text-shadow: 0px 0px 1px #b95b5b !important;
 }
 
 h1 {
-	font-family: "Inconsolata";
-	text-transform: uppercase;
-	line-height: 1.4;
-	font-weight: 700;
+    font-family: "Inconsolata";
+    text-transform: uppercase;
+    line-height: 1.4;
+    font-weight: 700;
 }
 
 h4 {
-	color: #ff685d;
-	font-family: "Actor";
-	text-transform: uppercase;
-	text-decoration: underline;
+    color: #ff685d;
+    font-family: "Actor";
+    text-transform: uppercase;
+    text-decoration: underline;
 }
 
 .fake_link {
-	color: var(--bs-link-color);
-	text-decoration: var(--bs-link-decoration);
+    color: var(--bs-link-color);
+    text-decoration: var(--bs-link-decoration);
 }
 
 /* Fade Animation */
 .animate-in {
-	-webkit-animation: fadeIn 0.5s ease-in;
-	animation: fadeIn 0.5s ease-in;
+    -webkit-animation: fadeIn 0.5s ease-in;
+    animation: fadeIn 0.5s ease-in;
 }
 
 .animate-out {
-	-webkit-transition: opacity 0.5s;
-	transition: opacity 0.5s;
-	opacity: 0;
+    -webkit-transition: opacity 0.5s;
+    transition: opacity 0.5s;
+    opacity: 0;
 }
 
 @-webkit-keyframes fadeIn {
-	from {
-		opacity: 0;
-	}
+    from {
+        opacity: 0;
+    }
 
-	to {
-		opacity: 1;
-	}
+    to {
+        opacity: 1;
+    }
 }
 
 @keyframes fadeIn {
-	from {
-		opacity: 0;
-	}
+    from {
+        opacity: 0;
+    }
 
-	to {
-		opacity: 1;
-	}
+    to {
+        opacity: 1;
+    }
 }
 
 /* Navigation CSS */
 .nav-item {
-	background: #6b6b6b4c;
-	padding-left: 5px;
-	padding-right: 5px;
+    background: #6b6b6b4c;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
 .nav-link {
-	padding: 10px;
+    padding: 10px;
 }
 
 .nav-item.active,
 .dropdown.active {
-	background-color: #a01b3a;
+    background-color: #a01b3a;
 }
 
 .dropdown-item.active {
-	background-color: #c84f6c;
+    background-color: #c84f6c;
 }
 
 .nav-item.active a,
 .dropdown.active a,
 .nav-item:hover a,
 i {
-	color: white;
+    color: white;
 }
 
 .nav-item:hover {
-	background-color: #e24368a4;
+    background-color: #e24368a4;
 }
 
 .dropdown-menu {
-	background-color: #454751ea;
+    background-color: #454751ea;
 }
 
 .dropdown-menu li:nth-of-type(1) a:hover {
-	background-color: #b7404070;
+    background-color: #b7404070;
 }
 
 .dropdown-menu li:nth-of-type(2) a:hover {
-	background-color: #8721ac70;
+    background-color: #8721ac70;
 }
 
 .dropdown-menu li:nth-of-type(3) a:hover {
-	background-color: #1ab13370;
+    background-color: #1ab13370;
 }
 
 .dropdown-menu li:nth-of-type(4) a:hover {
-	background-color: #2680c870;
+    background-color: #2680c870;
 }
 
 ::selection {
-	background: #366d85a5 !important;
-	color: white !important;
+    background: #366d85a5 !important;
+    color: white !important;
 }
