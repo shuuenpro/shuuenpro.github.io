@@ -5,9 +5,14 @@
 }
 
 @font-face {
+    font-family: "Inconsolata";
+    src: url("Inconsolata.ttf");
+    font-weight: normal;
+}
+
+@font-face {
     font-family: "Actor";
     src: url("Actor.ttf");
-    font-weight: normal;
 }
 
 @import url("https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css");
