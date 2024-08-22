@@ -69,21 +69,11 @@
         </div>
         <div class="container-fluid text-primary p-2" style="border-radius: 10px; background: rgba(var(--bs-light-rgb), 0.25)">
             <center>
-                <button class="btn text-danger" onclick="unhide()">
+                <button class="btn text-danger" data-bs-toggle="collapse" href="#synopsis" role="button" aria-expanded="false" aria-controls="synopsis">
                     <b>TW for dismemberment, murder, and gore (click):</b>
                 </button>
             </center>
-            <script>
-                function unhide() {
-                    var x = document.getElementById("sypnosis");
-                    if (x.style.display === "none") {
-                        x.style.display = "block";
-                    } else {
-                        x.style.display = "none";
-                    }
-                }
-            </script>
-            <div id="sypnosis" style="display: none;">
+            <div class="collapse" id="synopsis">
                 <p>On the normal, unchanging campus, it suddenly occurred; A murder case where a body was cut open, right into two. On the other side of the unsolved case, the rumor-loving high school students became involved in a certain ritual. From the extremely popular songs on Nico Nico Douga, begins the Project.</p>
                 <p>What is the "Bookmark of Demise"...?<br>Who is the traitor...?<br>What will the conclusion to this story be...?
                 <p>So, can you solve this mystery?</p>
