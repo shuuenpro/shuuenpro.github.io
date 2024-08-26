@@ -63,7 +63,7 @@
             <span id="last-updated"><b>Page Last Updated:</b></span>
         </center>
         <script>
-            var filepath = location.pathname.substring(1) + ".html";
+            var filepath = location.pathname.endsWith("html") ? location.pathname.substring(1) : location.pathname.substring(1) + ".html";
             fetch(`https://api.github.com/repos/shuuenpro/shuuenpro.github.io/commits?path=${filepath}`)
                 .then(res => res.json())
                 .then(res => {
