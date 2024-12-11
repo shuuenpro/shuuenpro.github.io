@@ -80,18 +80,11 @@
         <hr>
         <center>
             <p><a href=https://discord.gg/xmBBA2b><img src="discord.svg"></a></p>
-            <span id="last-updated"><b>Page Last Updated:</b></span>
+            <p><b>Page Last Updated: </b><span id="last-updated"></span></p>
         </center>
-        <script>
+        <script src="footer.js"></script><script>
             var filepath = location.pathname.endsWith("html") ? location.pathname.substring(1) : location.pathname.substring(1) + ".html";
-            fetch(`https://api.github.com/repos/shuuenpro/shuuenpro.github.io/commits?path=${filepath}`)
-                .then(res => res.json())
-                .then(res => {
-                    date = new Date(res[0].commit.committer.date)
-                    formatDate = date.toLocaleString("sv-SE").split(" ")[0];
-                    formatTime = date.toLocaleTimeString()
-                    document.getElementById('last-updated').innerHTML = "<b>Page Last Updated:</b> " + formatDate + " @ " + formatTime;
-                })
+            getLastUpdateTimestamp("last-updated", filepath);
         </script>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
