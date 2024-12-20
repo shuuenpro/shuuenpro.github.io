@@ -50,32 +50,41 @@
     <div class="animate-in" id="content">
         <div class="container-fluid p-2">
             <h4>Manga</h4>
-            <ul>
-                <div class="row">
-                    <div class="col-sm">
-                        <li>
-                            <p><a href="https://mangadex.org/title/01eca861-048f-465b-94cd-46fb862b4dc6">Manga (Shuuen Scanlations & Träumerei Scans)</a></p>
-                        </li>
-                        <li>
-                            <p><a href="https://mariamishinuma.tumblr.com/post/165913811595/shuuen-no-shiori-official-anthology-shuuen">Anthology (Introduction) (Maya Ooue)</a></p>
-                        </li>
-                        <li>
-                            <p><a href="https://mariamishinuma.tumblr.com/post/166177550535/shuuen-no-shiori-official-anthology-shuuen">Anthology (Seeing Through) (Maya Ooue)</a></p>
-                        </li>
-                    </div>
-                    <div class="col-sm">
-                        <li>
-                            <p><a href="https://mariamishinuma.tumblr.com/post/167203244450/shuuen-no-shiori-official-anthology-shuuen">Anthology (Club Answer) (Maya Ooue)</a></p>
-                        </li>
-                        <li>
-                            <p><a href="https://mariamishinuma.tumblr.com/post/176452843465/shuuen-no-shiori-official-anthology-shuuen">Anthology (Revenge Game) (Maya Ooue)</a></p>
-                        </li>
-                        <li>
-                            <p><a href="https://fairy-4pril.tumblr.com/post/109739730862/shuuen-anthology-summary-part-1">Anthology (Summary pt.1) (fairy-4pril)</a></p>
-                        </li>
-                    </div>
-                </div>
-            </ul>
+            <div id="manga">
+                <a class="fw-bolder text-decoration-underline" href="https://mangadex.org/title/01eca861-048f-465b-94cd-46fb862b4dc6">
+                    Shuuen no Shiori (Manga)
+                </a>
+                <ul>
+                    <li>Chapter 1-18: Shuuen Scanlations</li>
+                    <li>Chapter 19-33: Träumerei Scans</li>
+                </ul>
+            </div>
+            <div id="anthology">
+                <h6 class="fw-bolder text-decoration-underline">Shuuen: Parallel (Official Anthology)</h6>
+                <ul>
+                    <li>
+                        Introduction: <a href="https://mariamishinuma.tumblr.com/post/165913811595/shuuen-no-shiori-official-anthology-shuuen">Maya Ooue</a>
+                    </li>
+                    <li>
+                        Seeing Through: <a href="https://mariamishinuma.tumblr.com/post/166177550535/shuuen-no-shiori-official-anthology-shuuen">Maya Ooue</a>
+                    </li>
+                    <li>
+                        Club Answer: <a href="https://mariamishinuma.tumblr.com/post/167203244450/shuuen-no-shiori-official-anthology-shuuen">Maya Ooue</a>
+                    </li>
+                    <li>
+                        Revenge Game: <a href="https://mariamishinuma.tumblr.com/post/176452843465/shuuen-no-shiori-official-anthology-shuuen">Maya Ooue</a>
+                    </li>
+                </ul>
+                Summaries:
+                <ul>
+                    <li>
+                        <a href="https://shuuen-no-shiori.fandom.com/wiki/Shuuen:_Parallel">Fan Wiki Page</a>
+                    </li>
+                    <li>
+                        <a href="https://fairy-4pril.tumblr.com/post/109739730862/shuuen-anthology-summary-part-1">fairy-4pril</a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </div>
     <footer>
@@ -84,7 +93,8 @@
             <p><a href=https://discord.gg/xmBBA2b><img src="discord.svg"></a></p>
             <p><b>Page Last Updated: </b><span id="last-updated"></span></p>
         </center>
-        <script src="footer.js"></script><script>
+        <script src="footer.js"></script>
+        <script>
             var filepath = location.pathname.endsWith("html") ? location.pathname.substring(1) : location.pathname.substring(1) + ".html";
             getLastUpdateTimestamp("last-updated", filepath);
         </script>
