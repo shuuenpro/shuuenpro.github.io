@@ -20,8 +20,8 @@
 :root {
     --bs-primary: rgb(255, 104, 93);
     --bs-primary-rgb: 255, 104, 93;
-    --bs-secondary: rgb(61, 144, 232);
-    --bs-secondary-rgb: 61, 144, 232;
+    --bs-secondary: rgb(107, 203, 255);
+    --bs-secondary-rgb: 107, 203, 255;
     --bs-success: #198754;
     --bs-success-rgb: 25, 135, 84;
     --bs-info: rgba(103, 103, 143, 0.569);
@@ -60,7 +60,7 @@
 
 /* Main Components */
 html {
-    background: var(--bs-gradient), url('remind.png');
+    background: var(--bs-gradient), url("remind.png");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -91,7 +91,7 @@ h2 {
 
 h3 {
     --bs-heading-color: var(--bs-secondary);
-    font-size: 1.35rem;
+    font-size: 1.3rem;
     font-family: "Actor";
     text-transform: uppercase;
     text-decoration: underline;
@@ -182,4 +182,29 @@ i {
 ::selection {
     background: #366d85a5 !important;
     color: white !important;
+}
+
+.form-control {
+    border-radius: 0;
+    --bs-border-color: var(--bs-link-color);
+}
+
+.form-control:focus {
+    border-color: var(--bs-border-color);
+}
+
+.form-control::placeholder {
+    color: rgba(var(--bs-body-color-rgb), 0.3);
+}
+
+input[name="username"],
+input[name="email"] {
+    position: absolute;
+    left: -999999999px;
+}
+
+.submit-btn {
+    --bs-btn-bg: rgb(var(--bs-info-rgb));
+    --bs-btn-color: var(--bs-light);
+    --bs-btn-hover-bg: rgba(var(--bs-info-rgb), 0.8);
 }
