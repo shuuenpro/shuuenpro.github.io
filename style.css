@@ -148,9 +148,11 @@ h3 {
     background-color: #c84f6c;
 }
 
-.nav-item.active a,
-.dropdown.active a,
-.nav-item:hover a,
+.nav-item {
+    --bs-nav-link-color: white;
+    --bs-nav-link-hover-color: white;
+}
+
 i {
     color: white;
 }
