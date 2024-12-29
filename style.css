@@ -162,6 +162,7 @@ i {
 
 .dropdown-menu {
     background-color: #454751ea;
+    --bs-border-radius: 0;
 }
 
 .dropdown-menu li:nth-of-type(1) a:hover {
