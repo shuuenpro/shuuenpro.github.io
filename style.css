@@ -139,8 +139,7 @@ h3 {
     padding: 10px;
 }
 
-.nav-item.active,
-.dropdown.active {
+.nav-item.active {
     background-color: #a01b3a;
 }
 
