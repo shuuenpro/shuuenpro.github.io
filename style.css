@@ -226,3 +226,12 @@ input[name="email"] {
 .list-group-item {
     --bs-list-group-bg: rgba(var(--bs-body-bg-rgb), 0.75);
 }
+
+/* Collapse Toggles */
+.collapseToggleLink[aria-expanded="false"]:before {
+    content: "(click to expand)";
+}
+
+.collapseToggleLink[aria-expanded="true"]:before {
+    content: "(click to collapse)";
+}
