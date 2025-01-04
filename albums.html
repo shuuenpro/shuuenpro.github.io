@@ -82,14 +82,22 @@
                         case "#rewrite":
                         case "#remind":
                         case "#react":
-                            $(window.location.hash + "-tl").collapse('toggle');
+                            $(window.location.hash + "-tl").collapse('show');
                             break;
                         default:
                             break;
                     }
                 });
+
+                function expandAll() {
+                    $("[id$=-tl]").collapse('toggle');
+                    return false;
+                }
             </script>
             <ul class="list-group">
+                <li class="list-group-item p-3">
+                    <a href="#" onclick="return expandAll();">Click to toggle all album translations.</a>
+                </li>
                 <li id="rehoukago" class="list-group-item p-3">
                     <h6 class="fw-bolder text-decoration-underline">
                         Re:Houkago -Shuuen Game- (Re:放課後-終焉ゲーム-)
