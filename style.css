@@ -24,13 +24,13 @@
     --bs-secondary-rgb: 107, 203, 255;
     --bs-success: #198754;
     --bs-success-rgb: 25, 135, 84;
-    --bs-info: rgba(103, 103, 143, 0.569);
+    --bs-info: rgb(103, 103, 143);
     --bs-info-rgb: 103, 103, 143;
     --bs-warning: #ffc107;
     --bs-warning-rgb: 255, 193, 7;
     --bs-danger: #e55765;
     --bs-danger-rgb: 220, 53, 69;
-    --bs-light: white;
+    --bs-light: rgb(225, 225, 225);
     --bs-light-rgb: 255, 255, 255;
     --bs-dark: #212529;
     --bs-dark-rgb: 33, 37, 41;
@@ -80,6 +80,7 @@ h1 {
     font-size: 2.25rem;
     line-height: 1.4;
     font-weight: 700;
+    color: white;
 }
 
 h2 {
@@ -93,10 +94,18 @@ h2 {
 h3 {
     --bs-heading-color: var(--bs-secondary);
     font-size: 1.3rem;
-    font-family: "Actor";
     text-transform: uppercase;
     text-decoration: underline;
 }
+
+h4 {
+    font-size: 1.15rem;
+}
+
+b {
+    color: white;
+}
+
 
 .fake-link {
     color: var(--bs-link-color);
@@ -209,7 +218,11 @@ input[name="email"] {
 }
 
 .submit-btn {
-    --bs-btn-bg: rgb(var(--bs-info-rgb));
+    --bs-btn-bg: rgba(var(--bs-info-rgb), 0.8);
     --bs-btn-color: var(--bs-light);
-    --bs-btn-hover-bg: rgba(var(--bs-info-rgb), 0.8);
+    --bs-btn-hover-bg: rgba(var(--bs-info-rgb), 0.4);
+}
+
+.list-group-item {
+    --bs-list-group-bg: rgba(var(--bs-body-bg-rgb), 0.75);
 }
