@@ -76,18 +76,18 @@
             </div>
             <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
             <script>
-                // $(document).ready(function () {
-                //     switch (window.location.hash) {
-                //         case "rehoukago":
-                //         case "rewrite":
-                //         case "remind":
-                //         case "react":
-                //             $(window.location.hash + "-tl").collapse('toggle');
-                //             break;
-                //         default:
-                //             break;
-                //     }
-                // });
+                $(document).ready(function () {
+                    switch (window.location.hash) {
+                        case "#rehoukago":
+                        case "#rewrite":
+                        case "#remind":
+                        case "#react":
+                            $(window.location.hash + "-tl").collapse('toggle');
+                            break;
+                        default:
+                            break;
+                    }
+                });
             </script>
             <ul class="list-group">
                 <li id="rehoukago" class="list-group-item p-3">
@@ -110,7 +110,7 @@
                                     Tracklist + Translations (expand)
                                 </a>
                             </p>
-                            <div class="collapse mb-2" id="rehoukago-tl">
+                            <div class="mb-2">
                                 Other Masterlists:
                                 <ul>
                                     <li><a href="https://amesubs.tumblr.com/post/35978301133/re-houkago-shuuen-game-master-post">AmeSubs</a></li>
@@ -258,12 +258,10 @@
                                     Tracklist + Translations (expand)
                                 </a>
                             </p>
-                            <div class="collapse" id="rewrite-tl">
-                                Other Masterlists:
-                                <ul>
-                                    <li><a href="https://shuuen-scans.tumblr.com/rewrite">Shuuen Scans</a></li>
-                                </ul>
-                            </div>
+                            Other Masterlists:
+                            <ul>
+                                <li><a href="https://shuuen-scans.tumblr.com/rewrite">Shuuen Scans</a></li>
+                            </ul>
                             Links:
                             <ul>
                                 <li>
