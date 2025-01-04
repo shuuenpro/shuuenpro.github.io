@@ -186,6 +186,8 @@ i {
     color: white !important;
 }
 
+/* Feedback Form */
+
 .form-control {
     border-radius: 0;
     --bs-border-color: var(--bs-link-color);
