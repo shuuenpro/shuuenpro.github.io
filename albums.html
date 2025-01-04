@@ -17,7 +17,7 @@
                 <button class="navbar-toggler mb-1" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMenu" aria-controls="navbarMenu" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-tl" id="navbarMenu">
+                <div class="collapse navbar-collapse" id="navbarMenu">
                     <ul class="navbar-nav mx-auto">
                         <li class="nav-item">
                             <a class="nav-link" href="index">Home</a>
@@ -25,7 +25,7 @@
                         <li class="nav-item">
                             <a class="nav-link" href="guide">New Fan's Guide</a>
                         </li>
-                        <li class="nav-item dropdown active">
+                        <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 Masterlists
                             </a>
@@ -76,9 +76,18 @@
             </div>
             <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
             <script>
-                $(document).ready(function () {
-                    $(window.location.hash + "-tl").collapse('toggle');
-                });
+                // $(document).ready(function () {
+                //     switch (window.location.hash) {
+                //         case "rehoukago":
+                //         case "rewrite":
+                //         case "remind":
+                //         case "react":
+                //             $(window.location.hash + "-tl").collapse('toggle');
+                //             break;
+                //         default:
+                //             break;
+                //     }
+                // });
             </script>
             <ul class="list-group">
                 <li id="rehoukago" class="list-group-item p-3">
