@@ -228,6 +228,10 @@ input[name="email"] {
 }
 
 /* Collapse Toggles */
+.collapseToggleLink {
+    color: rgb(74, 244, 100);
+    font-weight: bold;
+}
 .collapseToggleLink[aria-expanded="false"]:before {
     content: "(click to expand)";
 }
