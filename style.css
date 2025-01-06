@@ -93,8 +93,8 @@ h2 {
 
 h3 {
     --bs-heading-color: var(--bs-secondary);
-    margin-top: 0.8rem;
-    font-size: 1.3rem;
+    margin-top: 0.7rem;
+    font-size: 1.25rem;
     text-transform: uppercase;
     text-decoration: underline;
 }
