@@ -240,8 +240,17 @@ input[name="email"] {
 }
 
 /* Collapse Toggles */
-.collapseToggleLink {
-    color: rgb(74, 244, 100);
+/* .collapseToggleLink {
+    background: rgba(var(--bs-body-color-rgb), 0.3);
+    padding: 0.2rem;
+    border-radius: 5px;
+} */
+.collapseToggleLink[aria-expanded="false"] {
+    color: rgb(244, 238, 74);
+    font-weight: bold;
+}
+.collapseToggleLink[aria-expanded="true"] {
+    color: rgb(244, 74, 119);
     font-weight: bold;
 }
 .collapseToggleLink[aria-expanded="false"]:before {
