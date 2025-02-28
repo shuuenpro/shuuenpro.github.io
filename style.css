@@ -70,6 +70,7 @@ html {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    height: 100%;
 }
 
 body {
@@ -77,6 +78,7 @@ body {
     margin-left: auto;
     max-width: 45rem;
     letter-spacing: 0.015rem;
+    height: 100%;
 }
 
 h1 {
