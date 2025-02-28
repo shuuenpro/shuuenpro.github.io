@@ -244,6 +244,10 @@ input[name="email"] {
     --bs-btn-hover-bg: rgba(var(--bs-info-rgb), 0.4) !important;
 }
 
+.custom-btn-2.active {
+    font-weight: bold;
+}
+
 .list-group-item {
     --bs-list-group-bg: rgba(var(--bs-body-bg-rgb), 0.75);
     --bs-list-group-active-bg: var(--bs-list-group-bg);
