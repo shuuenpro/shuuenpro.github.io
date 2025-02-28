@@ -241,7 +241,7 @@
                 filepath = location.pathname.substring(1);
             }
             else {
-                getHits("hits", location.pathname.substring(1));
+                getHits("hits", "%2F" + location.pathname.substring(1));
                 filepath = location.pathname.substring(1) + ".html";
             }
             getLastUpdateTimestamp("last-updated", filepath);
