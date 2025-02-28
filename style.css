@@ -24,8 +24,8 @@
     --bs-secondary-rgb: 107, 203, 255;
     --bs-success: #198754;
     --bs-success-rgb: 25, 135, 84;
-    --bs-info: rgb(103, 103, 143);
-    --bs-info-rgb: 103, 103, 143;
+    --bs-info: rgb(97, 97, 154);
+    --bs-info-rgb: 97, 97, 154;
     --bs-warning: #ffc107;
     --bs-warning-rgb: 255, 193, 7;
     --bs-danger: #e55765;
@@ -228,8 +228,10 @@ input[name="email"] {
     left: -999999999px;
 }
 
-.submit-btn {
+.custom-btn {
     --bs-btn-bg: rgba(var(--bs-info-rgb), 0.8);
+    --bs-btn-active-bg: var(--bs-info);
+    --bs-btn-active-border-color: var(--bs-link-color);
     --bs-btn-color: var(--bs-light);
     --bs-btn-hover-bg: rgba(var(--bs-info-rgb), 0.4);
 }
