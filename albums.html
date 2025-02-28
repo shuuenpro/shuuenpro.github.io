@@ -1,6 +1,30 @@
 <!DOCTYPE html>
 <html>
 
+<script>
+    function preventAnchorScroll() {
+        var scrollToTop = function () {
+            $(window).scrollTop(0);
+        };
+        if (window.location.hash) {
+            // handler is executed at most once
+            $(window).one('scroll', scrollToTop);
+        }
+
+        // make sure to release scroll 1 second after document readiness
+        // to avoid negative UX
+        $(function () {
+            setTimeout(
+                function () {
+                    $(window).off('scroll', scrollToTop);
+                },
+                1000
+            );
+        });
+    }
+    preventAnchorScroll();
+</script>
+
 <head>
     <meta name="darkreader-lock">
     <meta charset="UTF-8">
@@ -70,9 +94,8 @@
                         case "#remind":
                         case "#react":
                         case "#voice-drama":
-                            $(window.location.hash + "-tl").attr("open", function (index, attr) {
-                                return attr == "open" ? null : "open";
-                            });
+                            $('button[href="' + window.location.hash + '"]').tab('show');
+                            $(window.location.hash + "-tl").attr("open", "open");
                             break;
                         default:
                             break;
