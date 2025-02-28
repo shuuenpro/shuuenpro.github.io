@@ -236,8 +236,18 @@ input[name="email"] {
     --bs-btn-hover-bg: rgba(var(--bs-info-rgb), 0.4) !important;
 }
 
+.custom-btn-2 {
+    --bs-btn-color: rgb(184, 184, 184) !important;
+    --bs-btn-active-bg: rgba(var(--bs-info-rgb), 0.5) !important;
+    --bs-btn-active-color: var(--bs-light) !important;
+    --bs-btn-border-color: var(--bs-btn-color);
+    --bs-btn-hover-bg: rgba(var(--bs-info-rgb), 0.4) !important;
+}
+
 .list-group-item {
     --bs-list-group-bg: rgba(var(--bs-body-bg-rgb), 0.75);
+    --bs-list-group-active-bg: var(--bs-list-group-bg);
+    --bs-list-group-active-border-color: none;
 }
 
 /* Collapse Toggles */
