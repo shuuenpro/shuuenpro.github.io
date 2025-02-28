@@ -78,7 +78,8 @@ body {
     margin-left: auto;
     max-width: 45rem;
     letter-spacing: 0.015rem;
-    height: 100%;
+    height: auto;
+    min-height: 100%;
 }
 
 h1 {
