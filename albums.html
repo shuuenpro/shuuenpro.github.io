@@ -78,8 +78,9 @@
                     }
                 });
 
-                function expandAll() {
+                function expandAll(el) {
                     $("[id$=-tl]").attr("open", function (index, attr) {
+                        el.innerHTML = (attr == "open") ? "Click to expand all album translations." : "Click to collapse all album translations.";
                         return attr == "open" ? null : "open";
                     });
                     return false;
@@ -107,7 +108,7 @@
                     </ul>
                 </li>
                 <li class="list-group-item p-3">
-                    <a href="#" onclick="return expandAll();">Click to expand all album translations.</a>
+                    <button class="btn submit-btn" onclick="return expandAll(this);">Click to expand all album translations.</button>
                 </li>
                 <li id="rehoukago" class="list-group-item p-3">
                     <h5>Re:Houkago -Shuuen Game- (Re:放課後-終焉ゲーム-)</h5>
