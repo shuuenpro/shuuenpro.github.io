@@ -61,7 +61,9 @@
                         case "#novel-1":
                         case "#novel-2":
                         case "#novel-4":
-                            $(window.location.hash + "-tl").collapse('show');
+                            $(window.location.hash + "-tl").attr("open", function (index, attr) {
+                                return attr == "open" ? null : "open";
+                            });
                             break;
                         default:
                             break;
@@ -69,7 +71,9 @@
                 });
 
                 function expandAll() {
-                    $("[id$=-tl]").collapse('show');
+                    $("[id$=-tl]").attr("open", function (index, attr) {
+                        return attr == "open" ? null : "open";
+                    });
                     return false;
                 }
             </script>
@@ -132,8 +136,8 @@
                             </ul>
                             <hr>
                             By Chapter:
-                            <a class="collapseToggleLink" data-bs-toggle="collapse" href="#novel-1-tl" role="button" aria-expanded="false" aria-controls="novel-1-tl"></a>
-                            <div class="collapse" id="novel-1-tl">
+                            <details class="collapsible" id="novel-1-tl">
+                                <summary data-open="(Click to collapse.)" data-close="(Click to expand.)"></summary>
                                 Prologue:
                                 <ul>
                                     <li><a href="https://re-missedcall-blog1.tumblr.com/post/50927668708/claim-of-responsibility-pages-11-17">re-missedcall-blog1</a></li>
@@ -216,7 +220,7 @@
                                 <ul>
                                     <li><a href="https://renna-translations.tumblr.com/post/57106240049/afterword-pages-256-259">AmeSubs</a></li>
                                 </ul>
-                            </div>
+                            </details>
                         </div>
                     </div>
                 </li>
@@ -259,8 +263,8 @@
                             </ul>
                             <hr>
                             By Chapter:
-                            <a class="collapseToggleLink" data-bs-toggle="collapse" href="#novel-2-tl" role="button" aria-expanded="false" aria-controls="novel-2-tl"></a>
-                            <div class="collapse" id="novel-2-tl">
+                            <details class="collapsible" id="novel-2-tl">
+                                <summary data-open="(Click to collapse.)" data-close="(Click to expand.)"></summary>
                                 Prologue 1 & 2:
                                 <ul>
                                     <li><a href="https://amesubs.tumblr.com/post/64388752963/bookmark-of-demise-novel-2-common-heroes">AmeSubs</a></li>
@@ -347,7 +351,7 @@
                                         (none)
                                     </li>
                                 </ul>
-                            </div>
+                            </>
                         </div>
                     </div>
                 </li>
@@ -438,8 +442,8 @@
                             </ul>
                             <hr>
                             By Chapter:
-                            <a class="collapseToggleLink" data-bs-toggle="collapse" href="#novel-4-tl" role="button" aria-expanded="false" aria-controls="novel-4-tl"></a>
-                            <div class="collapse" id="novel-4-tl">
+                            <details class="collapsible" id="novel-4-tl">
+                                <summary data-open="(Click to collapse.)" data-close="(Click to expand.)"></summary>
                                 Prologue:
                                 <ul>
                                     <li><a href="https://whisperscrawls.dreamwidth.org/8131.html">whisperscrawls</a></li>
@@ -479,7 +483,7 @@
                                 <ul>
                                     <li><a href="https://whisperscrawls.dreamwidth.org/10580.html">whisperscrawls</a></li>
                                 </ul>
-                            </div>
+                            </>
                         </div>
                     </div>
                 </li>
@@ -492,7 +496,7 @@
             <p><a href=https://discord.gg/xmBBA2b><img src="discord.svg"></a></p>
             <p>
                 <b>Page Last Updated: </b><span id="last-updated"></span>
-                <p><a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fshuuenpro.github.io%2Fnovels&count_bg=%23FF31B3&title_bg=%23555555&icon_color=%23CB3887&title=Visits&edge_flat=false"/></a></p>
+            <p><a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fshuuenpro.github.io%2Fnovels&count_bg=%23FF31B3&title_bg=%23555555&icon_color=%23CB3887&title=Visits&edge_flat=false" /></a></p>
             </p>
         </center>
         <script src="footer.js"></script>

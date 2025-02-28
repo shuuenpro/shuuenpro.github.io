@@ -118,7 +118,6 @@ b {
     color: white;
 }
 
-
 .fake-link {
     color: var(--bs-link-color);
     text-decoration: var(--bs-link-decoration);
@@ -240,23 +239,22 @@ input[name="email"] {
 }
 
 /* Collapse Toggles */
-/* .collapseToggleLink {
-    background: rgba(var(--bs-body-color-rgb), 0.3);
-    padding: 0.2rem;
-    border-radius: 5px;
-} */
-.collapseToggleLink[aria-expanded="false"] {
-    color: rgb(244, 238, 74);
-    font-weight: bold;
-}
-.collapseToggleLink[aria-expanded="true"] {
-    color: rgb(244, 74, 119);
-    font-weight: bold;
-}
-.collapseToggleLink[aria-expanded="false"]:before {
-    content: "(click to expand)";
+details.collapsible[open] summary::after {
+    content: attr(data-open);
 }
 
-.collapseToggleLink[aria-expanded="true"]:before {
-    content: "(click to collapse)";
+details.collapsible:not([open]) summary::after {
+    content: attr(data-close);
+}
+
+details.collapsible summary {
+    margin-top: 0.5em;
+    margin-bottom: 0.2em;
+    color: rgb(176, 244, 74);
+    font-weight: bold;
+    font-size: 90%;
+}
+
+details.collapsible[open] summary {
+    color: rgb(244, 74, 119);
 }

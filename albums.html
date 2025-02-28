@@ -69,7 +69,9 @@
                         case "#remind":
                         case "#react":
                         case "#voice-drama":
-                            $(window.location.hash + "-tl").collapse('show');
+                            $(window.location.hash + "-tl").attr("open", function (index, attr) {
+                                return attr == "open" ? null : "open";
+                            });
                             break;
                         default:
                             break;
@@ -77,7 +79,9 @@
                 });
 
                 function expandAll() {
-                    $("[id$=-tl]").collapse('show');
+                    $("[id$=-tl]").attr("open", function (index, attr) {
+                        return attr == "open" ? null : "open";
+                    });
                     return false;
                 }
             </script>
@@ -182,8 +186,8 @@
                     <ul>
                         <li><a href="https://amesubs.tumblr.com/post/35978301133/re-houkago-shuuen-game-master-post">AmeSubs</a></li>
                     </ul>
-                    <a class="collapseToggleLink" data-bs-toggle="collapse" href="#rehoukago-tl" role="button" aria-expanded="false" aria-controls="rehoukago-tl"></a>
-                    <div class="collapse" id="rehoukago-tl">
+                    <details class="collapsible" id="rehoukago-tl">
+                        <summary data-open="(Click to collapse.)" data-close="(Click to expand.)"></summary>
                         <ol class="list-group list-group-numbered">
                             <li class="list-group-item">
                                 Re:「-犯行声明-」 (Re: 「-Claimed Responsibility-」)
@@ -317,7 +321,7 @@
                                 </ul>
                             </li>
                         </ol>
-                    </div>
+                    </details>
                 </li>
                 <li class="list-group-item p-3" id="rewrite">
                     <h5>Shuuen -Re:write- (終焉-Re:write-)</h5>
@@ -428,8 +432,8 @@
                     <ul>
                         <li><a href="https://shuuen-scans.tumblr.com/rewrite">Shuuen Scans</a></li>
                     </ul>
-                    <a class="collapseToggleLink" data-bs-toggle="collapse" href="#rewrite-tl" role="button" aria-expanded="false" aria-controls="rewrite-tl"></a>
-                    <div class="collapse" id="rewrite-tl">
+                    <details class="collapsible" id="rewrite-tl">
+                        <summary data-open="(Click to collapse.)" data-close="(Click to expand.)"></summary>
                         <ol class="list-group list-group-numbered">
                             <li class="list-group-item">
                                 「-はじめの後悔-」 (「-The First Regret-」) (Secret Track)
@@ -745,7 +749,7 @@
                                 </ul>
                             </li>
                         </ol>
-                    </div>
+                    </details>
                 </li>
                 <li class="list-group-item p-3" id="unlucky">
                     <h5>Unlucky -Makki- @ School Trip (アンラッキー末期ー@スクールトリップ)</h5>
@@ -929,8 +933,8 @@
                     <ul>
                         <li><a href="https://shuuen-scans.tumblr.com/remind">Shuuen Scans</a></li>
                     </ul>
-                    <a class="collapseToggleLink" data-bs-toggle="collapse" href="#remind-tl" role="button" aria-expanded="false" aria-controls="remind-tl"></a>
-                    <div class="collapse" id="remind-tl">
+                    <details class="collapsible" id="remind-tl">
+                        <summary data-open="(Click to collapse.)" data-close="(Click to expand.)"></summary>
                         <ol class="list-group list-group-numbered">
                             <li class="list-group-item">
                                 ｢-反攻声明-｣ (｢-Counteroffensive Claim-｣)
@@ -1126,7 +1130,7 @@
                                 </ul>
                             </li>
                         </ol>
-                    </div>
+                    </details>
                 </li>
                 <li class="list-group-item p-3" id="react">
                     <h5>Shuuen -Re:act- (終焉-Re:act-)</h5>
@@ -1235,8 +1239,8 @@
                         </div>
                     </div>
                     <h3 class="mt-3">Track Translations</h3>
-                    <a class="collapseToggleLink" data-bs-toggle="collapse" href="#react-tl" role="button" aria-expanded="false" aria-controls="react-tl"></a>
-                    <div class="collapse" id="react-tl">
+                    <details class="collapsible" id="react-tl">
+                        <summary data-open="(Click to collapse.)" data-close="(Click to expand.)"></summary>
                         <p>Entire Album Reupload: <a href="https://youtu.be/yIuFLXpkJcg">YouTube</a></p>
                         <ol class="list-group list-group-numbered">
                             <li class="list-group-item">
@@ -1436,10 +1440,10 @@
                                 </ul>
                             </li>
                         </ul>
-                    </div>
+                    </details>
                     <h3 class="mt-3">Voice Drama CD Translations</h3>
-                    <a class="collapseToggleLink" data-bs-toggle="collapse" href="#voice-drama-tl" role="button" aria-expanded="false" aria-controls="voice-drama-tl"></a>
-                    <div class="collapse" id="voice-drama-tl">
+                    <details class="collapsible" id="voice-drama-tl">
+                        <summary data-open="(Click to collapse.)" data-close="(Click to expand.)"></summary>
                         <p>(Titles translated by <a href="https://w-sensei.tumblr.com/post/128196178141/react-cd-drama-tracks">@w-sensei</a>.)</p>
                         <p>(All links are unofficial reprints.)</p>
                         <p>Entire CD Reupload: <a href="https://youtu.be/31Oc4s4BbmY">YouTube</a></p>
@@ -1482,7 +1486,7 @@
                                 (<a href="https://youtu.be/31Oc4s4BbmY&t=3093s">YouTube</a> | <a href="https://soundcloud.com/munynotameiki/spoiler-secret?in=munynotameiki/sets/shuuen-re-act-cd-drama">Soundcloud</a>)
                             </li>
                         </ol>
-                    </div>
+                    </details>
                 </li>
             </ul>
         </div>
