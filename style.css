@@ -229,11 +229,11 @@ input[name="email"] {
 }
 
 .custom-btn {
-    --bs-btn-bg: rgba(var(--bs-info-rgb), 0.8);
-    --bs-btn-active-bg: var(--bs-info);
-    --bs-btn-active-border-color: var(--bs-link-color);
-    --bs-btn-color: var(--bs-light);
-    --bs-btn-hover-bg: rgba(var(--bs-info-rgb), 0.4);
+    --bs-btn-bg: rgba(var(--bs-info-rgb), 0.8) !important;
+    --bs-btn-active-bg: var(--bs-info) !important;
+    --bs-btn-active-border-color: var(--bs-link-color) !important;
+    --bs-btn-color: var(--bs-light) !important;
+    --bs-btn-hover-bg: rgba(var(--bs-info-rgb), 0.4) !important;
 }
 
 .list-group-item {
