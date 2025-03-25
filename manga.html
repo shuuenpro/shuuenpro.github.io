@@ -55,7 +55,7 @@
             <ol class="list-group">
                 <li class="list-group-item p-3" id="manga">
                     <h5>Bookmark of Demise (終焉ノ栞) (Manga)</h5>
-                    
+
                     <p>(7 volumes, 33 chapters; serialized 2012/12/15 - 2015/12/15)</p>
                     <div id="covers" class="mb-2 w-75 mx-auto">
                         <div class="row g-0">
@@ -230,10 +230,7 @@
         <hr>
         <center>
             <p><a href=https://discord.gg/xmBBA2b><img src="discord.svg"></a></p>
-            <p>
-                <b>Page Last Updated: </b><span id="last-updated"></span>
-                <p><a href="https://hits.seeyoufarm.com"><img id="hits" src=""></a></p>
-            </p>
+            <b>Page Last Updated: </b><span id="last-updated"></span>
         </center>
         <script src="footer.js"></script>
         <script>
@@ -242,7 +239,7 @@
                 filepath = location.pathname.substring(1);
             }
             else {
-                getHits("hits", "%2F" + location.pathname.substring(1));
+                getHits();
                 filepath = location.pathname.substring(1) + ".html";
             }
             getLastUpdateTimestamp("last-updated", filepath);

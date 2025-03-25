@@ -4,7 +4,7 @@
 <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
 <script>
     function preventAnchorScroll() {
-        var scrollToTop = function {
+        var scrollToTop = function () {
             $(window).scrollTop(0);
         };
         if (window.location.hash) {
@@ -14,9 +14,9 @@
 
         // make sure to release scroll 1 second after document readiness
         // to avoid negative UX
-        $(function {
+        $(function () {
             setTimeout(
-                function {
+                function () {
                     $(window).off('scroll', scrollToTop);
                 },
                 1000
@@ -2107,10 +2107,7 @@
         <hr>
         <center>
             <p><a href=https://discord.gg/xmBBA2b><img src="discord.svg"></a></p>
-            <p>
-                <b>Page Last Updated: </b><span id="last-updated"></span>
-            <p><a href="https://hits.seeyoufarm.com"><img id="hits" src=""></a></p>
-            </p>
+            <b>Page Last Updated: </b><span id="last-updated"></span>
         </center>
         <script src="footer.js"></script>
         <script>
@@ -2119,7 +2116,7 @@
                 filepath = location.pathname.substring(1);
             }
             else {
-                getHits("hits", "%2F" + location.pathname.substring(1));
+                getHits();
                 filepath = location.pathname.substring(1) + ".html";
             }
             getLastUpdateTimestamp("last-updated", filepath);

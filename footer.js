@@ -11,7 +11,8 @@ function getLastUpdateTimestamp(id, filepath) {
         });
 }
 
-function getHits(id, path) {
-    path = path.replace("/", "%2F");
-    document.getElementById(id).src = `https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fshuuenpro.github.io${path}&count_bg=%23FF31B3&title_bg=%23555555&icon_color=%23CB3887&title=Visits&edge_flat=false`
+function getHits() {
+    var script = document.createElement("script");
+    script.src = "https://gnrcounter.com/counter.php?accId=fe671b12dfaecd71ba8efb69a0f68cb6";
+    document.getElementsByTagName("footer")[0].appendChild(script);
 }

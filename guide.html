@@ -129,10 +129,7 @@
         <hr>
         <center>
             <p><a href=https://discord.gg/xmBBA2b><img src="discord.svg"></a></p>
-            <p>
-                <b>Page Last Updated: </b><span id="last-updated"></span>
-                <p><a href="https://hits.seeyoufarm.com"><img id="hits" src=""></a></p>
-            </p>
+            <b>Page Last Updated: </b><span id="last-updated"></span>
         </center>
         <script src="footer.js"></script>
         <script>
@@ -141,7 +138,7 @@
                 filepath = location.pathname.substring(1);
             }
             else {
-                getHits("hits", "%2F" + location.pathname.substring(1));
+                getHits();
                 filepath = location.pathname.substring(1) + ".html";
             }
             getLastUpdateTimestamp("last-updated", filepath);
