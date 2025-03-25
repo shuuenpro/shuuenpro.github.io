@@ -13,6 +13,7 @@ function getLastUpdateTimestamp(id, filepath) {
 
 function getHits() {
     var script = document.createElement("script");
+    script.type = "text/javascript";
     script.src = "https://gnrcounter.com/counter.php?accId=fe671b12dfaecd71ba8efb69a0f68cb6";
     document.getElementsByTagName("footer")[0].appendChild(script);
 }
