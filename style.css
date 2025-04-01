@@ -251,7 +251,7 @@ input[name="email"] {
     --bs-btn-hover-bg: #8721ac55;
 }
 .custom-btn-2:nth-of-type(3) {
-    --bs-btn-active-bg: #168b29;
+    --bs-btn-active-bg: #127823;
     --bs-btn-hover-bg: #1ab13355;
 }
 .custom-btn-2:nth-of-type(4) {
