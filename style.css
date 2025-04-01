@@ -24,8 +24,8 @@
     --bs-secondary-rgb: 115, 189, 235;
     --bs-success: #198754;
     --bs-success-rgb: 25, 135, 84;
-    --bs-info: rgb(97, 97, 154);
-    --bs-info-rgb: 97, 97, 154;
+    --bs-info: rgb(170, 86, 134);
+    --bs-info-rgb: 170, 86, 134;
     --bs-warning: #ffc107;
     --bs-warning-rgb: 255, 193, 7;
     --bs-danger: #e55765;
@@ -34,15 +34,15 @@
     --bs-light-rgb: 255, 255, 255;
     --bs-dark: #212529;
     --bs-dark-rgb: 33, 37, 41;
-    --bs-gradient: linear-gradient(90deg, #1458bea3 0%, #b35353a1 50%);
+    --bs-gradient: linear-gradient(90deg, #b3535345 0%, #1458be45 50%);
     --bs-body-font-family: "Source Sans 3";
     --bs-body-font-size: 1rem;
     --bs-body-font-weight: 500;
     --bs-body-line-height: 1.6;
     --bs-body-color: var(--bs-light);
     --bs-body-color-rgb: var(--bs-light-rgb);
-    --bs-body-bg: rgba(44, 42, 55, 0.85);
-    --bs-body-bg-rgb: 44, 42, 54;
+    --bs-body-bg: rgba(44, 42, 55, 0.7);
+    --bs-body-bg-rgb: 44, 42, 55;
     --bs-link-color: #f9c748;
     --bs-link-color-rgb: 249, 199, 72;
     --bs-link-decoration: underline;
@@ -65,7 +65,7 @@
 
 /* Main Components */
 html {
-    background: var(--bs-gradient), url("remind.png");
+    background: var(--bs-gradient), url("react.png");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -169,7 +169,7 @@ b {
 }
 
 .dropdown-item.active {
-    background-color: #c84f6c;
+    background-color: #c84f6b69;
 }
 
 .nav-item {
@@ -190,7 +190,7 @@ i {
     --bs-border-radius: 0;
 }
 
-.dropdown-menu li:nth-of-type(1) a:hover {
+.dropdown-menu li:nth-of-type(1) a:hover{
     background-color: #b7404070;
 }
 
@@ -205,6 +205,7 @@ i {
 .dropdown-menu li:nth-of-type(4) a:hover {
     background-color: #2680c870;
 }
+
 
 ::selection {
     background: #366d85a5 !important;
@@ -233,27 +234,39 @@ input[name="email"] {
 }
 
 .custom-btn {
-    --bs-btn-bg: rgba(var(--bs-info-rgb), 0.8) !important;
-    --bs-btn-active-bg: var(--bs-info) !important;
-    --bs-btn-active-border-color: var(--bs-link-color) !important;
-    --bs-btn-color: var(--bs-light) !important;
-    --bs-btn-hover-bg: rgba(var(--bs-info-rgb), 0.4) !important;
+    --bs-btn-bg: rgba(var(--bs-info-rgb), 0.6);
+    --bs-btn-active-bg: var(--bs-info);
+    --bs-btn-color: var(--bs-light);
+    --bs-btn-hover-bg: var(--bs-info);
 }
 
 .custom-btn-2 {
-    --bs-btn-color: rgb(184, 184, 184) !important;
-    --bs-btn-active-bg: rgba(var(--bs-info-rgb), 0.5) !important;
-    --bs-btn-active-color: var(--bs-light) !important;
-    --bs-btn-border-color: var(--bs-btn-color);
-    --bs-btn-hover-bg: rgba(var(--bs-info-rgb), 0.4) !important;
+    --bs-btn-color: var(--bs-light);
+    --bs-btn-border-color: var(--bs-light);
 }
 
-.custom-btn-2.active {
-    font-weight: bold;
+.custom-btn-2:nth-of-type(1) {
+    --bs-btn-active-bg: #9d2323;
+    --bs-btn-hover-bg: #b7404055;
 }
-
+.custom-btn-2:nth-of-type(2) {
+    --bs-btn-active-bg: #672081;
+    --bs-btn-hover-bg: #8721ac55;
+}
+.custom-btn-2:nth-of-type(3) {
+    --bs-btn-active-bg: #168b29;
+    --bs-btn-hover-bg: #1ab13355;
+}
+.custom-btn-2:nth-of-type(4) {
+    --bs-btn-active-bg: #26557c;
+    --bs-btn-hover-bg: #2680c855;
+}
+.custom-btn-2:nth-of-type(5) {
+    --bs-btn-active-bg: #967e1c;
+    --bs-btn-hover-bg: #a0871f55;
+}
 .list-group-item {
-    --bs-list-group-bg: rgba(var(--bs-body-bg-rgb), 0.75);
+    --bs-list-group-bg: none;
     --bs-list-group-active-bg: var(--bs-list-group-bg);
     --bs-list-group-active-border-color: none;
 }
@@ -270,7 +283,7 @@ details.collapsible:not([open]) summary::after {
 details.collapsible summary {
     margin-top: 0.5em;
     margin-bottom: 0.2em;
-    color: rgb(176, 244, 74);
+    color: rgb(98, 226, 143);
     font-weight: bold;
     font-size: 90%;
 }
