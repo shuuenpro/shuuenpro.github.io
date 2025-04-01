@@ -24,8 +24,8 @@
     --bs-secondary-rgb: 115, 189, 235;
     --bs-success: #198754;
     --bs-success-rgb: 25, 135, 84;
-    --bs-info: rgb(170, 86, 134);
-    --bs-info-rgb: 170, 86, 134;
+    --bs-info: rgb(154, 48, 97);
+    --bs-info-rgb: 154, 48, 97;
     --bs-warning: #ffc107;
     --bs-warning-rgb: 255, 193, 7;
     --bs-danger: #e55765;
@@ -156,25 +156,17 @@ b {
 /* Navigation CSS */
 .nav-item {
     background: #6b6b6b4c;
-    --bs-navbar-nav-link-padding-x: 1rem;
-    --bs-nav-link-padding-x: 0.5rem;
-}
-
-.nav-link {
-    padding: 10px;
 }
 
 .nav-item.active {
     background-color: #a01b3a;
 }
 
-.dropdown-item.active {
-    background-color: #c84f6b69;
-}
-
-.nav-item {
-    --bs-nav-link-color: white;
-    --bs-nav-link-hover-color: white;
+.navbar-nav {
+    --bs-navbar-color: white;
+    --bs-navbar-hover-color: white;
+    --bs-navbar-nav-link-padding-x: 1rem;
+    --bs-nav-link-padding-x: 0.5rem;
 }
 
 i {
@@ -182,30 +174,30 @@ i {
 }
 
 .nav-item:hover {
-    background-color: #e24368a4;
+    background-color: rgba(var(--bs-info-rgb), 0.5);
 }
 
 .dropdown-menu {
-    background-color: #454751ea;
+    --bs-dropdown-bg: #363749;
     --bs-border-radius: 0;
+    --bs-dropdown-link-active-bg: #a01b3a;
 }
 
-.dropdown-menu li:nth-of-type(1) a:hover{
-    background-color: #b7404070;
+.dropdown-menu li:nth-of-type(1) a:hover {
+    background-color: #b7404080;
 }
 
 .dropdown-menu li:nth-of-type(2) a:hover {
-    background-color: #8721ac70;
+    background-color: #8721ac80;
 }
 
 .dropdown-menu li:nth-of-type(3) a:hover {
-    background-color: #1ab13370;
+    background-color: #1ab13380;
 }
 
 .dropdown-menu li:nth-of-type(4) a:hover {
-    background-color: #2680c870;
+    background-color: #2680c880;
 }
-
 
 ::selection {
     background: #366d85a5 !important;
@@ -233,11 +225,13 @@ input[name="email"] {
     left: -999999999px;
 }
 
+/* Navigation Button Groups */
+
 .custom-btn {
-    --bs-btn-bg: rgba(var(--bs-info-rgb), 0.6);
+    --bs-btn-bg: var(--bs-info);
     --bs-btn-active-bg: var(--bs-info);
     --bs-btn-color: var(--bs-light);
-    --bs-btn-hover-bg: var(--bs-info);
+    --bs-btn-hover-bg: rgba(var(--bs-info-rgb), 0.6);
 }
 
 .custom-btn-2 {
@@ -265,9 +259,12 @@ input[name="email"] {
     --bs-btn-active-bg: #967e1c;
     --bs-btn-hover-bg: #a0871f55;
 }
+
+/* List Items */
+
 .list-group-item {
     --bs-list-group-bg: none;
-    --bs-list-group-active-bg: var(--bs-list-group-bg);
+    --bs-list-group-active-bg: none;
     --bs-list-group-active-border-color: none;
 }
 
