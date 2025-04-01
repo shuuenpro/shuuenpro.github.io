@@ -182,7 +182,7 @@ i {
 
 .dropdown-menu {
     --bs-dropdown-bg: #363749;
-    --bs-border-radius: 0;
+    --bs-dropdown-border-radius: 0;
     --bs-dropdown-link-active-bg: #a01b3a;
 }
 
