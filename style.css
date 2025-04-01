@@ -20,8 +20,8 @@
 :root {
     --bs-primary: rgb(255, 104, 93);
     --bs-primary-rgb: 255, 104, 93;
-    --bs-secondary: rgb(115, 163, 235);
-    --bs-secondary-rgb: 107, 203, 255;
+    --bs-secondary: rgb(115, 189, 235);
+    --bs-secondary-rgb: 115, 189, 235;
     --bs-success: #198754;
     --bs-success-rgb: 25, 135, 84;
     --bs-info: rgb(97, 97, 154);
