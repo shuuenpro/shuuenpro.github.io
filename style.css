@@ -53,11 +53,19 @@
 }
 
 @media (min-width: 601px) {
+    html {
+        background: var(--bs-gradient), url("react.png");
+        background-attachment: fixed;
+    }
     body {
         padding: 2rem;
     }
 }
 @media (max-width: 600px) {
+    html {
+        background: linear-gradient(#b3535335 0%, #1458be35 50%), url("react-og.png");
+        background-attachment: scroll;
+    }
     body {
         padding: 0.5rem;
     }
@@ -65,8 +73,6 @@
 
 /* Main Components */
 html {
-    background: var(--bs-gradient), url("react.png");
-    background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
