@@ -96,20 +96,11 @@
                         case "#react":
                         case "#voice-drama":
                             $('button[href="' + window.location.hash + '"]').tab('show');
-                            $(window.location.hash + "-tl").attr("open", "open");
                             break;
                         default:
                             break;
                     }
                 });
-
-                function expandAll(el) {
-                    $("[id$=-tl]").attr("open", function (index, attr) {
-                        el.innerHTML = (attr == "open") ? "Click to expand all translations." : "Click to collapse all translations.";
-                        return attr == "open" ? null : "open";
-                    });
-                    return false;
-                }
             </script>
             <ul class="list-group">
                 <li class="list-group-item p-0 btn-group-vertical">
@@ -118,9 +109,6 @@
                     <button class="btn custom-btn-2" data-bs-toggle="tab" href="#unlucky">Unlucky -Makki- @ School Trip (アンラッキー末期ー@スクールトリップ)</button>
                     <button class="btn custom-btn-2" data-bs-toggle="tab" href="#remind">Shuuen -Re:mind- (終焉-Re:mind-)</button>
                     <button class="btn custom-btn-2" data-bs-toggle="tab" href="#react">Shuuen -Re:act- (終焉-Re:act-)</button>
-                </li>
-                <li class="list-group-item p-3">
-                    <a href="#" onclick="return expandAll(this);">Click to expand all translations.</a>
                 </li>
                 <div class="tab-content">
                     <style>
@@ -220,192 +208,188 @@
                             <ul>
                                 <li><a href="https://amesubs.tumblr.com/post/35978301133/re-houkago-shuuen-game-master-post">AmeSubs</a></li>
                             </ul>
-                            <hr> By Track:
                         </div>
-                        <details class="collapsible pb-2 pb-2" id="rehoukago-tl">
-                            <summary class="ms-4" data-open="[click to collapse]" data-close="[click to expand]"></summary>
-                            <table class="table w-100 table-responsive table-bordered table-dark table-striped">
-                                <thead>
-                                    <tr>
-                                        <th width="5%">#</th>
-                                        <th width="55%">Track Title</th>
-                                        <th style="width:20%">Listen</th>
-                                        <th style="width:20%">Translations</th>
-                                    </tr>
-                                </thead>
+                        <table class="table w-100 table-responsive table-bordered table-dark table-striped">
+                            <thead>
                                 <tr>
-                                    <td>1</td>
-                                    <td>
-                                        Re:「-犯行声明-」 <span class="text-secondary">(instrumental)</span><br>
-                                        <small>Re: 「-Claimed Responsibility-」</small>
-                                    </td>
-                                    <td>
-                                        <p><a href="https://youtu.be/F4GAF4HPE5o">YT Reprint</a></p>
-                                    </td>
-                                    <td></td>
+                                    <th width="5%">#</th>
+                                    <th width="55%">Track Title</th>
+                                    <th style="width:20%">Listen</th>
+                                    <th style="width:20%">Translations</th>
                                 </tr>
-                                <tr>
-                                    <td>2</td>
-                                    <td>
-                                        孤独ノ隠レンボ <span class="text-secondary">(feat. IA)</span><br>
-                                        <small>Lonely Hide and Seek</small>
-                                    </td>
-                                    <td>
-                                        <p><a href="https://www.nicovideo.jp/watch/sm17804161">NND</a></p>
-                                        <p><a href="https://youtu.be/bbOPDAb6AdI">YT Reprint</a></p>
-                                    </td>
-                                    <td>
-                                        <p><a href="https://amesubs.tumblr.com/post/64192699008/ia-lonely-hide-and-seek-%E5%AD%A4%E7%8B%AC%E3%83%8E%E9%9A%A0%E3%83%AC%E3%83%B3%E3%83%9C-a-ya-a-ya">AmeSubs</a></p>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>3</td>
-                                    <td>
-                                        ジブン観察日記 <span class="text-secondary">(feat. IA)</span><br>
-                                        <small>Own Observation Diary</small>
-                                    </td>
-                                    <td>
-                                        <p><a href="https://youtu.be/75SsiKWrvqs">YT Reprint</a></p>
-                                    </td>
-                                    <td>
-                                        <p><a href="https://amesubs.tumblr.com/post/35977964947/ia-own-observation-diary-%E3%82%B8%E3%83%96%E3%83%B3%E8%A6%B3%E5%AF%9F%E6%97%A5%E8%A8%98">AmeSubs</a></p>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>4</td>
-                                    <td>
-                                        Re:「-伝染予測-」 <span class="text-secondary">(feat. 150P)</span><br>
-                                        <small>Re: 「-Infectious Prediction-」</small>
-                                    </td>
-                                    <td>
-                                        <p><a href="https://youtu.be/82uUCoNa80w">YT Reprint</a></p>
-                                    </td>
-                                    <td>
-                                        <p><a href="https://amesubs.tumblr.com/post/40254575167/150p-instrumentals-part-12">AmeSubs</a></p>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>5</td>
-                                    <td>
-                                        ニセモノ注意報 <span class="text-secondary">(feat. IA)</span><br>
-                                        <small>Impostor Advisory</small>
-                                    </td>
-                                    <td>
-                                        <p><a href="https://www.nicovideo.jp/watch/sm18060733">NND</a></p>
-                                        <p><a href="https://youtu.be/Ra2xtVoVCcg">YT Reprint</a></p>
-                                    </td>
-                                    <td>
-                                        <p><a href="https://amesubs.tumblr.com/post/67535277852/ia-imposter-advisory-%E3%83%8B%E3%82%BB%E3%83%A2%E3%83%8E%E6%B3%A8%E6%84%8F%E5%A0%B1-b-ko-i">AmeSubs</a></p>
-                                        <p><a href="https://rippukun.tumblr.com/post/710722999180050432/impostor-warning-translation-%E3%83%8B%E3%82%BB%E3%83%A2%E3%83%8E%E6%B3%A8%E6%84%8F%E5%A0%B1">rippukun</a></p>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>6</td>
-                                    <td>
-                                        Re:「-夕暮報道-」 <span class="text-secondary">(feat. 150P)</span><br>
-                                        <small>Re: 「-Evening News-」</small>
-                                    </td>
-                                    <td>
-                                        <p><a href="https://youtu.be/q-jIZ7H6YD8">YT Reprint</a></p>
-                                    </td>
-                                    <td>
-                                        <p><a href="https://amesubs.tumblr.com/post/40254575167/150p-instrumentals-part-12">AmeSubs</a></p>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>7</td>
-                                    <td>
-                                        完全犯罪ラブレター <span class="text-secondary">(feat. IA)</span><br>
-                                        <small>Perfect Crime Love Letter</small>
-                                    </td>
-                                    <td>
-                                        <p><a href="https://www.nicovideo.jp/watch/sm18172311">NND</a></p>
-                                        <p><a href="https://youtu.be/LkkTRFFoN8U">YT Reprint</a></p>
-                                    </td>
-                                    <td>
-                                        <p><a href="https://amesubs.tumblr.com/post/53813932552/ia-perfect-crime-love-letter-%E5%AE%8C%E5%85%A8%E7%8A%AF%E7%BD%AA%E3%83%A9%E3%83%96%E3%83%AC%E3%82%BF%E3%83%BC-the">AmeSubs</a></p>
-                                        <p><a href="https://rippukun.tumblr.com/post/720793076223868928/anonymously-they-say-he-performed-as">rippukun</a></p>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>8</td>
-                                    <td>
-                                        猿マネ椅子盗りゲーム <span class="text-secondary">(feat. IA)</span><br>
-                                        <small>Aimless Imitation Musical Chairs</small>
-                                    </td>
-                                    <td>
-                                        <p><a href="https://youtu.be/wQ4e4mEhUhY">YT Reprint</a></p>
-                                    </td>
-                                    <td>
-                                        <p><a href="https://delusionwhore.tumblr.com/post/30431485899/saru-mane-isu-tori-gameaimless-imitation-chair">delusionwhore</a></p>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>9</td>
-                                    <td>
-                                        Re:「-童戯解説-」 <span class="text-secondary">(feat. 150P)</span><br>
-                                        <small>Re: 「-Child’s Game Explanation-」</small>
-                                    </td>
-                                    <td>
-                                        <p><a href="https://youtu.be/oWtYMhid7zU">YT Reprint</a></p>
-                                    </td>
-                                    <td>
-                                        <p><a href="https://amesubs.tumblr.com/post/40254575167/150p-instrumentals-part-12">AmeSubs</a></p>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>10</td>
-                                    <td>
-                                        終焉ノ栞 <span class="text-secondary">(feat. IA)</span><br>
-                                        <small>Bookmark of Demise</small>
-                                    </td>
-                                    <td>
-                                        <p><a href="https://youtu.be/dcbz6Kc18zA">YT Reprint</a></p>
-                                    </td>
-                                    <td>
-                                        <p><a href="https://amesubs.tumblr.com/post/57819292908/ia-bookmark-of-demise-%E7%B5%82%E7%84%89%E3%83%8E%E6%A0%9E-oh-look-a-new-pv">AmeSubs</a></p>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>11</td>
-                                    <td>
-                                        平凡な日常 <span class="text-secondary">(feat. IA)</span><br>
-                                        <small>Mundane Everyday</small>
-                                    </td>
-                                    <td>
-                                        <p><a href="https://youtu.be/Jl7RUQl3P-g">YT Reprint</a></p>
-                                    </td>
-                                    <td>
-                                        <p><a href="https://amesubs.tumblr.com/post/40084281743/ia-mundane-days-%E5%B9%B3%E5%87%A1%E3%81%AA%E6%97%A5%E5%B8%B8">AmeSubs</a></p>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>12</td>
-                                    <td>
-                                        Re:「-勝利宣言-」 <span class="text-secondary">(feat. 150P)</span><br>
-                                        <small> Re:「- Victory Speech -」</small>
-                                    </td>
-                                    <td>
-                                        <p><a href="https://youtu.be/7XvqK_ILusE">YT Reprint</a></p>
-                                    </td>
-                                    <td>
-                                        <p>(none yet)</p>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>13</td>
-                                    <td>
-                                        Bonus Track <span class="text-secondary">(feat. 150P)</span>
-                                    </td>
-                                    <td>
-                                        <p><a href="https://youtu.be/xGaeCx3HxN0">YT Reprint</a></p>
-                                    </td>
-                                    <td>
-                                        <p>(none yet)</p>
-                                    </td>
-                                </tr>
-                            </table>
-                        </details>
+                            </thead>
+                            <tr>
+                                <td>1</td>
+                                <td>
+                                    Re:「-犯行声明-」 <span class="text-secondary">(instrumental)</span><br>
+                                    <small>Re: 「-Claimed Responsibility-」</small>
+                                </td>
+                                <td>
+                                    <p><a href="https://youtu.be/F4GAF4HPE5o">YT Reprint</a></p>
+                                </td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>
+                                    孤独ノ隠レンボ <span class="text-secondary">(feat. IA)</span><br>
+                                    <small>Lonely Hide and Seek</small>
+                                </td>
+                                <td>
+                                    <p><a href="https://www.nicovideo.jp/watch/sm17804161">NND</a></p>
+                                    <p><a href="https://youtu.be/bbOPDAb6AdI">YT Reprint</a></p>
+                                </td>
+                                <td>
+                                    <p><a href="https://amesubs.tumblr.com/post/64192699008/ia-lonely-hide-and-seek-%E5%AD%A4%E7%8B%AC%E3%83%8E%E9%9A%A0%E3%83%AC%E3%83%B3%E3%83%9C-a-ya-a-ya">AmeSubs</a></p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>
+                                    ジブン観察日記 <span class="text-secondary">(feat. IA)</span><br>
+                                    <small>Own Observation Diary</small>
+                                </td>
+                                <td>
+                                    <p><a href="https://youtu.be/75SsiKWrvqs">YT Reprint</a></p>
+                                </td>
+                                <td>
+                                    <p><a href="https://amesubs.tumblr.com/post/35977964947/ia-own-observation-diary-%E3%82%B8%E3%83%96%E3%83%B3%E8%A6%B3%E5%AF%9F%E6%97%A5%E8%A8%98">AmeSubs</a></p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>4</td>
+                                <td>
+                                    Re:「-伝染予測-」 <span class="text-secondary">(feat. 150P)</span><br>
+                                    <small>Re: 「-Infectious Prediction-」</small>
+                                </td>
+                                <td>
+                                    <p><a href="https://youtu.be/82uUCoNa80w">YT Reprint</a></p>
+                                </td>
+                                <td>
+                                    <p><a href="https://amesubs.tumblr.com/post/40254575167/150p-instrumentals-part-12">AmeSubs</a></p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>5</td>
+                                <td>
+                                    ニセモノ注意報 <span class="text-secondary">(feat. IA)</span><br>
+                                    <small>Impostor Advisory</small>
+                                </td>
+                                <td>
+                                    <p><a href="https://www.nicovideo.jp/watch/sm18060733">NND</a></p>
+                                    <p><a href="https://youtu.be/Ra2xtVoVCcg">YT Reprint</a></p>
+                                </td>
+                                <td>
+                                    <p><a href="https://amesubs.tumblr.com/post/67535277852/ia-imposter-advisory-%E3%83%8B%E3%82%BB%E3%83%A2%E3%83%8E%E6%B3%A8%E6%84%8F%E5%A0%B1-b-ko-i">AmeSubs</a></p>
+                                    <p><a href="https://rippukun.tumblr.com/post/710722999180050432/impostor-warning-translation-%E3%83%8B%E3%82%BB%E3%83%A2%E3%83%8E%E6%B3%A8%E6%84%8F%E5%A0%B1">rippukun</a></p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>6</td>
+                                <td>
+                                    Re:「-夕暮報道-」 <span class="text-secondary">(feat. 150P)</span><br>
+                                    <small>Re: 「-Evening News-」</small>
+                                </td>
+                                <td>
+                                    <p><a href="https://youtu.be/q-jIZ7H6YD8">YT Reprint</a></p>
+                                </td>
+                                <td>
+                                    <p><a href="https://amesubs.tumblr.com/post/40254575167/150p-instrumentals-part-12">AmeSubs</a></p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>7</td>
+                                <td>
+                                    完全犯罪ラブレター <span class="text-secondary">(feat. IA)</span><br>
+                                    <small>Perfect Crime Love Letter</small>
+                                </td>
+                                <td>
+                                    <p><a href="https://www.nicovideo.jp/watch/sm18172311">NND</a></p>
+                                    <p><a href="https://youtu.be/LkkTRFFoN8U">YT Reprint</a></p>
+                                </td>
+                                <td>
+                                    <p><a href="https://amesubs.tumblr.com/post/53813932552/ia-perfect-crime-love-letter-%E5%AE%8C%E5%85%A8%E7%8A%AF%E7%BD%AA%E3%83%A9%E3%83%96%E3%83%AC%E3%82%BF%E3%83%BC-the">AmeSubs</a></p>
+                                    <p><a href="https://rippukun.tumblr.com/post/720793076223868928/anonymously-they-say-he-performed-as">rippukun</a></p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>8</td>
+                                <td>
+                                    猿マネ椅子盗りゲーム <span class="text-secondary">(feat. IA)</span><br>
+                                    <small>Aimless Imitation Musical Chairs</small>
+                                </td>
+                                <td>
+                                    <p><a href="https://youtu.be/wQ4e4mEhUhY">YT Reprint</a></p>
+                                </td>
+                                <td>
+                                    <p><a href="https://delusionwhore.tumblr.com/post/30431485899/saru-mane-isu-tori-gameaimless-imitation-chair">delusionwhore</a></p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>9</td>
+                                <td>
+                                    Re:「-童戯解説-」 <span class="text-secondary">(feat. 150P)</span><br>
+                                    <small>Re: 「-Child’s Game Explanation-」</small>
+                                </td>
+                                <td>
+                                    <p><a href="https://youtu.be/oWtYMhid7zU">YT Reprint</a></p>
+                                </td>
+                                <td>
+                                    <p><a href="https://amesubs.tumblr.com/post/40254575167/150p-instrumentals-part-12">AmeSubs</a></p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>10</td>
+                                <td>
+                                    終焉ノ栞 <span class="text-secondary">(feat. IA)</span><br>
+                                    <small>Bookmark of Demise</small>
+                                </td>
+                                <td>
+                                    <p><a href="https://youtu.be/dcbz6Kc18zA">YT Reprint</a></p>
+                                </td>
+                                <td>
+                                    <p><a href="https://amesubs.tumblr.com/post/57819292908/ia-bookmark-of-demise-%E7%B5%82%E7%84%89%E3%83%8E%E6%A0%9E-oh-look-a-new-pv">AmeSubs</a></p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>11</td>
+                                <td>
+                                    平凡な日常 <span class="text-secondary">(feat. IA)</span><br>
+                                    <small>Mundane Everyday</small>
+                                </td>
+                                <td>
+                                    <p><a href="https://youtu.be/Jl7RUQl3P-g">YT Reprint</a></p>
+                                </td>
+                                <td>
+                                    <p><a href="https://amesubs.tumblr.com/post/40084281743/ia-mundane-days-%E5%B9%B3%E5%87%A1%E3%81%AA%E6%97%A5%E5%B8%B8">AmeSubs</a></p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>12</td>
+                                <td>
+                                    Re:「-勝利宣言-」 <span class="text-secondary">(feat. 150P)</span><br>
+                                    <small> Re:「- Victory Speech -」</small>
+                                </td>
+                                <td>
+                                    <p><a href="https://youtu.be/7XvqK_ILusE">YT Reprint</a></p>
+                                </td>
+                                <td>
+                                    <p>(none yet)</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>13</td>
+                                <td>
+                                    Bonus Track <span class="text-secondary">(feat. 150P)</span>
+                                </td>
+                                <td>
+                                    <p><a href="https://youtu.be/xGaeCx3HxN0">YT Reprint</a></p>
+                                </td>
+                                <td>
+                                    <p>(none yet)</p>
+                                </td>
+                            </tr>
+                        </table>
                     </li>
                     <li class="list-group-item rounded-bottom p-0 tab-pane fade" id="rewrite">
                         <div class="p-3 pb-0">
@@ -515,474 +499,472 @@
                             <h3 class="mt-3">Track Translations</h3>
                             Other TL Masterlists:
                             <ul>
-                                <li><a href="https://shuuen-scans.tumblr.com/rewrite">Shuuen Scans</a></li>
+                                <li>
+                                    <a href="https://shuuen-scans.tumblr.com/rewrite">Shuuen Scans</a>
+                                    (note: broken URL <code>miss-simplicity -> sailorenna</code>)
+                                </li>
                             </ul>
-                            <hr>
-                            By Track:
                         </div>
-                        <details class="collapsible pb-2" id="rewrite-tl">
-                            <summary class="ms-4" data-open="[click to collapse]" data-close="[click to expand]"></summary>
-                            <table class="table table-responsive table-bordered table-dark table-striped">
-                                <thead>
-                                    <tr>
-                                        <th width="5%">#</th>
-                                        <th width="55%">Track Title</th>
-                                        <th style="width:20%">Listen</th>
-                                        <th style="width:20%">Translations</th>
-                                    </tr>
-                                </thead>
+                        <table class="table table-responsive table-bordered table-dark table-striped">
+                            <thead>
                                 <tr>
-                                    <td>1</td>
-                                    <td>
-                                        「-はじめの後悔-」 <span class="text-secondary">(feat. 神谷浩史)</span><br>
-                                        <small>「-The First Regret-」 (feat. Hiroshi Kamiya)</small>
-                                    </td>
-                                    <td>
-                                        <p><a href="https://youtu.be/TI7CEgfoz5w">YT Reprint</a></p>
-                                    </td>
-                                    <td>
-                                        <p><a href="https://sailorenna.tumblr.com/post/45454679240/shuuen-rewrite-instrumentals-tracks-01-02-04">sailorenna</a></p>
-                                    </td>
+                                    <th width="5%">#</th>
+                                    <th width="55%">Track Title</th>
+                                    <th style="width:20%">Listen</th>
+                                    <th style="width:20%">Translations</th>
                                 </tr>
+                            </thead>
+                            <tr>
+                                <td>1</td>
+                                <td>
+                                    「-はじめの後悔-」 <span class="text-secondary">(feat. 神谷浩史)</span><br>
+                                    <small>「-The First Regret-」 (feat. Hiroshi Kamiya)</small>
+                                </td>
+                                <td>
+                                    <p><a href="https://youtu.be/TI7CEgfoz5w">YT Reprint</a></p>
+                                </td>
+                                <td>
+                                    <p><a href="https://sailorenna.tumblr.com/post/45454679240/shuuen-rewrite-instrumentals-tracks-01-02-04">sailorenna</a></p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>
+                                    「-犯行声明-」 <span class="text-secondary">(instrumental)</span><br>
+                                    <small>「-Claim of Responsibility-」</small>
+                                </td>
+                                <td>
+                                    <p><a href="https://youtu.be/an8dCqzDeSU">YouTube</a></p>
+                                    <p><a href="https://open.spotify.com/track/67yCNBOT17End2pJvhsPK8">Spotify</a></p>
+                                </td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>
+                                    終末-Re:write- <span class="text-secondary">(feat. 初音ミク, 鏡音リン, GUMI, MAYU)</span><br>
+                                    <small>Conclusion -Re:write- (feat. Hatsune Miku, Kagamine Rin, GUMI, MAYU)</small>
+                                </td>
+                                <td>
+                                    <p><a href="https://youtu.be/fQ8SF6qHtOY">YouTube</a></p>
+                                    <p><a href="https://open.spotify.com/track/37NGDjEfa3pMdkRaue4cPF">Spotify</a></p>
+                                </td>
+                                <td>
+                                    <p><a href="https://re-missedcall-blog1.tumblr.com/post/65672034550/shuumatsu-rewrite">re-missedcall-blog1</a></p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>4</td>
+                                <td>
+                                    「-ふるぼけた日記-」 <span class="text-secondary">(feat. 相沢舞)</span><br>
+                                    <small>「-The Old Diary-」 (feat. Mai Aizawa)</small>
+                                </td>
+                                <td>
+                                    <p><a href="https://youtu.be/K03hPF4bYME">YouTube</a></p>
+                                    <p><a href="https://open.spotify.com/track/7z6E4PdmwMrktpKTT3uU0e">Spotify</a></p>
+                                </td>
+                                <td>
+                                    <p><a href="https://sailorenna.tumblr.com/post/45454679240/shuuen-rewrite-instrumentals-tracks-01-02-04">sailorenna</a></p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>5</td>
+                                <td>
+                                    終焉ノ栞 <span class="text-secondary">(feat. IA)</span><br>
+                                    <small>Bookmark of Demise</small>
+                                </td>
+                                <td>
+                                    <p><a href="https://youtu.be/EBLcRwdcOZA">YouTube</a></p>
+                                    <p><a href="https://open.spotify.com/track/5AfrfAEtiVA8tuh4Rk6b7k">Spotify</a></p>
+                                    <p><a href="https://www.nicovideo.jp/watch/sm21552346">NND</a></p>
+                                </td>
+                                <td>
+                                    <p><a href="https://amesubs.tumblr.com/post/57819292908/ia-bookmark-of-demise-%E7%B5%82%E7%84%89%E3%83%8E%E6%A0%9E-oh-look-a-new-pv">AmeSubs</a></p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>6</td>
+                                <td>
+                                    「-ひとりぼっち遊戯-」 <span class="text-secondary">(feat. 相沢舞)</span><br>
+                                    <small>「-Playing Alone-」 (feat. Mai Aizawa)</small>
+                                </td>
+                                <td>
+                                    <p><a href="https://youtu.be/QJMC0PIWI7c">YouTube</a></p>
+                                    <p><a href="https://open.spotify.com/track/3UkfkhsPEgIXXmwqK4YHdO">Spotify</a></p>
+                                </td>
+                                <td>
+                                    <p><a href="https://sailorenna.tumblr.com/post/45454679240/shuuen-rewrite-instrumentals-tracks-01-02-04">sailorenna</a></p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>7</td>
+                                <td>
+                                    孤独ノ隠レンボ <span class="text-secondary">(feat. 初音ミク)</span><br>
+                                    <small>Lonely Hide and Seek (feat. Hatsune Miku)</small>
+                                </td>
+                                <td>
+                                    <p><a href="https://youtu.be/gB6UzoSuqNw">YouTube</a></p>
+                                    <p><a href="https://open.spotify.com/track/7cRpVl5boYGK6ZohVC76MB">Spotify</a></p>
+                                </td>
+                                <td>
+                                    <p><a href="https://amesubs.tumblr.com/post/64192699008/ia-lonely-hide-and-seek-%E5%AD%A4%E7%8B%AC%E3%83%8E%E9%9A%A0%E3%83%AC%E3%83%B3%E3%83%9C-a-ya-a-ya">AmeSubs</a></p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>8</td>
+                                <td>
+                                    「-つくられた脚本-」 <span class="text-secondary">(feat. 相沢舞)</span><br>
+                                    <small>「-Hand-written Screenplay-」 (feat. Mai Aizawa)</small>
+                                </td>
+                                <td>
+                                    <p><a href="https://youtu.be/nW7PuJaPCSg">YouTube</a></p>
+                                    <p><a href="https://open.spotify.com/track/5MionQeXbZmUZdICBJF4ix">Spotify</a></p>
+                                </td>
+                                <td>
+                                    <p><a href="https://sailorenna.tumblr.com/post/45454679240/shuuen-rewrite-instrumentals-tracks-01-02-04">sailorenna</a></p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>9</td>
+                                <td>
+                                    完全犯罪ラブレター <span class="text-secondary">(feat. GUMI)</span><br>
+                                    <small>Perfect Crime Love Letter</small>
+                                </td>
+                                <td>
+                                    <p><a href="https://youtu.be/yeazJzCiAnE">YouTube</a></p>
+                                    <p><a href="https://open.spotify.com/track/4NXlF4LpLBhzh4NTA3Zlgh">Spotify</a></p>
+                                </td>
+                                <td>
+                                    <p><a href="https://amesubs.tumblr.com/post/53813932552/ia-perfect-crime-love-letter-%E5%AE%8C%E5%85%A8%E7%8A%AF%E7%BD%AA%E3%83%A9%E3%83%96%E3%83%AC%E3%82%BF%E3%83%BC-the">AmeSubs</a></p>
+                                    <p><a href="https://rippukun.tumblr.com/post/720793076223868928/anonymously-they-say-he-performed-as">rippukun</a></p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>10</td>
+                                <td>
+                                    「-いきちがいの電話-」 <span class="text-secondary">(feat. 相沢舞)</span><br>
+                                    <small>「-Unanswered Phonecall-」 (feat. Mai Aizawa)</small>
+                                </td>
+                                <td>
+                                    <p><a href="https://youtu.be/Gj4tyovyANI">YouTube</a></p>
+                                    <p><a href="https://open.spotify.com/track/3vA96lqzAvG9v0wWGNzm5r">Spotify</a></p>
+                                </td>
+                                <td>
+                                    <p><a href="https://re-missedcall-blog1.tumblr.com/post/50931518396/unanswered-phonecall-instrumental-track">re-missedcall-blog1</a></p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>11</td>
+                                <td>
+                                    Re:不在着信 <span class="text-secondary">(feat. 初音ミク & GUMI)</span><br>
+                                    <small>Re:Missed Call (feat. Hatsune Miku & GUMI)</small>
+                                </td>
+                                <td>
+                                    <p><a href="https://youtu.be/sMeLeVSQbWI">YouTube</a></p>
+                                    <p><a href="https://open.spotify.com/track/1PHUJvrG9axP4CUSSV8kUC">Spotify</a></p>
+                                </td>
+                                <td>
+                                    <p><a href="https://re-missedcall-blog1.tumblr.com/post/50931071278/remissed-call-translation">re-missedcall-blog1</a></p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>12</td>
+                                <td>
+                                    「-しらない双子-」 <span class="text-secondary">(feat. 相沢舞)</span><br>
+                                    <small>「-Unknown Twin-」 (feat. Mai Aizawa)</small>
+                                </td>
+                                <td>
+                                    <p><a href="https://youtu.be/E1Nf0irLj0Y">YouTube</a></p>
+                                    <p><a href="https://open.spotify.com/track/0uaNuMMdpVVYeVWEYkqXYO">Spotify</a></p>
+                                </td>
+                                <td>
+                                    <p><a href="https://sailorenna.tumblr.com/post/45641910425/shuuen-rewrite-instumentals-tracks-12-26">sailorenna</a></p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>13</td>
+                                <td>
+                                    ニセモノ注意報 (feat. 鏡音リン)<br>
+                                    <small>Impostor Advisory (feat. Kagamine Rin)</small>
+                                </td>
+                                <td>
+                                    <p><a href="https://youtu.be/kzDV845CfEs">YouTube</a></p>
+                                    <p><a href="https://open.spotify.com/track/2jC92TGrVknMq462DFk35o">Spotify</a></p>
+                                </td>
+                                <td>
+                                    <p><a href="https://amesubs.tumblr.com/post/67535277852/ia-imposter-advisory-%E3%83%8B%E3%82%BB%E3%83%A2%E3%83%8E%E6%B3%A8%E6%84%8F%E5%A0%B1-b-ko-i">AmeSubs</a></p>
+                                    <p><a href="https://rippukun.tumblr.com/post/710722999180050432/impostor-warning-translation-%E3%83%8B%E3%82%BB%E3%83%A2%E3%83%8E%E6%B3%A8%E6%84%8F%E5%A0%B1">rippukun</a></p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>14</td>
+                                <td>
+                                    「-あわせ鏡-」 <span class="text-secondary">(feat. 相沢舞)</span><br>
+                                    <small>「-Aligned Mirrors-」 (feat. Mai Aizawa)</small>
+                                </td>
+                                <td>
+                                    <p><a href="https://youtu.be/QhUBy9jOfTU">YouTube</a></p>
+                                    <p><a href="https://open.spotify.com/track/451GQhsIRLKlGrTdvyuXeA">Spotify</a></p>
+                                </td>
+                                <td>
+                                    <p><a href="https://sailorenna.tumblr.com/post/45641910425/shuuen-rewrite-instumentals-tracks-12-26">sailorenna</a></p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>15</td>
+                                <td>
+                                    猿マネ椅子盗りゲーム <span class="text-secondary">(feat. MAYU)</span><br>
+                                    <small>Aimless Imitation Musical Chairs</small>
+                                </td>
+                                <td>
+                                    <p><a href="https://youtu.be/l5YTAKmj1Sg">YouTube</a></p>
+                                    <p><a href="https://open.spotify.com/track/6r7EOVdybQMOjSKj0xTrsh">Spotify</a></p>
+                                </td>
+                                <td>
+                                    <p><a href="https://amesubs.tumblr.com/post/80556836998/ia-aimless-imitation-musical-chairs">AmeSubs</a> (<a href="https://vimeo.com/89882055">Vimeo</a>)</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>16</td>
+                                <td>
+                                    「-ゆがんだ憧憬-」 <span class="text-secondary">(feat. 相沢舞)</span><br>
+                                    <small>「-Distorted Admiration-」 (feat. Mai Aizawa)</small>
+                                </td>
+                                <td>
+                                    <p><a href="https://youtu.be/urUosbEHrvY">YouTube</a></p>
+                                    <p><a href="https://open.spotify.com/track/6yZMuXPrfuIQDBNfBKOqvE">Spotify</a></p>
+                                </td>
+                                <td>
+                                    <p><a href="https://sailorenna.tumblr.com/post/45641910425/shuuen-rewrite-instumentals-tracks-12-26">sailorenna</a></p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>17</td>
+                                <td>
+                                    Re:平行恋線 <span class="text-secondary">(feat. 鏡音リン & MAYU)</span><br>
+                                    <small>Re:Parallel Love Lines (feat. Kagamine Rin & MAYU)</small>
+                                </td>
+                                <td>
+                                    <p><a href="https://youtu.be/1_LuY0MJb3Q">YouTube</a></p>
+                                    <p><a href="https://open.spotify.com/track/4AmFn3gCK4Tmrtj48QAuJq">Spotify</a></p>
+                                </td>
+                                <td>
+                                    <p><a href="https://amesubs.tumblr.com/post/51126110827/kagamine-rin-mayu-re-parallel-love-lines">AmeSubs</a></p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>18</td>
+                                <td>
+                                    「-にちじょうと舞台裏-」 <span class="text-secondary">(feat. 相沢舞)</span><br>
+                                    <small>「-Everyday and Backstage-」 (feat. Mai Aizawa)</small>
+                                </td>
+                                <td>
+                                    <p><a href="https://youtu.be/EiUcGzmySSY">YouTube</a></p>
+                                    <p><a href="https://open.spotify.com/track/72cp9hZpbUCS9zr2cn1BUc">Spotify</a></p>
+                                </td>
+                                <td>
+                                    <p><a href="https://sailorenna.tumblr.com/post/45641910425/shuuen-rewrite-instumentals-tracks-12-26">sailorenna</a></p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>19</td>
+                                <td>
+                                    負け犬至上主義 <span class="text-secondary">(feat. 初音ミク & 鏡音リン)</span><br>
+                                    <small>Underdog Supremacy (feat. Hatsune Miku & Kagamine Rin)</small>
+                                </td>
+                                <td>
+                                    <p><a href="https://youtu.be/3C2Ut5yFFUI">YouTube</a></p>
+                                    <p><a href="https://open.spotify.com/track/6zNOWXQmS0clp1cDfvpcsc">Spotify</a></p>
+                                </td>
+                                <td>
+                                    <p><a href="https://amesubs.tumblr.com/post/45573934506/ia-underdog-supremacist-%E8%B2%A0%E3%81%91%E7%8A%AC%E8%87%B3%E4%B8%8A%E4%B8%BB%E7%BE%A9-that-childs">AmeSubs</a><br>
+                                        <small>(note: minor lyrical differences in Re:write?)</small>
+                                    </p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>20</td>
+                                <td>
+                                    「-いつわりの入学式-」 <span class="text-secondary">(feat. 相沢舞)</span><br>
+                                    <small>「-Fake Entrance Ceremony-」 (feat. Mai Aizawa)</small>
+                                </td>
+                                <td>
+                                    <p><a href="https://youtu.be/lqUjiKwOjkk">YouTube</a></p>
+                                    <p><a href="https://open.spotify.com/track/0W7tH76uRB2XxQr9kiaALM">Spotify</a></p>
+                                </td>
+                                <td>
+                                    <p><a href="https://sailorenna.tumblr.com/post/45641910425/shuuen-rewrite-instumentals-tracks-12-26">sailorenna</a></p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>21</td>
+                                <td>
+                                    猟奇的ハイスクールライフ <span class="text-secondary">(feat. GUMI & MAYU)</span><br>
+                                    <small>Bizarre High School Life</small>
+                                </td>
+                                <td>
+                                    <p><a href="https://youtu.be/XYU1dx015EQ">YouTube</a></p>
+                                    <p><a href="https://open.spotify.com/track/2ZN7azHhAEh08CsrXn8THs">Spotify</a></p>
+                                </td>
+                                <td>
+                                    <p><a href="https://renna-translations.tumblr.com/post/50861495700">Renna's Translations (sailorenna)</a></p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>22</td>
+                                <td>
+                                    「-はじまりの鐘-」 <span class="text-secondary">(feat. 相沢舞)</span><br>
+                                    <small>「-Bell of Beginning-」 (feat. Mai Aizawa)</small>
+                                </td>
+                                <td>
+                                    <p><a href="https://youtu.be/zjmiHZHfjeQ">YouTube</a></p>
+                                    <p><a href="https://open.spotify.com/track/6augmVkjYv7UwZxXZ8aGsT">Spotify</a></p>
+                                </td>
+                                <td>
+                                    <p><a href="https://sailorenna.tumblr.com/post/45641910425/shuuen-rewrite-instumentals-tracks-12-26">AmeSubs</a></p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>23</td>
+                                <td>
+                                    在来ヒーローズ <span class="text-secondary">(feat. 初音ミク, 鏡音リン, GUMI, MAYU)</span><br>
+                                    <small>Common Heroes (feat. Hatsune Miku, Kagamine Rin, GUMI, MAYU)</small>
+                                </td>
+                                <td>
+                                    <p><a href="https://youtu.be/fks1SV9e_YI">YouTube</a></p>
+                                    <p><a href="https://open.spotify.com/track/0h7KEmlFDw4XlcuvLR88s1">NND</a></p>
+                                </td>
+                                <td>
+                                    <p><a href="https://amesubs.tumblr.com/post/47185376806/hatsune-miku-gumi-kagamine-rin-mayu-common">AmeSubs</a></p>
+                                    <p><a href="https://rippukun.tumblr.com/post/721384924229353472/im-tired-of-listening-to-clich%C3%A9">rippukun</a></p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>24</td>
+                                <td>
+                                    「-いつもの日-」 <span class="text-secondary">(feat. 相沢舞)</span><br>
+                                    <small>「-A Usual Day-」 (feat. Mai Aizawa)</small>
+                                </td>
+                                <td>
+                                    <p><a href="https://youtu.be/6cl4JpCt47s">YouTube</a></p>
+                                    <p><a href="https://open.spotify.com/track/1NbGRLzBReEkcYigjXiAV1">Spotify</a></p>
+                                </td>
+                                <td>
+                                    <p><a href="https://sailorenna.tumblr.com/post/45641910425/shuuen-rewrite-instumentals-tracks-12-26">sailorenna</a></p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>25</td>
+                                <td>
+                                    平凡な日常 <span class="text-secondary">(feat. IA)</span><br>
+                                    <small>Mundane Everyday</small>
+                                </td>
+                                <td>
+                                    <p><a href="https://youtu.be/evT_uXy3ukQ">YouTube</a></p>
+                                    <p><a href="https://open.spotify.com/track/6DfpdZE7R18D7hKGQ9damh">Spotify</a></p>
+                                </td>
+                                <td>
+                                    <p><a href="https://amesubs.tumblr.com/post/52609374998/ia-mundane-everyday-%E5%B9%B3%E5%87%A1%E3%81%AA%E6%97%A5%E5%B8%B8-shuuen-rewrite">AmeSubs</a></p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>26</td>
+                                <td>
+                                    「-舞台挨拶-」 <span class="text-secondary">(feat. 神谷浩史)</span><br>
+                                    <small>「-Greetings from the Stage-」 (feat. Hiroshi Kamiya)</small>
+                                </td>
+                                <td>
+                                    <p><a href="https://youtu.be/vCFpYoofjDI">YouTube</a></p>
+                                    <p><a href="https://open.spotify.com/track/1SBSBJ8PUFrjCN53nsYxTT">Spotify</a></p>
+                                </td>
+                                <td>
+                                    <p><a href="https://sailorenna.tumblr.com/post/45641910425/shuuen-rewrite-instumentals-tracks-12-26">sailorenna</a></p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>27</td>
+                                <td>
+                                    「-かくされた後書-」 <span class="text-secondary">(feat. 150P)</span><br>
+                                    <small>「-Hidden Afterword-」</small>
+                                </td>
+                                <td>
+                                    <p><a href="https://youtu.be/J64cfcAkaEI">YT Reprint</a></p>
+                                </td>
+                                <td>
+                                    <p><a href="https://sailorenna.tumblr.com/post/45641910425/shuuen-rewrite-instumentals-tracks-12-26">sailorenna</a></p>
+                                </td>
+                            </tr>
+                        </table>
+                        <h4 class="my-3">LIMITED DISC 2 TRACKS</h4>
+                        <table class="table w-100 table-responsive table-bordered table-striped table-dark">
+                            <thead>
                                 <tr>
-                                    <td>2</td>
-                                    <td>
-                                        「-犯行声明-」 <span class="text-secondary">(instrumental)</span><br>
-                                        <small>「-Claim of Responsibility-」</small>
-                                    </td>
-                                    <td>
-                                        <p><a href="https://youtu.be/an8dCqzDeSU">YouTube</a></p>
-                                        <p><a href="https://open.spotify.com/track/67yCNBOT17End2pJvhsPK8">Spotify</a></p>
-                                    </td>
-                                    <td></td>
+                                    <th width="5%">#</th>
+                                    <th width="55%">Track Title</th>
+                                    <th style="width:20%">Listen</th>
+                                    <th style="width:20%">Translations</th>
                                 </tr>
-                                <tr>
-                                    <td>3</td>
-                                    <td>
-                                        終末-Re:write- <span class="text-secondary">(feat. 初音ミク, 鏡音リン, GUMI, MAYU)</span><br>
-                                        <small>Conclusion -Re:write- (feat. Hatsune Miku, Kagamine Rin, GUMI, MAYU)</small>
-                                    </td>
-                                    <td>
-                                        <p><a href="https://youtu.be/fQ8SF6qHtOY">YouTube</a></p>
-                                        <p><a href="https://open.spotify.com/track/37NGDjEfa3pMdkRaue4cPF">Spotify</a></p>
-                                    </td>
-                                    <td>
-                                        <p><a href="https://re-missedcall-blog1.tumblr.com/post/65672034550/shuumatsu-rewrite">re-missedcall-blog1</a></p>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>4</td>
-                                    <td>
-                                        「-ふるぼけた日記-」 <span class="text-secondary">(feat. 相沢舞)</span><br>
-                                        <small>「-The Old Diary-」 (feat. Mai Aizawa)</small>
-                                    </td>
-                                    <td>
-                                        <p><a href="https://youtu.be/K03hPF4bYME">YouTube</a></p>
-                                        <p><a href="https://open.spotify.com/track/7z6E4PdmwMrktpKTT3uU0e">Spotify</a></p>
-                                    </td>
-                                    <td>
-                                        <p><a href="https://sailorenna.tumblr.com/post/45454679240/shuuen-rewrite-instrumentals-tracks-01-02-04">sailorenna</a></p>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>5</td>
-                                    <td>
-                                        終焉ノ栞 <span class="text-secondary">(feat. IA)</span><br>
-                                        <small>Bookmark of Demise</small>
-                                    </td>
-                                    <td>
-                                        <p><a href="https://youtu.be/EBLcRwdcOZA">YouTube</a></p>
-                                        <p><a href="https://open.spotify.com/track/5AfrfAEtiVA8tuh4Rk6b7k">Spotify</a></p>
-                                        <p><a href="https://www.nicovideo.jp/watch/sm21552346">NND</a></p>
-                                    </td>
-                                    <td>
-                                        <p><a href="https://amesubs.tumblr.com/post/57819292908/ia-bookmark-of-demise-%E7%B5%82%E7%84%89%E3%83%8E%E6%A0%9E-oh-look-a-new-pv">AmeSubs</a></p>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>6</td>
-                                    <td>
-                                        「-ひとりぼっち遊戯-」 <span class="text-secondary">(feat. 相沢舞)</span><br>
-                                        <small>「-Playing Alone-」 (feat. Mai Aizawa)</small>
-                                    </td>
-                                    <td>
-                                        <p><a href="https://youtu.be/QJMC0PIWI7c">YouTube</a></p>
-                                        <p><a href="https://open.spotify.com/track/3UkfkhsPEgIXXmwqK4YHdO">Spotify</a></p>
-                                    </td>
-                                    <td>
-                                        <p><a href="https://sailorenna.tumblr.com/post/45454679240/shuuen-rewrite-instrumentals-tracks-01-02-04">sailorenna</a></p>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>7</td>
-                                    <td>
-                                        孤独ノ隠レンボ <span class="text-secondary">(feat. 初音ミク)</span><br>
-                                        <small>Lonely Hide and Seek (feat. Hatsune Miku)</small>
-                                    </td>
-                                    <td>
-                                        <p><a href="https://youtu.be/gB6UzoSuqNw">YouTube</a></p>
-                                        <p><a href="https://open.spotify.com/track/7cRpVl5boYGK6ZohVC76MB">Spotify</a></p>
-                                    </td>
-                                    <td>
-                                        <p><a href="https://amesubs.tumblr.com/post/64192699008/ia-lonely-hide-and-seek-%E5%AD%A4%E7%8B%AC%E3%83%8E%E9%9A%A0%E3%83%AC%E3%83%B3%E3%83%9C-a-ya-a-ya">AmeSubs</a></p>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>8</td>
-                                    <td>
-                                        「-つくられた脚本-」 <span class="text-secondary">(feat. 相沢舞)</span><br>
-                                        <small>「-Hand-written Screenplay-」 (feat. Mai Aizawa)</small>
-                                    </td>
-                                    <td>
-                                        <p><a href="https://youtu.be/nW7PuJaPCSg">YouTube</a></p>
-                                        <p><a href="https://open.spotify.com/track/5MionQeXbZmUZdICBJF4ix">Spotify</a></p>
-                                    </td>
-                                    <td>
-                                        <p><a href="https://sailorenna.tumblr.com/post/45454679240/shuuen-rewrite-instrumentals-tracks-01-02-04">sailorenna</a></p>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>9</td>
-                                    <td>
-                                        完全犯罪ラブレター <span class="text-secondary">(feat. GUMI)</span><br>
-                                        <small>Perfect Crime Love Letter</small>
-                                    </td>
-                                    <td>
-                                        <p><a href="https://youtu.be/yeazJzCiAnE">YouTube</a></p>
-                                        <p><a href="https://open.spotify.com/track/4NXlF4LpLBhzh4NTA3Zlgh">Spotify</a></p>
-                                    </td>
-                                    <td>
-                                        <p><a href="https://amesubs.tumblr.com/post/53813932552/ia-perfect-crime-love-letter-%E5%AE%8C%E5%85%A8%E7%8A%AF%E7%BD%AA%E3%83%A9%E3%83%96%E3%83%AC%E3%82%BF%E3%83%BC-the">AmeSubs</a></p>
-                                        <p><a href="https://rippukun.tumblr.com/post/720793076223868928/anonymously-they-say-he-performed-as">rippukun</a></p>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>10</td>
-                                    <td>
-                                        「-いきちがいの電話-」 <span class="text-secondary">(feat. 相沢舞)</span><br>
-                                        <small>「-Unanswered Phonecall-」 (feat. Mai Aizawa)</small>
-                                    </td>
-                                    <td>
-                                        <p><a href="https://youtu.be/Gj4tyovyANI">YouTube</a></p>
-                                        <p><a href="https://open.spotify.com/track/3vA96lqzAvG9v0wWGNzm5r">Spotify</a></p>
-                                    </td>
-                                    <td>
-                                        <p><a href="https://re-missedcall-blog1.tumblr.com/post/50931518396/unanswered-phonecall-instrumental-track">re-missedcall-blog1</a></p>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>11</td>
-                                    <td>
-                                        Re:不在着信 <span class="text-secondary">(feat. 初音ミク & GUMI)</span><br>
-                                        <small>Re:Missed Call (feat. Hatsune Miku & GUMI)</small>
-                                    </td>
-                                    <td>
-                                        <p><a href="https://youtu.be/sMeLeVSQbWI">YouTube</a></p>
-                                        <p><a href="https://open.spotify.com/track/1PHUJvrG9axP4CUSSV8kUC">Spotify</a></p>
-                                    </td>
-                                    <td>
-                                        <p><a href="https://re-missedcall-blog1.tumblr.com/post/50931071278/remissed-call-translation">re-missedcall-blog1</a></p>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>12</td>
-                                    <td>
-                                        「-しらない双子-」 <span class="text-secondary">(feat. 相沢舞)</span><br>
-                                        <small>「-Unknown Twin-」 (feat. Mai Aizawa)</small>
-                                    </td>
-                                    <td>
-                                        <p><a href="https://youtu.be/E1Nf0irLj0Y">YouTube</a></p>
-                                        <p><a href="https://open.spotify.com/track/0uaNuMMdpVVYeVWEYkqXYO">Spotify</a></p>
-                                    </td>
-                                    <td>
-                                        <p><a href="https://sailorenna.tumblr.com/post/45641910425/shuuen-rewrite-instumentals-tracks-12-26">sailorenna</a></p>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>13</td>
-                                    <td>
-                                        ニセモノ注意報 (feat. 鏡音リン)<br>
-                                        <small>Impostor Advisory (feat. Kagamine Rin)</small>
-                                    </td>
-                                    <td>
-                                        <p><a href="https://youtu.be/kzDV845CfEs">YouTube</a></p>
-                                        <p><a href="https://open.spotify.com/track/2jC92TGrVknMq462DFk35o">Spotify</a></p>
-                                    </td>
-                                    <td>
-                                        <p><a href="https://amesubs.tumblr.com/post/67535277852/ia-imposter-advisory-%E3%83%8B%E3%82%BB%E3%83%A2%E3%83%8E%E6%B3%A8%E6%84%8F%E5%A0%B1-b-ko-i">AmeSubs</a></p>
-                                        <p><a href="https://rippukun.tumblr.com/post/710722999180050432/impostor-warning-translation-%E3%83%8B%E3%82%BB%E3%83%A2%E3%83%8E%E6%B3%A8%E6%84%8F%E5%A0%B1">rippukun</a></p>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>14</td>
-                                    <td>
-                                        「-あわせ鏡-」 <span class="text-secondary">(feat. 相沢舞)</span><br>
-                                        <small>「-Aligned Mirrors-」 (feat. Mai Aizawa)</small>
-                                    </td>
-                                    <td>
-                                        <p><a href="https://youtu.be/QhUBy9jOfTU">YouTube</a></p>
-                                        <p><a href="https://open.spotify.com/track/451GQhsIRLKlGrTdvyuXeA">Spotify</a></p>
-                                    </td>
-                                    <td>
-                                        <p><a href="https://sailorenna.tumblr.com/post/45641910425/shuuen-rewrite-instumentals-tracks-12-26">sailorenna</a></p>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>15</td>
-                                    <td>
-                                        猿マネ椅子盗りゲーム <span class="text-secondary">(feat. MAYU)</span><br>
-                                        <small>Aimless Imitation Musical Chairs</small>
-                                    </td>
-                                    <td>
-                                        <p><a href="https://youtu.be/l5YTAKmj1Sg">YouTube</a></p>
-                                        <p><a href="https://open.spotify.com/track/6r7EOVdybQMOjSKj0xTrsh">Spotify</a></p>
-                                    </td>
-                                    <td>
-                                        <p><a href="https://amesubs.tumblr.com/post/80556836998/ia-aimless-imitation-musical-chairs">AmeSubs</a> (<a href="https://vimeo.com/89882055">Vimeo</a>)</p>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>16</td>
-                                    <td>
-                                        「-ゆがんだ憧憬-」 <span class="text-secondary">(feat. 相沢舞)</span><br>
-                                        <small>「-Distorted Admiration-」 (feat. Mai Aizawa)</small>
-                                    </td>
-                                    <td>
-                                        <p><a href="https://youtu.be/urUosbEHrvY">YouTube</a></p>
-                                        <p><a href="https://open.spotify.com/track/6yZMuXPrfuIQDBNfBKOqvE">Spotify</a></p>
-                                    </td>
-                                    <td>
-                                        <p><a href="https://sailorenna.tumblr.com/post/45641910425/shuuen-rewrite-instumentals-tracks-12-26">sailorenna</a></p>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>17</td>
-                                    <td>
-                                        Re:平行恋線 <span class="text-secondary">(feat. 鏡音リン & MAYU)</span><br>
-                                        <small>Re:Parallel Love Lines (feat. Kagamine Rin & MAYU)</small>
-                                    </td>
-                                    <td>
-                                        <p><a href="https://youtu.be/1_LuY0MJb3Q">YouTube</a></p>
-                                        <p><a href="https://open.spotify.com/track/4AmFn3gCK4Tmrtj48QAuJq">Spotify</a></p>
-                                    </td>
-                                    <td>
-                                        <p><a href="https://amesubs.tumblr.com/post/51126110827/kagamine-rin-mayu-re-parallel-love-lines">AmeSubs</a></p>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>18</td>
-                                    <td>
-                                        「-にちじょうと舞台裏-」 <span class="text-secondary">(feat. 相沢舞)</span><br>
-                                        <small>「-Everyday and Backstage-」 (feat. Mai Aizawa)</small>
-                                    </td>
-                                    <td>
-                                        <p><a href="https://youtu.be/EiUcGzmySSY">YouTube</a></p>
-                                        <p><a href="https://open.spotify.com/track/72cp9hZpbUCS9zr2cn1BUc">Spotify</a></p>
-                                    </td>
-                                    <td>
-                                        <p><a href="https://sailorenna.tumblr.com/post/45641910425/shuuen-rewrite-instumentals-tracks-12-26">sailorenna</a></p>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>19</td>
-                                    <td>
-                                        負け犬至上主義 <span class="text-secondary">(feat. 初音ミク & 鏡音リン)</span><br>
-                                        <small>Underdog Supremacy (feat. Hatsune Miku & Kagamine Rin)</small>
-                                    </td>
-                                    <td>
-                                        <p><a href="https://youtu.be/3C2Ut5yFFUI">YouTube</a></p>
-                                        <p><a href="https://open.spotify.com/track/6zNOWXQmS0clp1cDfvpcsc">Spotify</a></p>
-                                    </td>
-                                    <td>
-                                        <p><a href="https://amesubs.tumblr.com/post/45573934506/ia-underdog-supremacist-%E8%B2%A0%E3%81%91%E7%8A%AC%E8%87%B3%E4%B8%8A%E4%B8%BB%E7%BE%A9-that-childs">AmeSubs</a><br>
-                                            <small>(note: minor lyrical differences in Re:write?)</small>
-                                        </p>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>20</td>
-                                    <td>
-                                        「-いつわりの入学式-」 <span class="text-secondary">(feat. 相沢舞)</span><br>
-                                        <small>「-Fake Entrance Ceremony-」 (feat. Mai Aizawa)</small>
-                                    </td>
-                                    <td>
-                                        <p><a href="https://youtu.be/lqUjiKwOjkk">YouTube</a></p>
-                                        <p><a href="https://open.spotify.com/track/0W7tH76uRB2XxQr9kiaALM">Spotify</a></p>
-                                    </td>
-                                    <td>
-                                        <p><a href="https://sailorenna.tumblr.com/post/45641910425/shuuen-rewrite-instumentals-tracks-12-26">sailorenna</a></p>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>21</td>
-                                    <td>
-                                        猟奇的ハイスクールライフ <span class="text-secondary">(feat. GUMI & MAYU)</span><br>
-                                        <small>Bizarre High School Life</small>
-                                    </td>
-                                    <td>
-                                        <p><a href="https://youtu.be/XYU1dx015EQ">YouTube</a></p>
-                                        <p><a href="https://open.spotify.com/track/2ZN7azHhAEh08CsrXn8THs">Spotify</a></p>
-                                    </td>
-                                    <td>
-                                        <p><a href="https://renna-translations.tumblr.com/post/50861495700">Renna's Translations (sailorenna)</a></p>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>22</td>
-                                    <td>
-                                        「-はじまりの鐘-」 <span class="text-secondary">(feat. 相沢舞)</span><br>
-                                        <small>「-Bell of Beginning-」 (feat. Mai Aizawa)</small>
-                                    </td>
-                                    <td>
-                                        <p><a href="https://youtu.be/zjmiHZHfjeQ">YouTube</a></p>
-                                        <p><a href="https://open.spotify.com/track/6augmVkjYv7UwZxXZ8aGsT">Spotify</a></p>
-                                    </td>
-                                    <td>
-                                        <p><a href="https://sailorenna.tumblr.com/post/45641910425/shuuen-rewrite-instumentals-tracks-12-26">AmeSubs</a></p>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>23</td>
-                                    <td>
-                                        在来ヒーローズ <span class="text-secondary">(feat. 初音ミク, 鏡音リン, GUMI, MAYU)</span><br>
-                                        <small>Common Heroes (feat. Hatsune Miku, Kagamine Rin, GUMI, MAYU)</small>
-                                    </td>
-                                    <td>
-                                        <p><a href="https://youtu.be/fks1SV9e_YI">YouTube</a></p>
-                                        <p><a href="https://open.spotify.com/track/0h7KEmlFDw4XlcuvLR88s1">NND</a></p>
-                                    </td>
-                                    <td>
-                                        <p><a href="https://amesubs.tumblr.com/post/47185376806/hatsune-miku-gumi-kagamine-rin-mayu-common">AmeSubs</a></p>
-                                        <p><a href="https://rippukun.tumblr.com/post/721384924229353472/im-tired-of-listening-to-clich%C3%A9">rippukun</a></p>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>24</td>
-                                    <td>
-                                        「-いつもの日-」 <span class="text-secondary">(feat. 相沢舞)</span><br>
-                                        <small>「-A Usual Day-」 (feat. Mai Aizawa)</small>
-                                    </td>
-                                    <td>
-                                        <p><a href="https://youtu.be/6cl4JpCt47s">YouTube</a></p>
-                                        <p><a href="https://open.spotify.com/track/1NbGRLzBReEkcYigjXiAV1">Spotify</a></p>
-                                    </td>
-                                    <td>
-                                        <p><a href="https://sailorenna.tumblr.com/post/45641910425/shuuen-rewrite-instumentals-tracks-12-26">sailorenna</a></p>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>25</td>
-                                    <td>
-                                        平凡な日常 <span class="text-secondary">(feat. IA)</span><br>
-                                        <small>Mundane Everyday</small>
-                                    </td>
-                                    <td>
-                                        <p><a href="https://youtu.be/evT_uXy3ukQ">YouTube</a></p>
-                                        <p><a href="https://open.spotify.com/track/6DfpdZE7R18D7hKGQ9damh">Spotify</a></p>
-                                    </td>
-                                    <td>
-                                        <p><a href="https://amesubs.tumblr.com/post/52609374998/ia-mundane-everyday-%E5%B9%B3%E5%87%A1%E3%81%AA%E6%97%A5%E5%B8%B8-shuuen-rewrite">AmeSubs</a></p>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>26</td>
-                                    <td>
-                                        「-舞台挨拶-」 <span class="text-secondary">(feat. 神谷浩史)</span><br>
-                                        <small>「-Greetings from the Stage-」 (feat. Hiroshi Kamiya)</small>
-                                    </td>
-                                    <td>
-                                        <p><a href="https://youtu.be/vCFpYoofjDI">YouTube</a></p>
-                                        <p><a href="https://open.spotify.com/track/1SBSBJ8PUFrjCN53nsYxTT">Spotify</a></p>
-                                    </td>
-                                    <td>
-                                        <p><a href="https://sailorenna.tumblr.com/post/45641910425/shuuen-rewrite-instumentals-tracks-12-26">sailorenna</a></p>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>27</td>
-                                    <td>
-                                        「-かくされた後書-」 <span class="text-secondary">(feat. 150P)</span><br>
-                                        <small>「-Hidden Afterword-」</small>
-                                    </td>
-                                    <td>
-                                        <p><a href="https://youtu.be/J64cfcAkaEI">YT Reprint</a></p>
-                                    </td>
-                                    <td>
-                                        <p><a href="https://sailorenna.tumblr.com/post/45641910425/shuuen-rewrite-instumentals-tracks-12-26">sailorenna</a></p>
-                                    </td>
-                                </tr>
-                            </table>
-                            <h4 class="my-3">LIMITED DISC 2 TRACKS</h4>
-                            <table class="table w-100 table-responsive table-bordered table-striped table-dark">
-                                <thead>
-                                    <tr>
-                                        <th width="5%">#</th>
-                                        <th width="55%">Track Title</th>
-                                        <th style="width:20%">Listen</th>
-                                        <th style="width:20%">Translations</th>
-                                    </tr>
-                                </thead>
-                                <tr>
-                                    <td>1</td>
-                                    <td>
-                                        ゼロサムゲーム <span class="text-secondary">(feat. そらる & ろん)</span><br>
-                                        <small>Zero-Sum Game (feat. Soraru & Lon)</small>
-                                    </td>
-                                    <td>
-                                        <p><a href="https://youtu.be/rOYkTDAF4vY">YT Reprint</a></p>
-                                    </td>
-                                    <td>
-                                        <p>(none yet)</p>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>2</td>
-                                    <td>
-                                        孤独ノ隠レンボ (Suzumu Arrangement)<br>
-                                        <small>Lonely Hide and Seek (Suzumu Arrangement)</small>
-                                    </td>
-                                    <td>
-                                        <p><a href="https://youtu.be/mhoyrWaKISo">YT Reprint</a></p>
-                                    </td>
-                                    <td></td>
-                                </tr>
-                                <tr>
-                                    <td>3</td>
-                                    <td>
-                                        猿マネ椅子盗りゲーム (Suzumu Arrangement)<br>
-                                        <small>Aimless Imitation Musical Chairs (Suzumu Arrangement)</small>
-                                    </td>
-                                    <td>
-                                        <p><a href="https://youtu.be/AEXNy53bd9I">YT Reprint</a></p>
-                                    </td>
-                                    <td></td>
-                                </tr>
-                                <tr>
-                                    <td>4</td>
-                                    <td>
-                                        終焉ノ栞 (Suzumu Arrangement)<br>
-                                        <small>Bookmark of Demise (Suzumu Arrangement)</small>
-                                    </td>
-                                    <td>
-                                        <p><a href="https://youtu.be/oK1glKa5kNI">YT Reprint</a></p>
-                                    </td>
-                                    <td></td>
-                                </tr>
-                                <tr>
-                                    <td>5</td>
-                                    <td>
-                                        Load to Continue (feat. そらる & ろん)
-                                        <small>Load to Continue (feat. Soraru & Lon)</small>
-                                    </td>
-                                    <td>
-                                        <p><a href="https://youtu.be/RnXklgez-G4">YT Reprint</a></p>
-                                    </td>
-                                    <td>
-                                        <p>(none yet)</p>
-                                    </td>
-                                </tr>
-                            </table>
-                        </details>
+                            </thead>
+                            <tr>
+                                <td>1</td>
+                                <td>
+                                    ゼロサムゲーム <span class="text-secondary">(feat. そらる & ろん)</span><br>
+                                    <small>Zero-Sum Game (feat. Soraru & Lon)</small>
+                                </td>
+                                <td>
+                                    <p><a href="https://youtu.be/rOYkTDAF4vY">YT Reprint</a></p>
+                                </td>
+                                <td>
+                                    <p>(none yet)</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>
+                                    孤独ノ隠レンボ (Suzumu Arrangement)<br>
+                                    <small>Lonely Hide and Seek (Suzumu Arrangement)</small>
+                                </td>
+                                <td>
+                                    <p><a href="https://youtu.be/mhoyrWaKISo">YT Reprint</a></p>
+                                </td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>
+                                    猿マネ椅子盗りゲーム (Suzumu Arrangement)<br>
+                                    <small>Aimless Imitation Musical Chairs (Suzumu Arrangement)</small>
+                                </td>
+                                <td>
+                                    <p><a href="https://youtu.be/AEXNy53bd9I">YT Reprint</a></p>
+                                </td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>4</td>
+                                <td>
+                                    終焉ノ栞 (Suzumu Arrangement)<br>
+                                    <small>Bookmark of Demise (Suzumu Arrangement)</small>
+                                </td>
+                                <td>
+                                    <p><a href="https://youtu.be/oK1glKa5kNI">YT Reprint</a></p>
+                                </td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>5</td>
+                                <td>
+                                    Load to Continue (feat. そらる & ろん)
+                                    <small>Load to Continue (feat. Soraru & Lon)</small>
+                                </td>
+                                <td>
+                                    <p><a href="https://youtu.be/RnXklgez-G4">YT Reprint</a></p>
+                                </td>
+                                <td>
+                                    <p>(none yet)</p>
+                                </td>
+                            </tr>
+                        </table>
                     </li>
                     <li class="list-group-item rounded-bottom p-0 tab-pane fade" id="unlucky">
                         <div class="p-3 pb-0">
@@ -1053,157 +1035,152 @@
                                     <a href="https://eiyakutachi.tumblr.com/post/80099900548/%E7%B5%82%E7%84%89%E3%83%8E%E6%A0%9Eif-%E3%82%A2%E3%83%B3%E3%83%A9%E3%83%83%E3%82%AD%E3%83%BC-%E6%9C%AB%E6%9C%9F-%E3%82%B9%E3%82%AF%E3%83%BC%E3%83%AB%E3%83%88%E3%83%AA%E3%83%83%E3%83%97-shuuen-no-shiori-if">eiyakutachi</a>
                                 </li>
                             </ul>
-                            <hr>
-                            By Track:
                         </div>
-                        <details class="collapsible pb-2" id="unlucky-tl">
-                            <summary class="ms-4" data-open="[click to collapse]" data-close="[click to expand]"></summary>
-                            <table class="table w-100 table-responsive table-bordered table-dark table-striped">
-                                <thead>
-                                    <tr>
-                                        <th width="5%">#</th>
-                                        <th width="55%">Track Title</th>
-                                        <th style="width:20%">Listen</th>
-                                        <th style="width:20%">Translations</th>
-                                    </tr>
-                                </thead>
+                        <table class="table w-100 table-responsive table-bordered table-dark table-striped">
+                            <thead>
                                 <tr>
-                                    <td>1</td>
-                                    <td>
-                                        -準備中- <span class="text-secondary">(instrumental)</span><br>
-                                        <small>-Preparation-</small>
-                                    </td>
-                                    <td>
-                                        <p><a href="https://youtu.be/K5wG1XpaXVU">YT Reprint</a></p>
-                                    </td>
-                                    <td></td>
+                                    <th width="5%">#</th>
+                                    <th width="55%">Track Title</th>
+                                    <th style="width:20%">Listen</th>
+                                    <th style="width:20%">Translations</th>
                                 </tr>
-                                <tr>
-                                    <td>2</td>
-                                    <td>
-                                        アンラッキー末期ー@スクールトリップ <span class="text-secondary">(feat. IA)</span><br>
-                                        <small>Unlucky -Final Days- @ School Trip</small>
-                                    </td>
-                                    <td>
-                                        <p><a href="https://youtu.be/6xYnrOFzLuQ">YT Reprint</a></p>
-                                    </td>
-                                    <td>
-                                        <p><a href="https://eiyakutachi.tumblr.com/post/80099900548/%E7%B5%82%E7%84%89%E3%83%8E%E6%A0%9Eif-%E3%82%A2%E3%83%B3%E3%83%A9%E3%83%83%E3%82%AD%E3%83%BC-%E6%9C%AB%E6%9C%9F-%E3%82%B9%E3%82%AF%E3%83%BC%E3%83%AB%E3%83%88%E3%83%AA%E3%83%83%E3%83%97-shuuen-no-shiori-if#:~:text=unlucky%20-makki-%20%40%20school%20trip">eiyakutachi</a></p>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>3</td>
-                                    <td>
-                                        -散策中- <span class="text-secondary">(instrumental)</span><br>
-                                        <small>-Strolling-</small>
-                                    </td>
-                                    <td>
-                                        <p><a href="https://youtu.be/8v-tB2HA0xw">YT Reprint</a></p>
-                                    </td>
-                                    <td></td>
-                                </tr>
-                                <tr>
-                                    <td>4</td>
-                                    <td>
-                                        一人ノ独占会(ボッチのワンマンショー) <span class="text-secondary">(feat. IA)</span><br>
-                                        <small>A One-Person Meeting (Lonely One-Man Show)</small>
-                                    </td>
-                                    <td>
-                                        <p><a href="https://youtu.be/7IwKzWu3pwc">YT Reprint</a></p>
-                                    </td>
-                                    <td>
-                                        <p><a href="https://eiyakutachi.tumblr.com/post/80099900548/%E7%B5%82%E7%84%89%E3%83%8E%E6%A0%9Eif-%E3%82%A2%E3%83%B3%E3%83%A9%E3%83%83%E3%82%AD%E3%83%BC-%E6%9C%AB%E6%9C%9F-%E3%82%B9%E3%82%AF%E3%83%BC%E3%83%AB%E3%83%88%E3%83%AA%E3%83%83%E3%83%97-shuuen-no-shiori-if#:~:text=hitori%20no%20dokusenkai">eiyakutachi</a></p>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>5</td>
-                                    <td>
-                                        ホンモノ注意報 <span class="text-secondary">(feat. IA)</span><br>
-                                        <small>A Warning of Real People</small>
-                                    </td>
-                                    <td>
-                                        <p><a href="https://youtu.be/JSVh5-Omfgs">YT Reprint</a></p>
-                                    </td>
-                                    <td>
-                                        <p><a href="https://eiyakutachi.tumblr.com/post/80099900548/%E7%B5%82%E7%84%89%E3%83%8E%E6%A0%9Eif-%E3%82%A2%E3%83%B3%E3%83%A9%E3%83%83%E3%82%AD%E3%83%BC-%E6%9C%AB%E6%9C%9F-%E3%82%B9%E3%82%AF%E3%83%BC%E3%83%AB%E3%83%88%E3%83%AA%E3%83%83%E3%83%97-shuuen-no-shiori-if#:~:text=honmono%20chuuihou">eiyakutachi</a></p>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>6</td>
-                                    <td>
-                                        -休憩中- <span class="text-secondary">(instrumental)</span><br>
-                                        <small>-Resting-</small>
-                                    </td>
-                                    <td>
-                                        <p><a href="https://youtu.be/jdTQ-5RMFgU">YT Reprint</a></p>
-                                    </td>
-                                    <td></td>
-                                </tr>
-                                <tr>
-                                    <td>7</td>
-                                    <td>
-                                        ドラマティック・ショーケース <span class="text-secondary">(feat. IA)</span><br>
-                                        <small>Dramatic Showcase</small>
-                                    </td>
-                                    <td>
-                                        <p><a href="https://youtu.be/ErPIddHH_P0">YT Reprint</a></p>
-                                    </td>
-                                    <td>
-                                        <p><a href="https://eiyakutachi.tumblr.com/post/80099900548/%E7%B5%82%E7%84%89%E3%83%8E%E6%A0%9Eif-%E3%82%A2%E3%83%B3%E3%83%A9%E3%83%83%E3%82%AD%E3%83%BC-%E6%9C%AB%E6%9C%9F-%E3%82%B9%E3%82%AF%E3%83%BC%E3%83%AB%E3%83%88%E3%83%AA%E3%83%83%E3%83%97-shuuen-no-shiori-if#:~:text=doramatikku%20shookeesu">eiyakutachi</a></p>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>8</td>
-                                    <td>
-                                        恋心アンダーウォーター <span class="text-secondary">(feat. IA)</span><br>
-                                        <small>Love Underwater</small>
-                                    </td>
-                                    <td>
-                                        <p><a href="https://youtu.be/JAm6qoWODXI">YT Reprint</a></p>
-                                    </td>
-                                    <td>
-                                        <p><a href="https://eiyakutachi.tumblr.com/post/80099900548/%E7%B5%82%E7%84%89%E3%83%8E%E6%A0%9Eif-%E3%82%A2%E3%83%B3%E3%83%A9%E3%83%83%E3%82%AD%E3%83%BC-%E6%9C%AB%E6%9C%9F-%E3%82%B9%E3%82%AF%E3%83%BC%E3%83%AB%E3%83%88%E3%83%AA%E3%83%83%E3%83%97-shuuen-no-shiori-if#:~:text=koigokoro%20underwater">eiyakutachi</a></p>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>9</td>
-                                    <td>
-                                        -青春中- <span class="text-secondary">(instrumental)</span><br>
-                                        <small>-Being Youthful-</small>
-                                    </td>
-                                    <td>
-                                        <p><a href="https://youtu.be/EZrVSi8zr0c">YT Reprint</a></p>
-                                    </td>
-                                    <td></td>
-                                </tr>
-                                <tr>
-                                    <td>10</td>
-                                    <td>
-                                        群青メモリーズ <span class="text-secondary">(feat. IA)</span><br>
-                                        <small>Ultramarine Memories</small>
-                                    </td>
-                                    <td>
-                                        <p><a href="https://youtu.be/bP4jCFOq2lw">YT Reprint</a></p>
-                                    </td>
-                                    <td>
-                                        <p><a href="https://eiyakutachi.tumblr.com/post/80099900548/%E7%B5%82%E7%84%89%E3%83%8E%E6%A0%9Eif-%E3%82%A2%E3%83%B3%E3%83%A9%E3%83%83%E3%82%AD%E3%83%BC-%E6%9C%AB%E6%9C%9F-%E3%82%B9%E3%82%AF%E3%83%BC%E3%83%AB%E3%83%88%E3%83%AA%E3%83%83%E3%83%97-shuuen-no-shiori-if#:~:text=gunjyou%20memories">eiyakutachi</a></p>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>11</td>
-                                    <td>
-                                        やる気への木さんの唄 <span class="text-secondary">(feat. IA)</span><br>
-                                        <small>Motreevational Mushroom-san’s Song</small>
-                                    </td>
-                                    <td>
-                                        <p><a href="https://youtu.be/rrJ7hfA2VhI">YT Reprint</a></p>
-                                    </td>
-                                    <td>
-                                        <p><a href="https://eiyakutachi.tumblr.com/post/80099900548/%E7%B5%82%E7%84%89%E3%83%8E%E6%A0%9Eif-%E3%82%A2%E3%83%B3%E3%83%A9%E3%83%83%E3%82%AD%E3%83%BC-%E6%9C%AB%E6%9C%9F-%E3%82%B9%E3%82%AF%E3%83%BC%E3%83%AB%E3%83%88%E3%83%AA%E3%83%83%E3%83%97-shuuen-no-shiori-if#:~:text=yaruki%20e%20no%20ki-san%20no%20uta">eiyakutachi</a></p>
-                                    </td>
-                                </tr>
-                            </table>
-                        </details>
+                            </thead>
+                            <tr>
+                                <td>1</td>
+                                <td>
+                                    -準備中- <span class="text-secondary">(instrumental)</span><br>
+                                    <small>-Preparation-</small>
+                                </td>
+                                <td>
+                                    <p><a href="https://youtu.be/K5wG1XpaXVU">YT Reprint</a></p>
+                                </td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>
+                                    アンラッキー末期ー@スクールトリップ <span class="text-secondary">(feat. IA)</span><br>
+                                    <small>Unlucky -Final Days- @ School Trip</small>
+                                </td>
+                                <td>
+                                    <p><a href="https://youtu.be/6xYnrOFzLuQ">YT Reprint</a></p>
+                                </td>
+                                <td>
+                                    <p><a href="https://eiyakutachi.tumblr.com/post/80099900548/%E7%B5%82%E7%84%89%E3%83%8E%E6%A0%9Eif-%E3%82%A2%E3%83%B3%E3%83%A9%E3%83%83%E3%82%AD%E3%83%BC-%E6%9C%AB%E6%9C%9F-%E3%82%B9%E3%82%AF%E3%83%BC%E3%83%AB%E3%83%88%E3%83%AA%E3%83%83%E3%83%97-shuuen-no-shiori-if#:~:text=unlucky%20-makki-%20%40%20school%20trip">eiyakutachi</a></p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>
+                                    -散策中- <span class="text-secondary">(instrumental)</span><br>
+                                    <small>-Strolling-</small>
+                                </td>
+                                <td>
+                                    <p><a href="https://youtu.be/8v-tB2HA0xw">YT Reprint</a></p>
+                                </td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>4</td>
+                                <td>
+                                    一人ノ独占会(ボッチのワンマンショー) <span class="text-secondary">(feat. IA)</span><br>
+                                    <small>A One-Person Meeting (Lonely One-Man Show)</small>
+                                </td>
+                                <td>
+                                    <p><a href="https://youtu.be/7IwKzWu3pwc">YT Reprint</a></p>
+                                </td>
+                                <td>
+                                    <p><a href="https://eiyakutachi.tumblr.com/post/80099900548/%E7%B5%82%E7%84%89%E3%83%8E%E6%A0%9Eif-%E3%82%A2%E3%83%B3%E3%83%A9%E3%83%83%E3%82%AD%E3%83%BC-%E6%9C%AB%E6%9C%9F-%E3%82%B9%E3%82%AF%E3%83%BC%E3%83%AB%E3%83%88%E3%83%AA%E3%83%83%E3%83%97-shuuen-no-shiori-if#:~:text=hitori%20no%20dokusenkai">eiyakutachi</a></p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>5</td>
+                                <td>
+                                    ホンモノ注意報 <span class="text-secondary">(feat. IA)</span><br>
+                                    <small>A Warning of Real People</small>
+                                </td>
+                                <td>
+                                    <p><a href="https://youtu.be/JSVh5-Omfgs">YT Reprint</a></p>
+                                </td>
+                                <td>
+                                    <p><a href="https://eiyakutachi.tumblr.com/post/80099900548/%E7%B5%82%E7%84%89%E3%83%8E%E6%A0%9Eif-%E3%82%A2%E3%83%B3%E3%83%A9%E3%83%83%E3%82%AD%E3%83%BC-%E6%9C%AB%E6%9C%9F-%E3%82%B9%E3%82%AF%E3%83%BC%E3%83%AB%E3%83%88%E3%83%AA%E3%83%83%E3%83%97-shuuen-no-shiori-if#:~:text=honmono%20chuuihou">eiyakutachi</a></p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>6</td>
+                                <td>
+                                    -休憩中- <span class="text-secondary">(instrumental)</span><br>
+                                    <small>-Resting-</small>
+                                </td>
+                                <td>
+                                    <p><a href="https://youtu.be/jdTQ-5RMFgU">YT Reprint</a></p>
+                                </td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>7</td>
+                                <td>
+                                    ドラマティック・ショーケース <span class="text-secondary">(feat. IA)</span><br>
+                                    <small>Dramatic Showcase</small>
+                                </td>
+                                <td>
+                                    <p><a href="https://youtu.be/ErPIddHH_P0">YT Reprint</a></p>
+                                </td>
+                                <td>
+                                    <p><a href="https://eiyakutachi.tumblr.com/post/80099900548/%E7%B5%82%E7%84%89%E3%83%8E%E6%A0%9Eif-%E3%82%A2%E3%83%B3%E3%83%A9%E3%83%83%E3%82%AD%E3%83%BC-%E6%9C%AB%E6%9C%9F-%E3%82%B9%E3%82%AF%E3%83%BC%E3%83%AB%E3%83%88%E3%83%AA%E3%83%83%E3%83%97-shuuen-no-shiori-if#:~:text=doramatikku%20shookeesu">eiyakutachi</a></p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>8</td>
+                                <td>
+                                    恋心アンダーウォーター <span class="text-secondary">(feat. IA)</span><br>
+                                    <small>Love Underwater</small>
+                                </td>
+                                <td>
+                                    <p><a href="https://youtu.be/JAm6qoWODXI">YT Reprint</a></p>
+                                </td>
+                                <td>
+                                    <p><a href="https://eiyakutachi.tumblr.com/post/80099900548/%E7%B5%82%E7%84%89%E3%83%8E%E6%A0%9Eif-%E3%82%A2%E3%83%B3%E3%83%A9%E3%83%83%E3%82%AD%E3%83%BC-%E6%9C%AB%E6%9C%9F-%E3%82%B9%E3%82%AF%E3%83%BC%E3%83%AB%E3%83%88%E3%83%AA%E3%83%83%E3%83%97-shuuen-no-shiori-if#:~:text=koigokoro%20underwater">eiyakutachi</a></p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>9</td>
+                                <td>
+                                    -青春中- <span class="text-secondary">(instrumental)</span><br>
+                                    <small>-Being Youthful-</small>
+                                </td>
+                                <td>
+                                    <p><a href="https://youtu.be/EZrVSi8zr0c">YT Reprint</a></p>
+                                </td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>10</td>
+                                <td>
+                                    群青メモリーズ <span class="text-secondary">(feat. IA)</span><br>
+                                    <small>Ultramarine Memories</small>
+                                </td>
+                                <td>
+                                    <p><a href="https://youtu.be/bP4jCFOq2lw">YT Reprint</a></p>
+                                </td>
+                                <td>
+                                    <p><a href="https://eiyakutachi.tumblr.com/post/80099900548/%E7%B5%82%E7%84%89%E3%83%8E%E6%A0%9Eif-%E3%82%A2%E3%83%B3%E3%83%A9%E3%83%83%E3%82%AD%E3%83%BC-%E6%9C%AB%E6%9C%9F-%E3%82%B9%E3%82%AF%E3%83%BC%E3%83%AB%E3%83%88%E3%83%AA%E3%83%83%E3%83%97-shuuen-no-shiori-if#:~:text=gunjyou%20memories">eiyakutachi</a></p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>11</td>
+                                <td>
+                                    やる気への木さんの唄 <span class="text-secondary">(feat. IA)</span><br>
+                                    <small>Motreevational Mushroom-san’s Song</small>
+                                </td>
+                                <td>
+                                    <p><a href="https://youtu.be/rrJ7hfA2VhI">YT Reprint</a></p>
+                                </td>
+                                <td>
+                                    <p><a href="https://eiyakutachi.tumblr.com/post/80099900548/%E7%B5%82%E7%84%89%E3%83%8E%E6%A0%9Eif-%E3%82%A2%E3%83%B3%E3%83%A9%E3%83%83%E3%82%AD%E3%83%BC-%E6%9C%AB%E6%9C%9F-%E3%82%B9%E3%82%AF%E3%83%BC%E3%83%AB%E3%83%88%E3%83%AA%E3%83%83%E3%83%97-shuuen-no-shiori-if#:~:text=yaruki%20e%20no%20ki-san%20no%20uta">eiyakutachi</a></p>
+                                </td>
+                            </tr>
+                        </table>
                     </li>
                     <li class="list-group-item rounded-bottom p-0 tab-pane fade" id="remind">
                         <div class="p-3 pb-0">
@@ -1317,292 +1294,287 @@
                             <h3 class="mt-3">Track Translations</h3>
                             Other TL Masterlists:
                             <ul>
-                                <li><a href="https://shuuen-scans.tumblr.com/remind">Shuuen Scans</a></li>
+                                <li><a href="https://shuuen-scans.tumblr.com/remind">Shuuen Scans</a> (incomplete)</li>
                             </ul>
-                            <hr>
-                            By Track:
                         </div>
-                        <details class="collapsible pb-2" id="remind-tl">
-                            <summary class="ms-4" data-open="[click to collapse]" data-close="[click to expand]"></summary>
-                            <table class="table w-100 table-responsive table-bordered table-dark table-striped">
-                                <thead>
-                                    <tr>
-                                        <th width="5%">#</th>
-                                        <th width="55%">Track Title</th>
-                                        <th style="width:20%">Listen</th>
-                                        <th style="width:20%">Translations</th>
-                                    </tr>
-                                </thead>
+                        <table class="table w-100 table-responsive table-bordered table-dark table-striped">
+                            <thead>
                                 <tr>
-                                    <td>1</td>
-                                    <td>
-                                        ｢-反攻声明-｣ <span class="text-secondary">(instrumental)</span><br>
-                                        <small>｢-Counteroffensive Claim-｣</small>
-                                    </td>
-                                    <td>
-                                        <p><a href="https://youtu.be/FE4FtBRnvCI">YouTube</a></p>
-                                        <p><a href="https://open.spotify.com/track/20aHjm1ttpHcTzaV76BI6K">Spotify</a></p>
-                                    </td>
-                                    <td></td>
+                                    <th width="5%">#</th>
+                                    <th width="55%">Track Title</th>
+                                    <th style="width:20%">Listen</th>
+                                    <th style="width:20%">Translations</th>
                                 </tr>
-                                <tr>
-                                    <td>2</td>
-                                    <td>
-                                        報復リヴァイバル <span class="text-secondary">(feat. IA)</span><br>
-                                        <small>Retribution Revival</small>
-                                    </td>
-                                    <td>
-                                        <p><a href="https://youtu.be/ydyXD2EbgVc">YouTube</a></p>
-                                        <p><a href="https://open.spotify.com/track/0xopnh5Ui3q46kssuQ9lhH">Spotify</a></p>
-                                    </td>
-                                    <td>
-                                        <p><a href="https://shuuen-no-shiori.fandom.com/wiki/Retribution_Revival#English">Mikabit</a></p>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>3</td>
-                                    <td>
-                                        欠落 -Re:code- <span class="text-secondary">(feat. IA)</span><br>
-                                        <small>Lost -Re:code-</small>
-                                    </td>
-                                    <td>
-                                        <p><a href="https://youtu.be/28PL88vP32Y">YouTube</a></p>
-                                        <p><a href="https://open.spotify.com/track/4pGwyuek3gb9xCjLjIjxZI">Spotify</a></p>
-                                    </td>
-                                    <td>
-                                        <p><a href="https://amesubs.tumblr.com/post/67216397603/ia-lost-recode-%E6%AC%A0%E8%90%BD-recode">AmeSubs</a></p>
-                                        <p><a href="https://rippukun.tumblr.com/post/708836521962291200/lost-recode-translation-%E6%AC%A0%E8%90%BD-recode">rippukun</a></p>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>4</td>
-                                    <td>
-                                        結末ユメロディ <span class="text-secondary">(feat. IA)</span><br>
-                                        <small>Conclusion Dreamelody</small>
-                                    </td>
-                                    <td>
-                                        <p><a href="https://youtu.be/-YXI_hImU6A">YouTube</a></p>
-                                        <p><a href="https://open.spotify.com/track/2ssOkpNABWFrpsG7aqNEhY">Spotify</a></p>
-                                    </td>
-                                    <td>
-                                        <p><a href="https://re-missedcall-blog1.tumblr.com/post/114988602634/conclusion-dreamelody">re-missedcall-blog1</a></p>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>5</td>
-                                    <td>
-                                        ｢-拝啓、舞台裏より-｣ <span class="text-secondary">(feat. 神谷浩史)</span><br>
-                                        <small>｢-Greetings from Backstage-｣ (feat. Hiroshi Kamiya)</small>
-                                    </td>
-                                    <td>
-                                        <p><a href="https://youtu.be/9454zn5T38g">YouTube</a></p>
-                                        <p><a href="https://open.spotify.com/track/6KZjYZGm6KRSTiHoSmv5Ax">Spotify</a></p>
-                                    </td>
-                                    <td>
-                                        <p>(none yet)</p>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>6</td>
-                                    <td>
-                                        ファイティングガール <span class="text-secondary">(feat. IA)</span><br>
-                                        <small>Fighting Girl</small>
-                                    </td>
-                                    <td>
-                                        <p><a href="https://youtu.be/9oWyneBUWAc">YouTube</a></p>
-                                        <p><a href="https://open.spotify.com/track/2Fl4L6rnBFxXaHBlKOeimQ">Spotify</a></p>
-                                    </td>
-                                    <td>
-                                        <p><a href="https://vocaloidlyrics.fandom.com/wiki/%E3%83%95%E3%82%A1%E3%82%A4%E3%83%86%E3%82%A3%E3%83%B3%E3%82%B0%E3%82%AC%E3%83%BC%E3%83%AB_(Fighting_Girl)">Hazuki no Yume</a></p>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>7</td>
-                                    <td>
-                                        ノスタルジージャンクフード <span class="text-secondary">(feat. IA)</span><br>
-                                        <small>Nostalgia Junk Food</small>
-                                    </td>
-                                    <td>
-                                        <p><a href="https://youtu.be/vVMuPeiwhgk">YouTube</a></p>
-                                        <p><a href="https://open.spotify.com/track/4k5Ho5xc7npeFsv1kAtl8c">Spotify</a></p>
-                                    </td>
-                                    <td>
-                                        <p><a href="https://releska.com/2020/04/10/nostalgia-junk-food/">Releska</a></p>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>8</td>
-                                    <td>
-                                        ゲームアンドガールズ <span class="text-secondary">(feat. IA & 鏡音リン)</span><br>
-                                        <small>Game and Girls (feat. IA & Kagamine Rin)</small>
-                                    </td>
-                                    <td>
-                                        <p><a href="https://youtu.be/rV1KudDQg1c">YouTube</a></p>
-                                        <p><a href="https://open.spotify.com/track/27J9P0uSJHNP7erZTBS1LR">Spotify</a></p>
-                                    </td>
-                                    <td>
-                                        <p><a href="https://shuuen-no-shiori.fandom.com/wiki/Game_and_Girls#English">Mikabit</a></p>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>9</td>
-                                    <td>
-                                        ｢-微炭酸レトロ-｣ <span class="text-secondary">(feat. 神谷浩史)</span><br>
-                                        <small>｢-Carbonated Retro-｣ (feat. Hiroshi Kamiya)</small>
-                                    </td>
-                                    <td>
-                                        <p><a href="https://youtu.be/hupzDj49Hkg">YouTube</a></p>
-                                        <p><a href="https://open.spotify.com/track/68GB3WOI9fRHNzhrtJ9aei">Spotify</a></p>
-                                    </td>
-                                    <td>
-                                        <p>(none yet)</p>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>10</td>
-                                    <td>
-                                        やさしいおばけ話 <span class="text-secondary">(feat. IA)</span><br>
-                                        <small>Gentle Ghost Story</small>
-                                    </td>
-                                    <td>
-                                        <p><a href="https://youtu.be/yn41upS1Cjo">YouTube</a></p>
-                                        <p><a href="https://open.spotify.com/track/08rQM35G8gIEtUhWMKYY8I">Spotify</a></p>
-                                    </td>
-                                    <td>
-                                        <p><a href="https://amesubs.tumblr.com/post/127158629673/ia-gentle-ghost-story-%E3%82%84%E3%81%95%E3%81%97%E3%81%84%E3%81%8A%E3%81%B0%E3%81%91%E8%A9%B1-in-a-dream">AmeSubs</a> (<a href="https://vimeo.com/136825577">Vimeo</a>)</p>
-                                        <p><a href="https://raspomme.tumblr.com/post/115006811295">raspomme</a></p>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>11</td>
-                                    <td>
-                                        四丁目の秘密屋さん <span class="text-secondary">(feat. IA)</span><br>
-                                        <small>The Secret Seller of The 4th Block</small>
-                                    </td>
-                                    <td>
-                                        <p><a href="https://youtu.be/FKcdEpyhe5I">YouTube</a></p>
-                                        <p><a href="https://open.spotify.com/track/55qqyy2JPvWGdQXGTYihVf">Spotify</a></p>
-                                    </td>
-                                    <td>
-                                        <p><a href="https://releska.com/2019/05/14/the-secret-seller-of-the-4th-block/">Releska</a></p>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>12</td>
-                                    <td>
-                                        ぼくたちデイズ <span class="text-secondary">(feat. 初音ミク, 鏡音リン, GUMI, MAYU, 巡音ルカ)</span><br>
-                                        <small>Our Days (feat. Hatsune Miku, Kagamine Rin, GUMI, MAYU, Megurine Luka)</small>
-                                    </td>
-                                    <td>
-                                        <p><a href="https://youtu.be/KDDdNGVVkBk">YouTube</a></p>
-                                        <p><a href="https://open.spotify.com/track/47fr0LKKBha2YLhALIzbq7">Spotify</a></p>
-                                    </td>
-                                    <td>
-                                        <p><a href="https://shuuen-no-shiori.fandom.com/wiki/Our_Days#English">Mikabit</a></p>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>13</td>
-                                    <td>
-                                        ｢-笑顔サミット-｣ <span class="text-secondary">(feat. 神谷浩史)</span><br>
-                                        <small>｢-Smiling Summit-｣ (feat. Hiroshi Kamiya)</small>
-                                    </td>
-                                    <td>
-                                        <p><a href="https://youtu.be/0S8pDgPi8vY">YouTube</a></p>
-                                        <p><a href="https://open.spotify.com/track/2giDVmvmX2P09HgfVhASik">Spotify</a></p>
-                                    </td>
-                                    <td>
-                                        <p>(none yet)</p>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>14</td>
-                                    <td>
-                                        テレーゼの溜息 <span class="text-secondary">(feat. IA)</span><br>
-                                        <small>Therese's Sigh</small>
-                                    </td>
-                                    <td>
-                                        <p><a href="https://youtu.be/aadbnJIS7vw">YouTube</a></p>
-                                        <p><a href="https://open.spotify.com/track/1YRvrboyfoBX8dcrkMAYR9">Spotify</a></p>
-                                    </td>
-                                    <td>
-                                        <p><a href="https://re-missedcall-blog1.tumblr.com/post/124555727569/thereses-sigh">re-missedcall-blog1</a></p>
-                                        <p><a href="https://rippukun.tumblr.com/post/708833804054331392/thereses-sigh-translation-%E3%83%86%E3%83%AC%E3%83%BC%E3%82%BC%E3%81%AE%E6%BA%9C%E6%81%AF">rippukun</a></p>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>15</td>
-                                    <td>
-                                        ハイカラコーポパーク <span class="text-secondary">(feat. IA)</span><br>
-                                        <small>A Stylish Apartment Park</small>
-                                    </td>
-                                    <td>
-                                        <p><a href="https://youtu.be/W9gYyFtHxDY">YouTube</a></p>
-                                        <p><a href="https://open.spotify.com/track/6mWoPUFfmkrV5E5GAApH89">Spotify</a></p>
-                                    </td>
-                                    <td>
-                                        <p><a href="https://releska.com/2020/12/22/a-stylish-apartment-park/">Releska</a></p>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>16</td>
-                                    <td>
-                                        リピートラジディー <span class="text-secondary">(feat. IA)</span><br>
-                                        <small>Repeatragedy</small>
-                                    </td>
-                                    <td>
-                                        <p><a href="https://youtu.be/IQrvrSmyjCw">YouTube</a></p>
-                                        <p><a href="https://open.spotify.com/track/2hns8tYR8wmN5JvH7mC51z">Spotify</a></p>
-                                    </td>
-                                    <td>
-                                        <p><a href="https://amesubs.tumblr.com/post/75775532063/ia-repeatragedy-%E3%83%AA%E3%83%94%E3%83%BC%E3%83%88%E3%83%A9%E3%82%B8%E3%83%87%E3%82%A3%E3%83%BC">AmeSubs</a></p>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>17</td>
-                                    <td>
-                                        ｢-十年後より-｣ <span class="text-secondary">(feat. 神谷浩史)</span><br>
-                                        <small>｢-From Ten Years Later-｣ (feat. Hiroshi Kamiya)</small>
-                                    </td>
-                                    <td>
-                                        <p><a href="https://youtu.be/WCpjK276k74">YouTube</a></p>
-                                        <p><a href="https://open.spotify.com/track/55fw465YcmsVlQCVtoA3PS">Spotify</a></p>
-                                    </td>
-                                    <td>
-                                        <p>(none yet)</p>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>18</td>
-                                    <td>
-                                        シュレディンガーの猫 <span class="text-secondary">(feat. IA)</span><br>
-                                        <small>Schrödinger's Cat</small>
-                                    </td>
-                                    <td>
-                                        <p><a href="https://youtu.be/S2xxEinUkb8">YouTube</a></p>
-                                        <p><a href="https://open.spotify.com/track/1J0pQaqh848TGReJdSIshg">Spotify</a></p>
-                                    </td>
-                                    <td>
-                                        <p><a href="https://rippukun.tumblr.com/post/709185193238577152/schrodingers-cat-translation-%E3%82%B7%E3%83%A5%E3%83%AC%E3%83%87%E3%82%A3%E3%83%B3%E3%82%AC%E3%83%BC%E3%81%AE%E7%8C%AB">rippukun</a></p>
-                                        <p><a href="https://www.tumblr.com/fairy-4pril/118836672097/schroedingers-cat-translation">fairy-4pril</a></p>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>19</td>
-                                    <td>
-                                        ｢-病室1713号-｣ <span class="text-secondary">(feat. 神谷浩史)</span><br>
-                                        <small>｢-Hospital Room No.1713-｣ (feat. Hiroshi Kamiya)</small>
-                                    </td>
-                                    <td>
-                                        <p><a href="https://youtu.be/2i3qw04bvk0">YouTube</a></p>
-                                        <p><a href="https://open.spotify.com/track/21wtFo7aXkMe7vyrm7Dwrz">Spotify</a></p>
-                                    </td>
-                                    <td>
-                                        <p>(none yet)</p>
-                                    </td>
-                                </tr>
-                            </table>
-                        </details>
+                            </thead>
+                            <tr>
+                                <td>1</td>
+                                <td>
+                                    ｢-反攻声明-｣ <span class="text-secondary">(instrumental)</span><br>
+                                    <small>｢-Counteroffensive Claim-｣</small>
+                                </td>
+                                <td>
+                                    <p><a href="https://youtu.be/FE4FtBRnvCI">YouTube</a></p>
+                                    <p><a href="https://open.spotify.com/track/20aHjm1ttpHcTzaV76BI6K">Spotify</a></p>
+                                </td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>
+                                    報復リヴァイバル <span class="text-secondary">(feat. IA)</span><br>
+                                    <small>Retribution Revival</small>
+                                </td>
+                                <td>
+                                    <p><a href="https://youtu.be/ydyXD2EbgVc">YouTube</a></p>
+                                    <p><a href="https://open.spotify.com/track/0xopnh5Ui3q46kssuQ9lhH">Spotify</a></p>
+                                </td>
+                                <td>
+                                    <p><a href="https://shuuen-no-shiori.fandom.com/wiki/Retribution_Revival#English">Mikabit</a></p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>
+                                    欠落 -Re:code- <span class="text-secondary">(feat. IA)</span><br>
+                                    <small>Lost -Re:code-</small>
+                                </td>
+                                <td>
+                                    <p><a href="https://youtu.be/28PL88vP32Y">YouTube</a></p>
+                                    <p><a href="https://open.spotify.com/track/4pGwyuek3gb9xCjLjIjxZI">Spotify</a></p>
+                                </td>
+                                <td>
+                                    <p><a href="https://amesubs.tumblr.com/post/67216397603/ia-lost-recode-%E6%AC%A0%E8%90%BD-recode">AmeSubs</a></p>
+                                    <p><a href="https://rippukun.tumblr.com/post/708836521962291200/lost-recode-translation-%E6%AC%A0%E8%90%BD-recode">rippukun</a></p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>4</td>
+                                <td>
+                                    結末ユメロディ <span class="text-secondary">(feat. IA)</span><br>
+                                    <small>Conclusion Dreamelody</small>
+                                </td>
+                                <td>
+                                    <p><a href="https://youtu.be/-YXI_hImU6A">YouTube</a></p>
+                                    <p><a href="https://open.spotify.com/track/2ssOkpNABWFrpsG7aqNEhY">Spotify</a></p>
+                                </td>
+                                <td>
+                                    <p><a href="https://re-missedcall-blog1.tumblr.com/post/114988602634/conclusion-dreamelody">re-missedcall-blog1</a></p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>5</td>
+                                <td>
+                                    ｢-拝啓、舞台裏より-｣ <span class="text-secondary">(feat. 神谷浩史)</span><br>
+                                    <small>｢-Greetings from Backstage-｣ (feat. Hiroshi Kamiya)</small>
+                                </td>
+                                <td>
+                                    <p><a href="https://youtu.be/9454zn5T38g">YouTube</a></p>
+                                    <p><a href="https://open.spotify.com/track/6KZjYZGm6KRSTiHoSmv5Ax">Spotify</a></p>
+                                </td>
+                                <td>
+                                    <p>(none yet)</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>6</td>
+                                <td>
+                                    ファイティングガール <span class="text-secondary">(feat. IA)</span><br>
+                                    <small>Fighting Girl</small>
+                                </td>
+                                <td>
+                                    <p><a href="https://youtu.be/9oWyneBUWAc">YouTube</a></p>
+                                    <p><a href="https://open.spotify.com/track/2Fl4L6rnBFxXaHBlKOeimQ">Spotify</a></p>
+                                </td>
+                                <td>
+                                    <p><a href="https://vocaloidlyrics.fandom.com/wiki/%E3%83%95%E3%82%A1%E3%82%A4%E3%83%86%E3%82%A3%E3%83%B3%E3%82%B0%E3%82%AC%E3%83%BC%E3%83%AB_(Fighting_Girl)">Hazuki no Yume</a></p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>7</td>
+                                <td>
+                                    ノスタルジージャンクフード <span class="text-secondary">(feat. IA)</span><br>
+                                    <small>Nostalgia Junk Food</small>
+                                </td>
+                                <td>
+                                    <p><a href="https://youtu.be/vVMuPeiwhgk">YouTube</a></p>
+                                    <p><a href="https://open.spotify.com/track/4k5Ho5xc7npeFsv1kAtl8c">Spotify</a></p>
+                                </td>
+                                <td>
+                                    <p><a href="https://releska.com/2020/04/10/nostalgia-junk-food/">Releska</a></p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>8</td>
+                                <td>
+                                    ゲームアンドガールズ <span class="text-secondary">(feat. IA & 鏡音リン)</span><br>
+                                    <small>Game and Girls (feat. IA & Kagamine Rin)</small>
+                                </td>
+                                <td>
+                                    <p><a href="https://youtu.be/rV1KudDQg1c">YouTube</a></p>
+                                    <p><a href="https://open.spotify.com/track/27J9P0uSJHNP7erZTBS1LR">Spotify</a></p>
+                                </td>
+                                <td>
+                                    <p><a href="https://shuuen-no-shiori.fandom.com/wiki/Game_and_Girls#English">Mikabit</a></p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>9</td>
+                                <td>
+                                    ｢-微炭酸レトロ-｣ <span class="text-secondary">(feat. 神谷浩史)</span><br>
+                                    <small>｢-Carbonated Retro-｣ (feat. Hiroshi Kamiya)</small>
+                                </td>
+                                <td>
+                                    <p><a href="https://youtu.be/hupzDj49Hkg">YouTube</a></p>
+                                    <p><a href="https://open.spotify.com/track/68GB3WOI9fRHNzhrtJ9aei">Spotify</a></p>
+                                </td>
+                                <td>
+                                    <p>(none yet)</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>10</td>
+                                <td>
+                                    やさしいおばけ話 <span class="text-secondary">(feat. IA)</span><br>
+                                    <small>Gentle Ghost Story</small>
+                                </td>
+                                <td>
+                                    <p><a href="https://youtu.be/yn41upS1Cjo">YouTube</a></p>
+                                    <p><a href="https://open.spotify.com/track/08rQM35G8gIEtUhWMKYY8I">Spotify</a></p>
+                                </td>
+                                <td>
+                                    <p><a href="https://amesubs.tumblr.com/post/127158629673/ia-gentle-ghost-story-%E3%82%84%E3%81%95%E3%81%97%E3%81%84%E3%81%8A%E3%81%B0%E3%81%91%E8%A9%B1-in-a-dream">AmeSubs</a> (<a href="https://vimeo.com/136825577">Vimeo</a>)</p>
+                                    <p><a href="https://raspomme.tumblr.com/post/115006811295">raspomme</a></p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>11</td>
+                                <td>
+                                    四丁目の秘密屋さん <span class="text-secondary">(feat. IA)</span><br>
+                                    <small>The Secret Seller of The 4th Block</small>
+                                </td>
+                                <td>
+                                    <p><a href="https://youtu.be/FKcdEpyhe5I">YouTube</a></p>
+                                    <p><a href="https://open.spotify.com/track/55qqyy2JPvWGdQXGTYihVf">Spotify</a></p>
+                                </td>
+                                <td>
+                                    <p><a href="https://releska.com/2019/05/14/the-secret-seller-of-the-4th-block/">Releska</a></p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>12</td>
+                                <td>
+                                    ぼくたちデイズ <span class="text-secondary">(feat. 初音ミク, 鏡音リン, GUMI, MAYU, 巡音ルカ)</span><br>
+                                    <small>Our Days (feat. Hatsune Miku, Kagamine Rin, GUMI, MAYU, Megurine Luka)</small>
+                                </td>
+                                <td>
+                                    <p><a href="https://youtu.be/KDDdNGVVkBk">YouTube</a></p>
+                                    <p><a href="https://open.spotify.com/track/47fr0LKKBha2YLhALIzbq7">Spotify</a></p>
+                                </td>
+                                <td>
+                                    <p><a href="https://shuuen-no-shiori.fandom.com/wiki/Our_Days#English">Mikabit</a></p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>13</td>
+                                <td>
+                                    ｢-笑顔サミット-｣ <span class="text-secondary">(feat. 神谷浩史)</span><br>
+                                    <small>｢-Smiling Summit-｣ (feat. Hiroshi Kamiya)</small>
+                                </td>
+                                <td>
+                                    <p><a href="https://youtu.be/0S8pDgPi8vY">YouTube</a></p>
+                                    <p><a href="https://open.spotify.com/track/2giDVmvmX2P09HgfVhASik">Spotify</a></p>
+                                </td>
+                                <td>
+                                    <p>(none yet)</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>14</td>
+                                <td>
+                                    テレーゼの溜息 <span class="text-secondary">(feat. IA)</span><br>
+                                    <small>Therese's Sigh</small>
+                                </td>
+                                <td>
+                                    <p><a href="https://youtu.be/aadbnJIS7vw">YouTube</a></p>
+                                    <p><a href="https://open.spotify.com/track/1YRvrboyfoBX8dcrkMAYR9">Spotify</a></p>
+                                </td>
+                                <td>
+                                    <p><a href="https://re-missedcall-blog1.tumblr.com/post/124555727569/thereses-sigh">re-missedcall-blog1</a></p>
+                                    <p><a href="https://rippukun.tumblr.com/post/708833804054331392/thereses-sigh-translation-%E3%83%86%E3%83%AC%E3%83%BC%E3%82%BC%E3%81%AE%E6%BA%9C%E6%81%AF">rippukun</a></p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>15</td>
+                                <td>
+                                    ハイカラコーポパーク <span class="text-secondary">(feat. IA)</span><br>
+                                    <small>A Stylish Apartment Park</small>
+                                </td>
+                                <td>
+                                    <p><a href="https://youtu.be/W9gYyFtHxDY">YouTube</a></p>
+                                    <p><a href="https://open.spotify.com/track/6mWoPUFfmkrV5E5GAApH89">Spotify</a></p>
+                                </td>
+                                <td>
+                                    <p><a href="https://releska.com/2020/12/22/a-stylish-apartment-park/">Releska</a></p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>16</td>
+                                <td>
+                                    リピートラジディー <span class="text-secondary">(feat. IA)</span><br>
+                                    <small>Repeatragedy</small>
+                                </td>
+                                <td>
+                                    <p><a href="https://youtu.be/IQrvrSmyjCw">YouTube</a></p>
+                                    <p><a href="https://open.spotify.com/track/2hns8tYR8wmN5JvH7mC51z">Spotify</a></p>
+                                </td>
+                                <td>
+                                    <p><a href="https://amesubs.tumblr.com/post/75775532063/ia-repeatragedy-%E3%83%AA%E3%83%94%E3%83%BC%E3%83%88%E3%83%A9%E3%82%B8%E3%83%87%E3%82%A3%E3%83%BC">AmeSubs</a></p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>17</td>
+                                <td>
+                                    ｢-十年後より-｣ <span class="text-secondary">(feat. 神谷浩史)</span><br>
+                                    <small>｢-From Ten Years Later-｣ (feat. Hiroshi Kamiya)</small>
+                                </td>
+                                <td>
+                                    <p><a href="https://youtu.be/WCpjK276k74">YouTube</a></p>
+                                    <p><a href="https://open.spotify.com/track/55fw465YcmsVlQCVtoA3PS">Spotify</a></p>
+                                </td>
+                                <td>
+                                    <p>(none yet)</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>18</td>
+                                <td>
+                                    シュレディンガーの猫 <span class="text-secondary">(feat. IA)</span><br>
+                                    <small>Schrödinger's Cat</small>
+                                </td>
+                                <td>
+                                    <p><a href="https://youtu.be/S2xxEinUkb8">YouTube</a></p>
+                                    <p><a href="https://open.spotify.com/track/1J0pQaqh848TGReJdSIshg">Spotify</a></p>
+                                </td>
+                                <td>
+                                    <p><a href="https://rippukun.tumblr.com/post/709185193238577152/schrodingers-cat-translation-%E3%82%B7%E3%83%A5%E3%83%AC%E3%83%87%E3%82%A3%E3%83%B3%E3%82%AC%E3%83%BC%E3%81%AE%E7%8C%AB">rippukun</a></p>
+                                    <p><a href="https://www.tumblr.com/fairy-4pril/118836672097/schroedingers-cat-translation">fairy-4pril</a></p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>19</td>
+                                <td>
+                                    ｢-病室1713号-｣ <span class="text-secondary">(feat. 神谷浩史)</span><br>
+                                    <small>｢-Hospital Room No.1713-｣ (feat. Hiroshi Kamiya)</small>
+                                </td>
+                                <td>
+                                    <p><a href="https://youtu.be/2i3qw04bvk0">YouTube</a></p>
+                                    <p><a href="https://open.spotify.com/track/21wtFo7aXkMe7vyrm7Dwrz">Spotify</a></p>
+                                </td>
+                                <td>
+                                    <p>(none yet)</p>
+                                </td>
+                            </tr>
+                        </table>
                     </li>
                     <li class="list-group-item rounded-bottom p-0 tab-pane fade" id="react">
                         <div class="p-3 pb-0">
@@ -1711,392 +1683,384 @@
                                     </div>
                                 </div>
                             </div>
-                            <h3 class="mt-3">Track Translations</h3>
                         </div>
-                        <details class="collapsible" id="react-tl">
-                            <summary class="ms-4" data-open="[click to collapse]" data-close="[click to expand]"></summary>
-                            <table class="table caption-top w-100 table-responsive table-bordered table-dark table-striped">
-                                <caption class="text-light ms-3">Entire Album Reupload: <a href="https://youtu.be/yIuFLXpkJcg">YouTube</a></caption>
-                                <thead>
-                                    <tr>
-                                        <th width="5%">#</th>
-                                        <th width="55%">Track Title</th>
-                                        <th style="width:20%">Listen</th>
-                                        <th style="width:20%">Translations</th>
-                                    </tr>
-                                </thead>
+                        <h3 class="mt-3">Track Translations</h3>
+                        <table class="table caption-top w-100 table-responsive table-bordered table-dark table-striped">
+                            <caption class="text-light ms-3">Entire Album Reupload: <a href="https://youtu.be/yIuFLXpkJcg">YouTube</a></caption>
+                            <thead>
                                 <tr>
-                                    <td>1</td>
-                                    <td>
-                                        衝撃リアクト <span class="text-secondary">(feat. 片霧烈火)</span><br>
-                                        <small>Shock Reaction (feat. Rekka Katakiri)</small>
-                                    </td>
-                                    <td>
-                                        <p><a href="https://youtu.be/XCST9xj8u_4">YT Reprint</a></p>
-                                    </td>
-                                    <td>
-                                        <p><a href="https://shuuen-no-shiori.fandom.com/wiki/Shock_Reaction#English">Mikabit</a></p>
-                                    </td>
+                                    <th width="5%">#</th>
+                                    <th width="55%">Track Title</th>
+                                    <th style="width:20%">Listen</th>
+                                    <th style="width:20%">Translations</th>
                                 </tr>
+                            </thead>
+                            <tr>
+                                <td>1</td>
+                                <td>
+                                    衝撃リアクト <span class="text-secondary">(feat. 片霧烈火)</span><br>
+                                    <small>Shock Reaction (feat. Rekka Katakiri)</small>
+                                </td>
+                                <td>
+                                    <p><a href="https://youtu.be/XCST9xj8u_4">YT Reprint</a></p>
+                                </td>
+                                <td>
+                                    <p><a href="https://shuuen-no-shiori.fandom.com/wiki/Shock_Reaction#English">Mikabit</a></p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>
+                                    -Parallel- <span class="text-secondary">(instrumental)</span>
+                                </td>
+                                <td>
+                                    <p><a href="https://youtu.be/eicfTDlvOCs">YT Reprint</a></p>
+                                </td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>
+                                    孤独ノ隠レンボ <span class="text-secondary">(feat. 緒方恵美)</span><br>
+                                    <small>Lonely Hide and Seek (feat. Megumi Ogata)</small>
+                                </td>
+                                <td>
+                                    <p><a href="https://www.nicovideo.jp/watch/sm27071257">NND</a></p>
+                                    <p><a href="https://youtu.be/npMUwVXCxZQ">YT Reprint</a></p>
+                                </td>
+                                <td>
+                                    <p><a href="https://amesubs.tumblr.com/post/64192699008/ia-lonely-hide-and-seek-%E5%AD%A4%E7%8B%AC%E3%83%8E%E9%9A%A0%E3%83%AC%E3%83%B3%E3%83%9C-a-ya-a-ya">AmeSubs</a></p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>4</td>
+                                <td>
+                                    ニセモノ注意報 <span class="text-secondary">(feat. 東山奈央)</span><br>
+                                    <small>Impostor Advisory (feat. Nao Touyama)</small>
+                                </td>
+                                <td>
+                                    <p><a href="https://youtu.be/uj5hjMNSLso">YT Reprint</a></p>
+                                </td>
+                                <td>
+                                    <p><a href="https://amesubs.tumblr.com/post/67535277852/ia-imposter-advisory-%E3%83%8B%E3%82%BB%E3%83%A2%E3%83%8E%E6%B3%A8%E6%84%8F%E5%A0%B1-b-ko-i">AmeSubs</a></p>
+                                    <p><a href="https://rippukun.tumblr.com/post/710722999180050432/impostor-warning-translation-%E3%83%8B%E3%82%BB%E3%83%A2%E3%83%8E%E6%B3%A8%E6%84%8F%E5%A0%B1">rippukun</a></p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>5</td>
+                                <td>
+                                    完全犯罪ラブレター <span class="text-secondary">(feat. 寺島拓篤)</span><br>
+                                    <small>Perfect Crime Love Letter (feat. Takuma Terashima)</small>
+                                </td>
+                                <td>
+                                    <p><a href="https://youtu.be/D_a-koJtvAI">YT Reprint</a></p>
+                                </td>
+                                <td>
+                                    <p><a href="https://amesubs.tumblr.com/post/53813932552/ia-perfect-crime-love-letter-%E5%AE%8C%E5%85%A8%E7%8A%AF%E7%BD%AA%E3%83%A9%E3%83%96%E3%83%AC%E3%82%BF%E3%83%BC-the">AmeSubs</a></p>
+                                    <p><a href="https://rippukun.tumblr.com/post/720793076223868928/anonymously-they-say-he-performed-as">rippukun</a></p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>6</td>
+                                <td>
+                                    猿マネ椅子盗りゲーム <span class="text-secondary">(feat. 相沢舞)</span><br>
+                                    <small>Aimless Imitation Musical Chairs (feat. Mai Aizawa)</small>
+                                </td>
+                                <td>
+                                    <p><a href="https://youtu.be/LdWDVEZZL1A">YT Reprint</a></p>
+                                </td>
+                                <td>
+                                    <p><a href="https://amesubs.tumblr.com/post/80556836998/ia-aimless-imitation-musical-chairs">AmeSubs</a> (<a href="https://vimeo.com/89882055">Vimeo</a>)</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>7</td>
+                                <td>
+                                    リピートラジディー <span class="text-secondary">(feat. 片霧烈火)</span><br>
+                                    <small>Repeatragedy (feat. Rekka Katakiri)</small>
+                                </td>
+                                <td>
+                                    <p><a href="https://youtu.be/0qMVLPZzPOw">YT Reprint</a></p>
+                                </td>
+                                <td>
+                                    <p><a href="https://amesubs.tumblr.com/post/75775532063/ia-repeatragedy-%E3%83%AA%E3%83%94%E3%83%BC%E3%83%88%E3%83%A9%E3%82%B8%E3%83%87%E3%82%A3%E3%83%BC">AmeSubs</a></p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>9</td>
+                                <td>
+                                    -Paradigm- <span class="text-secondary">(instrumental)</span>
+                                </td>
+                                <td>
+                                    <p><a href="https://youtu.be/3-RCL4p1fqg">YT Reprint</a></p>
+                                </td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>9</td>
+                                <td>
+                                    ファイティングガール <span class="text-secondary">(feat. 平野綾)</span><br>
+                                    <small>Fighting Girl (feat. Aya Hirano)</small>
+                                </td>
+                                <td>
+                                    <p><a href="https://youtu.be/9jl08vPnz1s">YT Reprint</a></p>
+                                </td>
+                                <td>
+                                    <p><a href="https://vocaloidlyrics.fandom.com/wiki/%E3%83%95%E3%82%A1%E3%82%A4%E3%83%86%E3%82%A3%E3%83%B3%E3%82%B0%E3%82%AC%E3%83%BC%E3%83%AB_(Fighting_Girl">Hazuki no Yume</a>)</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>10</td>
+                                <td>
+                                    やさしいおばけ話 <span class="text-secondary">(feat. 加藤英美里)</span><br>
+                                    <small>Gentle Ghost Story (feat. Emiri Katou)</small>
+                                </td>
+                                <td>
+                                    <p><a href="https://www.nicovideo.jp/watch/sm26733981">NND</a></p>
+                                    <p><a href="https://youtu.be/cXm1Mlho_n4">YT Reprint</a></p>
+                                </td>
+                                <td>
+                                    <p><a href="https://amesubs.tumblr.com/post/127158629673/ia-gentle-ghost-story-%E3%82%84%E3%81%95%E3%81%97%E3%81%84%E3%81%8A%E3%81%B0%E3%81%91%E8%A9%B1-in-a-dream">AmeSubs</a> (<a href="https://vimeo.com/136825577">Vimeo</a>)</p>
+                                    <p><a href="https://raspomme.tumblr.com/post/115006811295">raspomme</a></p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>11</td>
+                                <td>
+                                    ノスタルジージャンクフード <span class="text-secondary">(feat. 米澤円)</span><br>
+                                    <small>Nostalgia Junk Food (feat. Madoka Yonezawa)</small>
+                                </td>
+                                <td>
+                                    <p><a href="https://youtu.be/CRn53QBPFHQ">YT Reprint</a></p>
+                                </td>
+                                <td>
+                                    <p><a href="https://releska.com/2020/04/10/nostalgia-junk-food/">Releska</a></p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>12</td>
+                                <td>
+                                    四丁目の秘密屋さん <span class="text-secondary">(feat. 小野友樹)</span><br>
+                                    <small>The Secret Seller of The 4th Block (feat. Yuuki Ono)</small>
+                                </td>
+                                <td>
+                                    <p><a href="https://youtu.be/FKcdEpyhe5I">YT Reprint</a></p>
+                                </td>
+                                <td>
+                                    <p><a href="https://releska.com/2019/05/14/the-secret-seller-of-the-4th-block/">Releska</a></p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>13</td>
+                                <td>
+                                    テレーゼの溜息 <span class="text-secondary">(feat. 松岡禎丞)</span><br>
+                                    <small>Therese's Sigh (feat. Yoshitsugu Matsuoka)</small>
+                                </td>
+                                <td>
+                                    <p><a href="https://youtu.be/_LxBro65ZL8">YT Reprint</a></p>
+                                </td>
+                                <td>
+                                    <p><a href="https://re-missedcall-blog1.tumblr.com/post/124555727569/thereses-sigh">re-missedcall-blog1</a></p>
+                                    <p><a href="https://rippukun.tumblr.com/post/708833804054331392/thereses-sigh-translation-%E3%83%86%E3%83%AC%E3%83%BC%E3%82%BC%E3%81%AE%E6%BA%9C%E6%81%AF">rippukun</a></p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>14</td>
+                                <td>
+                                    -Paradox- <span class="text-secondary">(instrumental)</span>
+                                </td>
+                                <td>
+                                    <p><a href="https://youtu.be/HWDiKiVRut4">YT Reprint</a></p>
+                                </td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>15</td>
+                                <td>
+                                    流れる星に願う <span class="text-secondary">(feat. 理多)</span><br>
+                                    <small>Wishing Upon A Shooting Star (feat. Rita)</small>
+                                </td>
+                                <td>
+                                    <p><a href="https://youtu.be/NcpticAiizI">YT Reprint</a></p>
+                                </td>
+                                <td>
+                                    <p><a href="https://www.facebook.com/ShuuenNoShiori1713/photos/a.681434541910068/894672230586297/">ShuuenNoShiori1713</a></p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>16</td>
+                                <td>
+                                    平凡な日常 <span class="text-secondary">(feat. 霜月はるか)</span><br>
+                                    <small>Mundane Everyday (feat. Haruka Shimotsuki)</small>
+                                </td>
+                                <td>
+                                    <p><a href="https://youtu.be/Lk_CQhzFvsw">YT Reprint</a></p>
+                                </td>
+                                <td>
+                                    <p><a href="https://amesubs.tumblr.com/post/52609374998/ia-mundane-everyday-%E5%B9%B3%E5%87%A1%E3%81%AA%E6%97%A5%E5%B8%B8-shuuen-rewrite">AmeSubs</a></p>
+                                    <small>(note: different final chorus in -Re:act-):</small>
+                                    <p><a href="https://shuuen-no-shiori.fandom.com/wiki/Mundane_Everyday#Re:act">Mikabit</a></p>
+                                    <p><a href="https://www.facebook.com/ShuuenNoShiori1713/photos/pb.679318715454984.-2207520000.1448254320./890844247635762/">ShuuenNoShiori1713</a></p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>17</td>
+                                <td>
+                                    -Paranoia- <span class="text-secondary">(instrumental)</span>
+                                </td>
+                                <td>
+                                    <p><a href="https://youtu.be/40uOXEwzE5o">YT Reprint</a></p>
+                                </td>
+                                <td></td>
+                            </tr>
+                        </table>
+                        <h3 class="mt-3">Limited Tracks</h3>
+                        <table class="table w-100 table-responsive table-bordered table-dark table-striped">
+                            <thead>
                                 <tr>
-                                    <td>2</td>
-                                    <td>
-                                        -Parallel- <span class="text-secondary">(instrumental)</span>
-                                    </td>
-                                    <td>
-                                        <p><a href="https://youtu.be/eicfTDlvOCs">YT Reprint</a></p>
-                                    </td>
-                                    <td></td>
+                                    <th>Track Title</th>
+                                    <th style="width:20%">Listen</th>
+                                    <th style="width:20%">Translations</th>
                                 </tr>
-                                <tr>
-                                    <td>3</td>
-                                    <td>
-                                        孤独ノ隠レンボ <span class="text-secondary">(feat. 緒方恵美)</span><br>
-                                        <small>Lonely Hide and Seek (feat. Megumi Ogata)</small>
-                                    </td>
-                                    <td>
-                                        <p><a href="https://www.nicovideo.jp/watch/sm27071257">NND</a></p>
-                                        <p><a href="https://youtu.be/npMUwVXCxZQ">YT Reprint</a></p>
-                                    </td>
-                                    <td>
-                                        <p><a href="https://amesubs.tumblr.com/post/64192699008/ia-lonely-hide-and-seek-%E5%AD%A4%E7%8B%AC%E3%83%8E%E9%9A%A0%E3%83%AC%E3%83%B3%E3%83%9C-a-ya-a-ya">AmeSubs</a></p>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>4</td>
-                                    <td>
-                                        ニセモノ注意報 <span class="text-secondary">(feat. 東山奈央)</span><br>
-                                        <small>Impostor Advisory (feat. Nao Touyama)</small>
-                                    </td>
-                                    <td>
-                                        <p><a href="https://youtu.be/uj5hjMNSLso">YT Reprint</a></p>
-                                    </td>
-                                    <td>
-                                        <p><a href="https://amesubs.tumblr.com/post/67535277852/ia-imposter-advisory-%E3%83%8B%E3%82%BB%E3%83%A2%E3%83%8E%E6%B3%A8%E6%84%8F%E5%A0%B1-b-ko-i">AmeSubs</a></p>
-                                        <p><a href="https://rippukun.tumblr.com/post/710722999180050432/impostor-warning-translation-%E3%83%8B%E3%82%BB%E3%83%A2%E3%83%8E%E6%B3%A8%E6%84%8F%E5%A0%B1">rippukun</a></p>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>5</td>
-                                    <td>
-                                        完全犯罪ラブレター <span class="text-secondary">(feat. 寺島拓篤)</span><br>
-                                        <small>Perfect Crime Love Letter (feat. Takuma Terashima)</small>
-                                    </td>
-                                    <td>
-                                        <p><a href="https://youtu.be/D_a-koJtvAI">YT Reprint</a></p>
-                                    </td>
-                                    <td>
-                                        <p><a href="https://amesubs.tumblr.com/post/53813932552/ia-perfect-crime-love-letter-%E5%AE%8C%E5%85%A8%E7%8A%AF%E7%BD%AA%E3%83%A9%E3%83%96%E3%83%AC%E3%82%BF%E3%83%BC-the">AmeSubs</a></p>
-                                        <p><a href="https://rippukun.tumblr.com/post/720793076223868928/anonymously-they-say-he-performed-as">rippukun</a></p>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>6</td>
-                                    <td>
-                                        猿マネ椅子盗りゲーム <span class="text-secondary">(feat. 相沢舞)</span><br>
-                                        <small>Aimless Imitation Musical Chairs (feat. Mai Aizawa)</small>
-                                    </td>
-                                    <td>
-                                        <p><a href="https://youtu.be/LdWDVEZZL1A">YT Reprint</a></p>
-                                    </td>
-                                    <td>
-                                        <p><a href="https://amesubs.tumblr.com/post/80556836998/ia-aimless-imitation-musical-chairs">AmeSubs</a> (<a href="https://vimeo.com/89882055">Vimeo</a>)</p>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>7</td>
-                                    <td>
-                                        リピートラジディー <span class="text-secondary">(feat. 片霧烈火)</span><br>
-                                        <small>Repeatragedy (feat. Rekka Katakiri)</small>
-                                    </td>
-                                    <td>
-                                        <p><a href="https://youtu.be/0qMVLPZzPOw">YT Reprint</a></p>
-                                    </td>
-                                    <td>
-                                        <p><a href="https://amesubs.tumblr.com/post/75775532063/ia-repeatragedy-%E3%83%AA%E3%83%94%E3%83%BC%E3%83%88%E3%83%A9%E3%82%B8%E3%83%87%E3%82%A3%E3%83%BC">AmeSubs</a></p>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>9</td>
-                                    <td>
-                                        -Paradigm- <span class="text-secondary">(instrumental)</span>
-                                    </td>
-                                    <td>
-                                        <p><a href="https://youtu.be/3-RCL4p1fqg">YT Reprint</a></p>
-                                    </td>
-                                    <td></td>
-                                </tr>
-                                <tr>
-                                    <td>9</td>
-                                    <td>
-                                        ファイティングガール <span class="text-secondary">(feat. 平野綾)</span><br>
-                                        <small>Fighting Girl (feat. Aya Hirano)</small>
-                                    </td>
-                                    <td>
-                                        <p><a href="https://youtu.be/9jl08vPnz1s">YT Reprint</a></p>
-                                    </td>
-                                    <td>
-                                        <p><a href="https://vocaloidlyrics.fandom.com/wiki/%E3%83%95%E3%82%A1%E3%82%A4%E3%83%86%E3%82%A3%E3%83%B3%E3%82%B0%E3%82%AC%E3%83%BC%E3%83%AB_(Fighting_Girl">Hazuki no Yume</a>)</p>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>10</td>
-                                    <td>
-                                        やさしいおばけ話 <span class="text-secondary">(feat. 加藤英美里)</span><br>
-                                        <small>Gentle Ghost Story (feat. Emiri Katou)</small>
-                                    </td>
-                                    <td>
-                                        <p><a href="https://www.nicovideo.jp/watch/sm26733981">NND</a></p>
-                                        <p><a href="https://youtu.be/cXm1Mlho_n4">YT Reprint</a></p>
-                                    </td>
-                                    <td>
-                                        <p><a href="https://amesubs.tumblr.com/post/127158629673/ia-gentle-ghost-story-%E3%82%84%E3%81%95%E3%81%97%E3%81%84%E3%81%8A%E3%81%B0%E3%81%91%E8%A9%B1-in-a-dream">AmeSubs</a> (<a href="https://vimeo.com/136825577">Vimeo</a>)</p>
-                                        <p><a href="https://raspomme.tumblr.com/post/115006811295">raspomme</a></p>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>11</td>
-                                    <td>
-                                        ノスタルジージャンクフード <span class="text-secondary">(feat. 米澤円)</span><br>
-                                        <small>Nostalgia Junk Food (feat. Madoka Yonezawa)</small>
-                                    </td>
-                                    <td>
-                                        <p><a href="https://youtu.be/CRn53QBPFHQ">YT Reprint</a></p>
-                                    </td>
-                                    <td>
-                                        <p><a href="https://releska.com/2020/04/10/nostalgia-junk-food/">Releska</a></p>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>12</td>
-                                    <td>
-                                        四丁目の秘密屋さん <span class="text-secondary">(feat. 小野友樹)</span><br>
-                                        <small>The Secret Seller of The 4th Block (feat. Yuuki Ono)</small>
-                                    </td>
-                                    <td>
-                                        <p><a href="https://youtu.be/FKcdEpyhe5I">YT Reprint</a></p>
-                                    </td>
-                                    <td>
-                                        <p><a href="https://releska.com/2019/05/14/the-secret-seller-of-the-4th-block/">Releska</a></p>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>13</td>
-                                    <td>
-                                        テレーゼの溜息 <span class="text-secondary">(feat. 松岡禎丞)</span><br>
-                                        <small>Therese's Sigh (feat. Yoshitsugu Matsuoka)</small>
-                                    </td>
-                                    <td>
-                                        <p><a href="https://youtu.be/_LxBro65ZL8">YT Reprint</a></p>
-                                    </td>
-                                    <td>
-                                        <p><a href="https://re-missedcall-blog1.tumblr.com/post/124555727569/thereses-sigh">re-missedcall-blog1</a></p>
-                                        <p><a href="https://rippukun.tumblr.com/post/708833804054331392/thereses-sigh-translation-%E3%83%86%E3%83%AC%E3%83%BC%E3%82%BC%E3%81%AE%E6%BA%9C%E6%81%AF">rippukun</a></p>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>14</td>
-                                    <td>
-                                        -Paradox- <span class="text-secondary">(instrumental)</span>
-                                    </td>
-                                    <td>
-                                        <p><a href="https://youtu.be/HWDiKiVRut4">YT Reprint</a></p>
-                                    </td>
-                                    <td></td>
-                                </tr>
-                                <tr>
-                                    <td>15</td>
-                                    <td>
-                                        流れる星に願う <span class="text-secondary">(feat. 理多)</span><br>
-                                        <small>Wishing Upon A Shooting Star (feat. Rita)</small>
-                                    </td>
-                                    <td>
-                                        <p><a href="https://youtu.be/NcpticAiizI">YT Reprint</a></p>
-                                    </td>
-                                    <td>
-                                        <p><a href="https://www.facebook.com/ShuuenNoShiori1713/photos/a.681434541910068/894672230586297/">ShuuenNoShiori1713</a></p>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>16</td>
-                                    <td>
-                                        平凡な日常 <span class="text-secondary">(feat. 霜月はるか)</span><br>
-                                        <small>Mundane Everyday (feat. Haruka Shimotsuki)</small>
-                                    </td>
-                                    <td>
-                                        <p><a href="https://youtu.be/Lk_CQhzFvsw">YT Reprint</a></p>
-                                    </td>
-                                    <td>
-                                        <p><a href="https://amesubs.tumblr.com/post/52609374998/ia-mundane-everyday-%E5%B9%B3%E5%87%A1%E3%81%AA%E6%97%A5%E5%B8%B8-shuuen-rewrite">AmeSubs</a></p>
-                                        <small>(note: different final chorus in -Re:act-):</small>
-                                        <p><a href="https://shuuen-no-shiori.fandom.com/wiki/Mundane_Everyday#Re:act">Mikabit</a></p>
-                                        <p><a href="https://www.facebook.com/ShuuenNoShiori1713/photos/pb.679318715454984.-2207520000.1448254320./890844247635762/">ShuuenNoShiori1713</a></p>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>17</td>
-                                    <td>
-                                        -Paranoia- <span class="text-secondary">(instrumental)</span>
-                                    </td>
-                                    <td>
-                                        <p><a href="https://youtu.be/40uOXEwzE5o">YT Reprint</a></p>
-                                    </td>
-                                    <td></td>
-                                </tr>
-                            </table>
-                            <h3 class="mt-3">Limited Tracks</h3>
-                            <table class="table w-100 table-responsive table-bordered table-dark table-striped">
-                                <thead>
-                                    <tr>
-                                        <th>Track Title</th>
-                                        <th style="width:20%">Listen</th>
-                                        <th style="width:20%">Translations</th>
-                                    </tr>
-                                </thead>
-                                <tr>
-                                    <td>
-                                        負け犬至上主義 <span class="text-secondary">(feat. 緒方恵美)</span><br>
-                                        <small>Underdog Supremacist (feat. Megumi Ogata)</small>
-                                    </td>
-                                    <td>
-                                        <p><a href="https://youtu.be/6v2K2yK4gYU">YT Reprint</a></p>
-                                    </td>
-                                    <td>
-                                        <p><a href="https://amesubs.tumblr.com/post/45573934506/ia-underdog-supremacist-%E8%B2%A0%E3%81%91%E7%8A%AC%E8%87%B3%E4%B8%8A%E4%B8%BB%E7%BE%A9-that-childs">AmeSubs</a></p>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        ゲームアンドガールズ <span class="text-secondary">(feat. 平野綾 & 米澤円)</span><br>
-                                        <small>Game and Girls (feat. Aya Hirano & Madoka Yonezawa)</small>
-                                    </td>
-                                    <td>
-                                        <p><a href="https://youtu.be/_p75LpwS9Sk">YT Reprint</a></p>
-                                    </td>
-                                    <td>
-                                        <p><a href="https://shuuen-no-shiori.fandom.com/wiki/Game_and_Girls#English">Mikabit</a></p>
-                                    </td>
-                                </tr>
-                            </table>
-                        </details>
+                            </thead>
+                            <tr>
+                                <td>
+                                    負け犬至上主義 <span class="text-secondary">(feat. 緒方恵美)</span><br>
+                                    <small>Underdog Supremacist (feat. Megumi Ogata)</small>
+                                </td>
+                                <td>
+                                    <p><a href="https://youtu.be/6v2K2yK4gYU">YT Reprint</a></p>
+                                </td>
+                                <td>
+                                    <p><a href="https://amesubs.tumblr.com/post/45573934506/ia-underdog-supremacist-%E8%B2%A0%E3%81%91%E7%8A%AC%E8%87%B3%E4%B8%8A%E4%B8%BB%E7%BE%A9-that-childs">AmeSubs</a></p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    ゲームアンドガールズ <span class="text-secondary">(feat. 平野綾 & 米澤円)</span><br>
+                                    <small>Game and Girls (feat. Aya Hirano & Madoka Yonezawa)</small>
+                                </td>
+                                <td>
+                                    <p><a href="https://youtu.be/_p75LpwS9Sk">YT Reprint</a></p>
+                                </td>
+                                <td>
+                                    <p><a href="https://shuuen-no-shiori.fandom.com/wiki/Game_and_Girls#English">Mikabit</a></p>
+                                </td>
+                            </tr>
+                        </table>
                         <h3 class="mt-3 px-3">Voice Drama CD Translations</h3>
-                        <details class="collapsible pb-2" id="voice-drama-tl">
-                            <summary class="ms-4" data-open="[click to collapse]" data-close="[click to expand]"></summary>
-                            <table class="table caption-top w-100 table-responsive table-bordered table-dark table-striped">
-                                <caption class="text-light ms-3">
-                                    (Titles translated by <a href="https://w-sensei.tumblr.com/post/128196178141/react-cd-drama-tracks">@w-sensei</a>.)
-                                    <br>(All links are unofficial reprints.)
-                                    <br>Entire CD Reupload: <a href="https://youtu.be/31Oc4s4BbmY">YouTube</a>
-                                </caption>
-                                <thead>
-                                    <tr>
-                                        <th width="5%">#</th>
-                                        <th width="55%">Track Title</th>
-                                        <th style="width:20%">Listen</th>
-                                        <th style="width:20%">Translations</th>
-                                    </tr>
-                                </thead>
+                        <table class="table caption-top w-100 table-responsive table-bordered table-dark table-striped">
+                            <caption class="text-light ms-3">
+                                (Titles translated by <a href="https://w-sensei.tumblr.com/post/128196178141/react-cd-drama-tracks">@w-sensei</a>.)
+                                <br>(All links are unofficial reprints.)
+                                <br>Entire CD Reupload: <a href="https://youtu.be/31Oc4s4BbmY">YouTube</a>
+                            </caption>
+                            <thead>
                                 <tr>
-                                    <td>1</td>
-                                    <td>
-                                        プロローグ:Next Error<br>
-                                        <small>Prologue: Next Error</small>
-                                    </td>
-                                    <td>
-                                        <p><a href="https://youtu.be/31Oc4s4BbmY&t=0s">YouTube</a></p>
-                                        <p><a href="https://soundcloud.com/munynotameiki/01-next-error?in=munynotameiki/sets/shuuen-re-act-cd-drama">Soundcloud</a></p>
-                                    </td>
-                                    <td><a href="https://youtu.be/MFgPHoaP9rs">June</a></td>
+                                    <th width="5%">#</th>
+                                    <th width="55%">Track Title</th>
+                                    <th style="width:20%">Listen</th>
+                                    <th style="width:20%">Translations</th>
                                 </tr>
-                                <tr>
-                                    <td>2</td>
-                                    <td>
-                                        第一章:未来への手紙<br>
-                                        <small>First Chapter: Letter to the Future</small>
-                                    </td>
-                                    <td>
-                                        <p><a href="https://youtu.be/31Oc4s4BbmY&t=0s">YouTube</a></p>
-                                        <p><a href="https://soundcloud.com/munynotameiki/02a?in=munynotameiki/sets/shuuen-re-act-cd-drama">Soundcloud</a></p>
-                                    </td>
-                                    <td>(none yet)</td>
-                                </tr>
-                                <tr>
-                                    <td>3</td>
-                                    <td>
-                                        第二章:ボク達の証拠<br>
-                                        <small>Second Chapter: Our Evidence</small>
-                                    </td>
-                                    <td>
-                                        <p><a href="https://youtu.be/31Oc4s4BbmY&t=277s">YouTube</a></p>
-                                        <p><a href="https://soundcloud.com/munynotameiki/03a?in=munynotameiki/sets/shuuen-re-act-cd-drama">Soundcloud</a></p>
-                                    </td>
-                                    <td>(none yet)</td>
-                                </tr>
-                                <tr>
-                                    <td>4</td>
-                                    <td>
-                                        第三章:あの日の惨劇<br>
-                                        <small>Third Chapter: The Tragedy of that Day</small>
-                                    </td>
-                                    <td>
-                                        <p><a href="https://youtu.be/31Oc4s4BbmY&t=784s">YouTube</a></p>
-                                        <p><a href="https://soundcloud.com/munynotameiki/04a?in=munynotameiki/sets/shuuen-re-act-cd-drama">Soundcloud</a></p>
-                                    </td>
-                                    <td>(none yet)</td>
-                                </tr>
-                                <tr>
-                                    <td>5</td>
-                                    <td>
-                                        第四章:10年後のキミ達へ<br>
-                                        <small>Fourth Chapter: To the 10-years-after You</small>
-                                    </td>
-                                    <td>
-                                        <p><a href="https://youtu.be/31Oc4s4BbmY&t=1280s">YouTube</a></p>
-                                        <p><a href="https://soundcloud.com/munynotameiki/05-10a?in=munynotameiki/sets/shuuen-re-act-cd-drama">Soundcloud</a></p>
-                                    </td>
-                                    <td>(none yet)</td>
-                                </tr>
-                                <tr>
-                                    <td>6</td>
-                                    <td>
-                                        第五章:リピートラジディー<br>
-                                        <small>Fifth Chapter: Repeatragedy</small>
-                                    </td>
-                                    <td>
-                                        <p><a href="https://youtu.be/31Oc4s4BbmY&t=1972s">YouTube</a></p>
-                                        <p><a href="https://soundcloud.com/munynotameiki/06a?in=munynotameiki/sets/shuuen-re-act-cd-drama">Soundcloud</a></p>
-                                    </td>
-                                    <td>(none yet)</td>
-                                </tr>
-                                <tr>
-                                    <td>7</td>
-                                    <td>
-                                        エピローグ:放課後、音楽室にて<br>
-                                        <small>Epilogue: After School, in the Music Room</small>
-                                    </td>
-                                    <td>
-                                        <p><a href="https://youtu.be/31Oc4s4BbmY&t=2963s">YouTube</a></p>
-                                        <p><a href="https://soundcloud.com/munynotameiki/07a?in=munynotameiki/sets/shuuen-re-act-cd-drama">Soundcloud</a></p>
-                                    </td>
-                                    <td>
-                                        <p><a href="https://whisperscrawls.dreamwidth.org/6969.html">whisperscrawls</a></p>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>8</td>
-                                    <td>
-                                        [Secret Track]
-                                    </td>
-                                    <td>
-                                        <p><a href="https://youtu.be/31Oc4s4BbmY&t=3093s">YouTube</a></p>
-                                        <p><a href="https://soundcloud.com/munynotameiki/spoiler-secret?in=munynotameiki/sets/shuuen-re-act-cd-drama">Soundcloud</a></p>
-                                    </td>
-                                    <td>(none yet)</td>
-                                </tr>
-                            </table>
-                        </details>
-                        </p>
-
+                            </thead>
+                            <tr>
+                                <td>1</td>
+                                <td>
+                                    プロローグ:Next Error<br>
+                                    <small>Prologue: Next Error</small>
+                                </td>
+                                <td>
+                                    <p><a href="https://youtu.be/31Oc4s4BbmY&t=0s">YouTube</a></p>
+                                    <p><a href="https://soundcloud.com/munynotameiki/01-next-error?in=munynotameiki/sets/shuuen-re-act-cd-drama">Soundcloud</a></p>
+                                </td>
+                                <td><a href="https://youtu.be/MFgPHoaP9rs">June</a></td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>
+                                    第一章:未来への手紙<br>
+                                    <small>First Chapter: Letter to the Future</small>
+                                </td>
+                                <td>
+                                    <p><a href="https://youtu.be/31Oc4s4BbmY&t=0s">YouTube</a></p>
+                                    <p><a href="https://soundcloud.com/munynotameiki/02a?in=munynotameiki/sets/shuuen-re-act-cd-drama">Soundcloud</a></p>
+                                </td>
+                                <td>(none yet)</td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>
+                                    第二章:ボク達の証拠<br>
+                                    <small>Second Chapter: Our Evidence</small>
+                                </td>
+                                <td>
+                                    <p><a href="https://youtu.be/31Oc4s4BbmY&t=277s">YouTube</a></p>
+                                    <p><a href="https://soundcloud.com/munynotameiki/03a?in=munynotameiki/sets/shuuen-re-act-cd-drama">Soundcloud</a></p>
+                                </td>
+                                <td>(none yet)</td>
+                            </tr>
+                            <tr>
+                                <td>4</td>
+                                <td>
+                                    第三章:あの日の惨劇<br>
+                                    <small>Third Chapter: The Tragedy of that Day</small>
+                                </td>
+                                <td>
+                                    <p><a href="https://youtu.be/31Oc4s4BbmY&t=784s">YouTube</a></p>
+                                    <p><a href="https://soundcloud.com/munynotameiki/04a?in=munynotameiki/sets/shuuen-re-act-cd-drama">Soundcloud</a></p>
+                                </td>
+                                <td>(none yet)</td>
+                            </tr>
+                            <tr>
+                                <td>5</td>
+                                <td>
+                                    第四章:10年後のキミ達へ<br>
+                                    <small>Fourth Chapter: To the 10-years-after You</small>
+                                </td>
+                                <td>
+                                    <p><a href="https://youtu.be/31Oc4s4BbmY&t=1280s">YouTube</a></p>
+                                    <p><a href="https://soundcloud.com/munynotameiki/05-10a?in=munynotameiki/sets/shuuen-re-act-cd-drama">Soundcloud</a></p>
+                                </td>
+                                <td>(none yet)</td>
+                            </tr>
+                            <tr>
+                                <td>6</td>
+                                <td>
+                                    第五章:リピートラジディー<br>
+                                    <small>Fifth Chapter: Repeatragedy</small>
+                                </td>
+                                <td>
+                                    <p><a href="https://youtu.be/31Oc4s4BbmY&t=1972s">YouTube</a></p>
+                                    <p><a href="https://soundcloud.com/munynotameiki/06a?in=munynotameiki/sets/shuuen-re-act-cd-drama">Soundcloud</a></p>
+                                </td>
+                                <td>(none yet)</td>
+                            </tr>
+                            <tr>
+                                <td>7</td>
+                                <td>
+                                    エピローグ:放課後、音楽室にて<br>
+                                    <small>Epilogue: After School, in the Music Room</small>
+                                </td>
+                                <td>
+                                    <p><a href="https://youtu.be/31Oc4s4BbmY&t=2963s">YouTube</a></p>
+                                    <p><a href="https://soundcloud.com/munynotameiki/07a?in=munynotameiki/sets/shuuen-re-act-cd-drama">Soundcloud</a></p>
+                                </td>
+                                <td>
+                                    <p><a href="https://whisperscrawls.dreamwidth.org/6969.html">whisperscrawls</a></p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>8</td>
+                                <td>
+                                    [Secret Track]
+                                </td>
+                                <td>
+                                    <p><a href="https://youtu.be/31Oc4s4BbmY&t=3093s">YouTube</a></p>
+                                    <p><a href="https://soundcloud.com/munynotameiki/spoiler-secret?in=munynotameiki/sets/shuuen-re-act-cd-drama">Soundcloud</a></p>
+                                </td>
+                                <td>(none yet)</td>
+                            </tr>
+                        </table>
                 </div>
             </ul>
         </div>
