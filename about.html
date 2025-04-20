@@ -51,47 +51,45 @@
         <div class="container-fluid p-2">
             <div id="about">
                 <h2>About</h2>
-                    <h3>About</h3>
-                    <p>This website was created to serve as an up-to-date masterlist resource for Shuuen no Shiori fans. Back in November of 2019, this guide was originally a <a href="https://shuuenpro-guide.carrd.co">carrd (now deprecated)</a>. It was recreated as its own separate website in late March of 2023.</p>
-                </div>
-                <div id="site-owner">
-                    <h3>About the Site Owner</h3>
-                    <p>Hello! I'm <b>Nameless (they/them)</b>, the creator and maintainer of this website, as well as a number enthusiast and programmer. I've been a passionate fan of Shuuen no Shiori since February 11th, 2019, and own an 80+ member <a href="https://discord.gg/xmBBA2b">public Shuuen no Shiori Discord server</a>! My favorite character is E-ki, and my favorite club is the film club. I'm usually more than happy to talk to people about Shuuen, so don't be afraid to come talk to me about it!</p>
-                    <p>I have <a href="https://altcode255.github.io/">my own website</a> as well. Go check it out!</p>
-                </div>
+                <h3>About</h3>
+                <p>This website was created to serve as an up-to-date masterlist resource for Shuuen no Shiori fans. Back in November of 2019, this guide was originally a <a href="https://shuuenpro-guide.carrd.co">carrd (now deprecated)</a>. It was recreated as its own separate website in late March of 2023.</p>
             </div>
-            <div id="contact">
-                <h3>Contact</h3>
-                <p>Encountered a broken link on the website? Found a translation that isn't already linked here? Have suggestions for better website design? Have any other questions, concerns, or issues? Let me know using the feedback form below.</p>
-                <p>Alternatively, you can DM me at:</p>
-                <ul>
-                    <li>Bluesky: <a href="https://bsky.app/profile/altcode255.github.io">@altcode255.github.io</a></li>
-                    <li>Discord: <u class="fake_link">altcode255</u> or talk to me in the Shuuen server</li>
-                    <li>Tumblr: <a href="https://www.tumblr.com/alt255">alt255</a></li>
-                </ul>
-                <div id="ask">
-                    <form id="ask-box" class="mx-auto">
-                        <input type="text" name="username" placeholder="Your username" tabindex="-1" autocomplete="new-password">
-                        <input type="text" name="email" placeholder="Your email" tabindex="-1" autocomplete="new-password">
-                        <!-- :)  -->
-                        <input class="form-control rounded-top shadow-none" name="who" placeholder="Name / Contact Info (optional)" maxlength="50">
-                        <textarea id="textinput" class="form-control rounded-bottom border-top-0 shadow-none" name="msg" placeholder="Write feedback here." required maxlength="4000"></textarea>
-                        <small>
-                            <div class="text-light text-opacity-50 text-end" id="charactersRemaining">0/4000</div>
-                        </small>
-                        <button class="btn btn-mini custom-btn w-100 mx-auto mb-2" type="submit">Submit</button>
-                    </form>
-                    <script src="./askBox.js"></script>
-                </div>
+            <div id="site-owner">
+                <h3>About the Site Owner</h3>
+                <p>Hello! I'm <b>Nameless (they/them)</b>, the creator and maintainer of this website, as well as a number enthusiast and programmer. I've been a passionate fan of Shuuen no Shiori since February 11th, 2019, and own an 80+ member <a href="https://discord.gg/xmBBA2b">public Shuuen no Shiori Discord server</a>! My favorite character is E-ki, and my favorite club is the film club. I'm usually more than happy to talk to people about Shuuen, so don't be afraid to come talk to me about it!</p>
+                <p>I have <a href="https://altcode255.github.io/">my own website</a> as well. Go check it out!</p>
+            </div>
+        </div>
+        <div id="contact">
+            <h3>Contact</h3>
+            <p>Encountered a broken link on the website? Found a translation that isn't already linked here? Have suggestions for better website design? Have any other questions, concerns, or issues? Let me know using the feedback form below.</p>
+            <p>Alternatively, you can DM me at:</p>
+            <ul>
+                <li>Bluesky: <a href="https://bsky.app/profile/altcode255.github.io">@altcode255.github.io</a></li>
+                <li>Discord: <u class="fake_link">altcode255</u> or talk to me in the Shuuen server</li>
+                <li>Tumblr: <a href="https://www.tumblr.com/alt255">alt255</a></li>
+            </ul>
+            <div id="ask">
+                <form id="ask-box" class="mx-auto">
+                    <input type="text" name="username" placeholder="Your username" tabindex="-1" autocomplete="new-password">
+                    <input type="text" name="email" placeholder="Your email" tabindex="-1" autocomplete="new-password">
+                    <!-- :)  -->
+                    <input class="form-control rounded-top shadow-none" name="who" placeholder="Name / Contact Info (optional)" maxlength="50">
+                    <textarea id="textinput" class="form-control rounded-bottom border-top-0 shadow-none" name="msg" placeholder="Write feedback here." required maxlength="4000"></textarea>
+                    <small>
+                        <div class="text-light text-opacity-50 text-end" id="charactersRemaining">0/4000</div>
+                    </small>
+                    <button class="btn btn-mini custom-btn w-100 mx-auto mb-2" type="submit">Submit</button>
+                </form>
+                <script src="./askBox.js"></script>
             </div>
         </div>
     </div>
-    <footer>
+    </div>
+    <footer class="text-center">
         <hr>
-        <center>
-            <p><a href=https://discord.gg/xmBBA2b><img src="discord.svg"></a></p>
-            <b>Page Last Updated: </b><span id="last-updated"></span>
-        </center>
+        <p><a href=https://discord.gg/xmBBA2b><img src="discord.svg"></a></p>
+        <b>Page Last Updated: </b><span id="last-updated"></span>
         <script src="footer.js"></script>
         <script>
             var filepath;
