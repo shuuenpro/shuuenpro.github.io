@@ -54,9 +54,8 @@
         <footer class="text-center">
             <hr>
             <p><a href=https://discord.gg/xmBBA2b><img src="discord.svg"></a></p>
-            <p>
-                <b>Page Last Updated: </b><span id="last-updated"></span>
-            </p>
+            <img id="hits" src=""><br>
+            <p><b>Page Last Updated: </b><span id="last-updated"></span></p>
             <script src="footer.js"></script>
             <script>
                 var filepath;
@@ -65,6 +64,7 @@
                 }
                 else {
                     filepath = location.pathname.substring(1) + ".html";
+                    getHits("%2F" + location.pathname.substring(1));
                 }
                 getLastUpdateTimestamp("last-updated", filepath);
             </script>
