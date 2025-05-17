@@ -162,6 +162,9 @@ b {
 /* Navigation CSS */
 .nav-item {
     background: #6b6b6b4c;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #6b6b6b8e;
 }
 
 .nav-item.active {
@@ -171,10 +174,12 @@ b {
 .navbar-nav {
     --bs-navbar-color: white;
     --bs-navbar-hover-color: white;
-    --bs-navbar-nav-link-padding-x: 1rem;
-    --bs-nav-link-padding-x: 0.5rem;
-    --bs-nav-link-padding-y: 0.6rem;
+    --bs-navbar-nav-link-padding-x: 1em;
+    --bs-nav-link-padding-x: 0.5em;
+    --bs-nav-link-padding-y: 0.6em;
 }
+
+.n
 
 i {
     color: white;
