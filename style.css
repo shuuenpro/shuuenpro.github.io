@@ -63,7 +63,8 @@
 }
 @media (max-width: 600px) {
     html {
-        background: linear-gradient(#b3535335 0%, #1458be35 50%), url("react-og.png");
+        background: linear-gradient(#b3535335 0%, #1458be35 50%),
+            url("react-og.png");
         background-attachment: scroll;
     }
     body {
@@ -159,6 +160,11 @@ b {
     }
 }
 
+#home {
+    width: 1.25em;
+    height: 1.25em;
+}
+
 /* Navigation CSS */
 .nav-item {
     background: #6b6b6b4c;
@@ -179,9 +185,7 @@ b {
     --bs-nav-link-padding-y: 0.6em;
 }
 
-.n
-
-i {
+.n i {
     color: white;
 }
 
