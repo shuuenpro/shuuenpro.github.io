@@ -50,6 +50,7 @@
     --bs-highlight-bg: #fff3cd;
 
     --hot-pink: #a01b3a;
+    --faded-hot-pink: #95183590;
 
     --pink: #9a3061;
     --faded-pink: #9a306185;
@@ -210,7 +211,7 @@ li.dropdown:has(a.dropdown-item.active) {
 }
 
 .nav-item:hover {
-    background-color: var(--faded-pink);
+    background-color: var(--faded-hot-pink);
 }
 
 /* Navigation Dropdown Menu */
