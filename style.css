@@ -173,9 +173,11 @@ b {
     border-color: #6b6b6b8e;
 }
 
-.nav-item.active {
+.nav-link.active,
+li.dropdown:has(a.dropdown-item.active) {
     background-color: #a01b3a;
 }
+
 
 .navbar-nav {
     --bs-navbar-color: white;
