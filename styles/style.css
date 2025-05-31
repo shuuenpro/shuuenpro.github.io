@@ -148,10 +148,6 @@ b {
     color: white;
 }
 
-#footer {
-    font-size: 90%;
-}
-
 .fake-link {
     color: var(--bs-link-color);
     text-decoration: var(--bs-link-decoration);
