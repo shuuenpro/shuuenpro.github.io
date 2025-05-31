@@ -1,4 +1,4 @@
-function getLastUpdateTimestamp(id, filepath) {
+function getLastUpdateTimestamp() {
     if (location.pathname.endsWith("/")) {
         filepath = location.pathname.substring(1) + "index.html";
     } else {
@@ -14,7 +14,7 @@ function getLastUpdateTimestamp(id, filepath) {
             date = new Date(res[0].commit.committer.date);
             formatDate = date.toLocaleString("sv-SE").split(" ")[0];
             formatTime = date.toLocaleTimeString();
-            document.getElementById(id).innerHTML =
+            document.getElementById("last-updated").innerHTML =
                 formatDate + " @ " + formatTime;
         });
 }
