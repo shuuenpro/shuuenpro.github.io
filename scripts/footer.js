@@ -59,8 +59,6 @@ function setFooter() {
     `;
 }
 
-u = atob(u);
-k = atob(k);
 setFooter();
 if (location.hostname == "shuuenpro.github.io") {
     getLastUpdateTimestamp();
