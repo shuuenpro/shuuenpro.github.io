@@ -1,4 +1,4 @@
-document.getElementById("nav").innerHTML = `
+document.getElementById("header").innerHTML = `
     <nav class="navbar navbar-expand-md navbar-dark mb-2">
         <div class="container-fluid">
             <button class="navbar-toggler mb-1" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMenu" aria-controls="navbarMenu" aria-expanded="false" aria-label="Toggle navigation">
