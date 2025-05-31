@@ -24,11 +24,14 @@ function getHits() {
         location.pathname == "/" ? "" : location.pathname.replace("/", "%2F");
     if (path != "%2Ftemplate" && path != "%2F404") {
         fetch(
-            `https://hitscounter.dev/api/hit?url=shuuenpro.github.io${path}&output=json`
+            `https://api.allorigins.win/get?url=${encodeURIComponent(
+                `https://hitscounter.dev/api/hit?url=shuuenpro.github.io${path}&output=json`
+            )}`
         )
             .then((res) => res.json())
             .then((res) => {
-                document.getElementById("visits").innerHTML = res.total_visits;
+                obj = JSON.parse(res.contents);
+                document.getElementById("visits").innerHTML = obj.total_hits;
             });
     }
 }
