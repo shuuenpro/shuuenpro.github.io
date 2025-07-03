@@ -39,7 +39,7 @@
     --bs-body-line-height: 1.6;
     --bs-body-color: var(--bs-light);
     --bs-body-color-rgb: var(--bs-light-rgb);
-    --bs-body-bg: rgba(44, 42, 55, 0.7);
+    --bs-body-bg: rgba(44, 42, 55, 0.55);
     --bs-body-bg-rgb: 44, 42, 55;
     --bs-link-color: #f9c748;
     --bs-link-color-rgb: 249, 199, 72;
@@ -99,7 +99,8 @@
 
 /* Main Components */
 html {
-    background-position: center;
+	background-color: #00F;
+	background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     height: auto;
