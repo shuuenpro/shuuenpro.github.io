@@ -275,7 +275,8 @@ li.dropdown:has(a.dropdown-item.active) {
 }
 
 input[name="username"],
-input[name="email"] {
+input[name="email"],
+input[name="color"] {
     position: absolute;
     left: -999999999px;
 }
