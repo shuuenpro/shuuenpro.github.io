@@ -35,7 +35,9 @@
     <link href="./styles/style.css" rel="stylesheet">
     <meta name="title" property="og:title" content="Nameless' Shuuen no Shiori Guide | Light Novel Masterlist">
     <meta name="description" property="og:description" content="Masterlist of Shuuenpro light novel translations.">
-    <noscript>Please enable JavaScript on this site for header navigation.<hr></noscript>
+    <noscript>Please enable JavaScript on this site for header navigation.
+        <hr>
+    </noscript>
 </head>
 
 <body>
@@ -46,32 +48,15 @@
     <main class="animate-in" id="content">
         <div class="container-fluid p-2">
             <h2>Light Novels</h2>
-            <p>Shuuen no Shiori's light novel adaptation was written by <b>Suzumu</b>, and illustrated by <b>komine</b> (black-and-white illustrations) and <b>Saine</b> (cover art, colored illustrations). Altogether, there exist <b>4 light novels</b>.</p>
-            <p>According to the <a href="https://whisperscrawls.dreamwidth.org/10490.html" target="_blank">4th novel's afterword</a>, a 5th light novel, named "Bookmark of Demise 5: Conclusion Dreamelody", was planned (but never released).</p>
+            <p>Shuuen no Shiori's light novel adaptation was written by <b>Suzumu</b>, and illustrated by <b>komine</b> (black-and-white illustrations) and <b>Saine</b> (cover art, colored illustrations). Altogether, there exist <b>4 light novels</b>. <u>Click to expand each tab below for more info + translations.</u></p>
+            <p><small>According to the <a href="https://whisperscrawls.dreamwidth.org/10490.html" target="_blank">4th novel's afterword</a>, a 5th light novel, named "Bookmark of Demise 5: Conclusion Dreamelody", was planned (but never released).</small></p>
             <p><a href="https://drive.google.com/drive/folders/16jOzVyHYb57cu_81-pWMOeMpY9i9vnuV?usp=drive_link" target="_blank">Light Novel JP eBooks (EPUB)</a></p>
-            <script>
-                $(document).ready(function () {
-                    switch (window.location.hash) {
-                        case "#novel-1":
-                        case "#novel-2":
-                        case "#novel-3":
-                        case "#novel-4":
-                            $('button[href="' + window.location.hash + '"]').tab('show');
-                            break;
-                        default:
-                            break;
-                    }
-                });
-            </script>
-            <ul class="list-group">
-                <li class="list-group-item p-0 btn-group-vertical">
-                    <button class="btn custom-btn-2" data-bs-toggle="tab" href="#novel-1">Bookmark of Demise (終焉ノ栞)</button>
-                    <button class="btn custom-btn-2" data-bs-toggle="tab" href="#novel-2">Bookmark of Demise 2: Retribution -Re:vival- (終焉ノ栞弐 報復-Re:vival-)</button>
-                    <button class="btn custom-btn-2" data-bs-toggle="tab" href="#novel-3">Bookmark of Demise 3: Ending -Re:write- (終焉ノ栞参 終末-Re:write-)</button>
-                    <button class="btn custom-btn-2" data-bs-toggle="tab" href="#novel-4">Bookmark of Demise 4: Lost -Re:code- (終焉ノ栞詩 欠落-Re:code-)</button>
-                </li>
-                <div class="tab-content">
-                    <li class="list-group-item p-3 tab-pane fade" id="novel-1">
+            <script src="./scripts/accordion.js"></script>
+            <div class="accordion">
+                <p class="toggle">[<a href="javascript:toggleAll()">Expand/collapse all</a>]</p>
+                <div class="accordion-item">
+                    <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#novel-1">Bookmark of Demise (終焉ノ栞)</button>
+                    <div class="accordion-body accordion-collapse collapse" id="novel-1">
                         <h5>Bookmark of Demise (終焉ノ栞)</h5>
                         <p>(Released 2013/02/25; ISBN 9784040664057)</p>
                         <div class="row">
@@ -196,8 +181,11 @@
                                 </ul>
                             </div>
                         </div>
-                    </li>
-                    <li class="list-group-item p-3 tab-pane fade" id="novel-2">
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#novel-2">Bookmark of Demise 2: Retribution -Re:vival- (終焉ノ栞弐 報復-Re:vival-)</button>
+                    <div class="accordion-body accordion-collapse collapse" id="novel-2">
                         <h5>Bookmark of Demise 2: Retribution -Re:vival- (終焉ノ栞弐 報復-Re:vival-)</h5>
                         <p>(Released 2013/10/25; ISBN 9784040660325)</p>
                         <div class="row">
@@ -328,11 +316,13 @@
                                         (none yet)
                                     </li>
                                 </ul>
-                                </d>
                             </div>
                         </div>
-                    </li>
-                    <li class="list-group-item p-3 tab-pane fade" id="novel-3">
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#novel-3">Bookmark of Demise 3: Ending -Re:write- (終焉ノ栞参 終末-Re:write-)</button>
+                    <div class="accordion-body accordion-collapse collapse" id="novel-3">
                         <h5>Bookmark of Demise 3: Ending -Re:write- (終焉ノ栞参 終末-Re:write-)</h5>
                         <p>(Released 2014/03/25; ISBN 9784040663142)</p>
                         <div class="row">
@@ -393,8 +383,11 @@
                                 </ul>
                             </div>
                         </div>
-                    </li>
-                    <li class="list-group-item p-3 tab-pane fade" id="novel-4">
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#novel-4">Bookmark of Demise 4: Lost -Re:code- (終焉ノ栞詩 欠落-Re:code-)</button>
+                    <div class="accordion-body accordion-collapse collapse" id="novel-4">
                         <h5>Bookmark of Demise 4: Lost -Re:code- (終焉ノ栞詩 欠落-Re:code-)</h5>
                         <p>(Released 2014/07/25; ISBN 9784040669205)</p>
                         <div class="row">
@@ -469,9 +462,9 @@
                                 </s>
                             </div>
                         </div>
-                    </li>
+                    </div>
                 </div>
-            </ul>
+            </div>
         </div>
     </main>
     <footer class="text-center">

@@ -39,6 +39,8 @@
     --bs-body-line-height: 1.6;
     --bs-body-color: var(--bs-light);
     --bs-body-color-rgb: var(--bs-light-rgb);
+    --bs-secondary-color: rgb(200, 200, 200);
+    --bs-secondary-color-rgb: 200, 200, 200;
     --bs-body-bg: rgba(44, 42, 55, 0.55);
     --bs-body-bg-rgb: 44, 42, 55;
     --bs-link-color: #f9c748;
@@ -61,7 +63,7 @@
     --purple: #672081;
     --faded-purple: #8721ac55;
 
-    --green: #127823;
+    --green: #1a912e;
     --faded-green: #1ab13355;
 
     --blue: #26557c;
@@ -99,8 +101,8 @@
 
 /* Main Components */
 html {
-	background-color: #242127;
-	background-position: center;
+    background-color: #242127;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     height: auto;
@@ -204,7 +206,6 @@ li.dropdown:has(a.dropdown-item.active) {
     background-color: var(--hot-pink);
 }
 
-
 .navbar-nav {
     --bs-navbar-color: var(--bs-light);
     --bs-navbar-hover-color: white;
@@ -290,57 +291,103 @@ input[name="color"] {
     --bs-btn-hover-bg: var(--faded-pink);
 }
 
-.custom-btn-2 {
-    --bs-btn-color: var(--bs-light);
-    --bs-btn-border-color: var(--bs-light);
+/* Accordion Navigation */
+.accordion {
+    --bs-accordion-border-color: var(--bs-light);
+    --bs-accordion-btn-focus-box-shadow: none;
+    --bs-accordion-active-color: var(--bs-light);
+    --bs-accordion-btn-color: var(--bs-secondary-color);
+    --bs-accordion-btn-border-color: var(--bs-light);
+    --bs-accordion-btn-padding-y: 0.75rem;
+    --bs-accordion-btn-icon: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='white'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+    --bs-accordion-btn-active-icon: var(--bs-accordion-btn-icon);
 }
 
-.custom-btn-2:nth-of-type(1) {
-    --bs-btn-active-bg: var(--red);
-    --bs-btn-hover-bg: var(--faded-red);
+.accordion-item:nth-of-type(1) {
+    --bs-accordion-active-bg: var(--red);
+    --bs-accordion-btn-bg: var(--faded-red);
 }
-.custom-btn-2:nth-of-type(2) {
-    --bs-btn-active-bg: var(--purple);
-    --bs-btn-hover-bg: var(--faded-purple);
+.accordion-item:nth-of-type(2) {
+    --bs-accordion-active-bg: var(--purple);
+    --bs-accordion-btn-bg: var(--faded-purple);
 }
-.custom-btn-2:nth-of-type(3) {
-    --bs-btn-active-bg: var(--green);
-    --bs-btn-hover-bg: var(--faded-green);
+.accordion-item:nth-of-type(3) {
+    --bs-accordion-active-bg: var(--green);
+    --bs-accordion-btn-bg: var(--faded-green);
 }
-.custom-btn-2:nth-of-type(4) {
-    --bs-btn-active-bg: var(--blue);
-    --bs-btn-hover-bg: var(--faded-blue);
+.accordion-item:nth-of-type(4) {
+    --bs-accordion-active-bg: var(--blue);
+    --bs-accordion-btn-bg: var(--faded-blue);
 }
-.custom-btn-2:nth-of-type(5) {
-    --bs-btn-active-bg: var(--yellow);
-    --bs-btn-hover-bg: var(--faded-yellow);
-}
-
-/* List Items */
-
-.list-group-item {
-    --bs-list-group-bg: none;
-    --bs-list-group-active-bg: none;
-    --bs-list-group-active-border-color: none;
+.accordion-item:nth-of-type(5) {
+    --bs-accordion-active-bg: var(--yellow);
+    --bs-accordion-btn-bg: var(--faded-yellow);
 }
 
-/* Collapse Toggles */
-details.collapsible[open] summary::after {
-    content: attr(data-open);
+.accordion small {
+    font-size: 85%;
+    color: rgb(193, 193, 193);
 }
 
-details.collapsible:not([open]) summary::after {
-    content: attr(data-close);
+.accordion .text-secondary {
+    font-size: 85%;
 }
 
-details.collapsible summary {
-    margin-top: 0.5em;
-    margin-bottom: 0.2em;
-    color: rgb(98, 226, 143);
-    font-weight: bold;
-    font-size: 90%;
+.accordion table p {
+    line-height: 1.2;
 }
 
-details.collapsible[open] summary {
-    color: rgb(244, 74, 119);
+.accordion table a {
+    font-size: 95%;
+    text-decoration: none;
+}
+
+.accordion .toggle a {
+    color: #6fd942;
+}
+
+.accordion .toggle a:hover {
+    color: #52ab2b;
+}
+
+/* Color coding */
+
+.text-red, .text-red a {
+    color: var(--red);
+}
+
+.text-red:hover, .text-red a:hover {
+    color: var(--faded-red);
+}
+
+.text-purple, .text-purple a {
+    color: var(--purple);
+}
+
+.text-purple:hover, .text-purple a:hover {
+    color: var(--faded-purple);
+}
+
+.text-green, .text-green a {
+    color: var(--green);
+}
+
+.text-green:hover, .text-green a:hover {
+    color: var(--faded-green);
+}
+
+.text-blue, .text-blue a {
+    color: var(--blue);
+}
+
+.text-blue:hover, .text-blue a:hover {
+    color: var(--faded-blue);
+}
+
+.text-yellow, .text-yellow a {
+    color: var(--yellow);
+}
+
+.text-yellow:hover, .text-yellow a:hover {
+    color: var(--faded-yellow);
 }

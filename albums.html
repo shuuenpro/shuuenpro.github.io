@@ -35,7 +35,9 @@
     <link href="./styles/style.css" rel="stylesheet">
     <meta name="title" property="og:title" content="Nameless' Shuuen no Shiori Guide | Album Masterlist">
     <meta name="description" property="og:description" content="Masterlist of Shuuenpro album and song translations.">
-    <noscript>Please enable JavaScript on this site for header navigation.<hr></noscript>
+    <noscript>Please enable JavaScript on this site for header navigation.
+        <hr>
+    </noscript>
 </head>
 
 <body>
@@ -46,7 +48,7 @@
     <main class="animate-in" id="content">
         <div class="container-fluid p-2">
             <h2>Albums / Songs</h2>
-            <p>There are <b>5 albums</b> in Shuuen no Shiori released under <b>150P</b>.</p>
+            <p>There are <b>5 albums</b> in Shuuen no Shiori released under <b>150P</b>. <u>Click to expand each tab below for more info + translations.</p></u>
             <ul>
                 <li>
                     <a href="https://www.youtube.com/playlist?list=PLSvaLUgBdYh82-cL2za1aW34sL2MAbxOW" target="_blank">Mega Shuuenpro YouTube Playlist</a>
@@ -55,53 +57,13 @@
                     <a href="https://drive.google.com/drive/folders/1i-0zbEqW7AQGUjTi4vQTE97QDnqCgakc" target="_blank">Audio Files (FLAC)</a>
                 </li>
             </ul>
-            <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
-            <script>
-                $(document).ready(function () {
-                    switch (window.location.hash) {
-                        case "#rehoukago":
-                        case "#rewrite":
-                        case "#unlucky":
-                        case "#remind":
-                        case "#react":
-                        case "#voice-drama":
-                            $('button[href="' + window.location.hash + '"]').tab('show');
-                            break;
-                        default:
-                            break;
-                    }
-                });
-            </script>
-            <ul class="list-group">
-                <li class="list-group-item p-0 btn-group-vertical">
-                    <button class="btn custom-btn-2" data-bs-toggle="tab" href="#rehoukago">Re:Houkago -Shuuen Game- (Re:放課後-終焉ゲーム-)</button>
-                    <button class="btn custom-btn-2" data-bs-toggle="tab" href="#rewrite">Shuuen -Re:write- (終焉-Re:write-)</button>
-                    <button class="btn custom-btn-2" data-bs-toggle="tab" href="#unlucky">Unlucky -Makki- @ School Trip (アンラッキー末期ー@スクールトリップ)</button>
-                    <button class="btn custom-btn-2" data-bs-toggle="tab" href="#remind">Shuuen -Re:mind- (終焉-Re:mind-)</button>
-                    <button class="btn custom-btn-2" data-bs-toggle="tab" href="#react">Shuuen -Re:act- (終焉-Re:act-)</button>
-                </li>
-                <div class="tab-content">
-                    <style>
-                        small {
-                            font-size: 85%;
-                            color: rgb(193, 193, 193);
-                        }
-
-                        .text-secondary {
-                            font-size: 85%;
-                        }
-
-                        table p {
-                            line-height: 1.2;
-                        }
-
-                        table a {
-                            font-size: 95%;
-                            text-decoration: none;
-                        }
-                    </style>
-                    <li id="rehoukago" class="list-group-item p-0 rounded-bottom tab-pane fade table-responsive">
-                        <div class="p-3 pb-0">
+            <script src="./scripts/accordion.js"></script>
+            <div class="accordion">
+                <p class="toggle">[<a href="javascript:toggleAll()">Expand/collapse all</a>]</p>
+                <div class="accordion-item">
+                    <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#rehoukago">Re:Houkago -Shuuen Game- (Re:放課後-終焉ゲーム-)</button>
+                    <div id="rehoukago" class="accordion-collapse collapse table-responsive">
+                        <div class="accordion-body">
                             <h5>Re:Houkago -Shuuen Game- (Re:放課後-終焉ゲーム-)</h5>
                             <p>
                                 (Released 2012/08/11) (13 tracks)
@@ -373,9 +335,12 @@
                                 </td>
                             </tr>
                         </table>
-                    </li>
-                    <li class="list-group-item rounded-bottom p-0 tab-pane fade table-responsive" id="rewrite">
-                        <div class="p-3 pb-0">
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#rewrite" href="#rewrite">Shuuen -Re:write- (終焉-Re:write-)</button>
+                    <div id="rewrite" class="accordion-collapse collapse table-responsive">
+                        <div class="accordion-body">
                             <h5>Shuuen -Re:write- (終焉-Re:write-)</h5>
                             <p>
                                 (Released 2013/03/13) (2 discs, 27 + 5 tracks)
@@ -995,9 +960,12 @@
                                 </td>
                             </tr>
                         </table>
-                    </li>
-                    <li class="list-group-item rounded-bottom p-0 tab-pane fade table-responsive" id="unlucky">
-                        <div class="p-3 pb-0">
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#unlucky">Unlucky -Makki- @ School Trip (アンラッキー末期ー@スクールトリップ)</button>
+                    <div id="unlucky" class="accordion-collapse collapse table-responsive">
+                        <div class="accordion-body">
                             <h5>Unlucky -Makki- @ School Trip (アンラッキー末期ー@スクールトリップ)</h5>
                             <p>
                                 (Released 2013/11/24) (11 tracks)
@@ -1221,9 +1189,12 @@
                                 </td>
                             </tr>
                         </table>
-                    </li>
-                    <li class="list-group-item rounded-bottom p-0 tab-pane fade table-responsive" id="remind">
-                        <div class="p-3 pb-0">
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#remind">Shuuen -Re:mind- (終焉-Re:mind-)</button>
+                    <div id="remind" class="accordion-collapse collapse table-responsive">
+                        <div class="accordion-body">
                             <h5>Shuuen -Re:mind- (終焉-Re:mind-)</h5>
                             <p>
                                 (Released 2015/03/25) (19 tracks)
@@ -1684,9 +1655,12 @@
                                 </td>
                             </tr>
                         </table>
-                    </li>
-                    <li class="list-group-item rounded-bottom p-0 tab-pane fade table-responsive" id="react">
-                        <div class="p-3 pb-0">
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#react">Shuuen -Re:act- (終焉-Re:act-)</button>
+                    <div id="react" class="accordion-collapse collapse table-responsive">
+                        <div class="accordion-body">
                             <h5>Shuuen -Re:act- (終焉-Re:act-)</h5>
                             <p>
                                 (Released 2015/09/23) (17 tracks + 8 voice drama tracks)
@@ -2180,9 +2154,9 @@
                                 <td><a href="https://youtu.be/E7NgYpJ3UtA" target="_blank">June</td>
                             </tr>
                         </table>
-                </div>
-            </ul>
-        </div>
+                        <div>
+                        </div>
+                    </div>
     </main>
     <footer class="text-center">
         <div id="footer"></div>
