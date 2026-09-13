@@ -214,9 +214,6 @@ tracks:
     listen:
       - label: YT Reprint
         url: https://youtu.be/NcpticAiizI
-    translations:
-      - label: <strike>ShuuenNoShiori1713</strike> (broken link)
-        url: https://www.facebook.com/ShuuenNoShiori1713/photos/a.681434541910068/894672230586297/
 
   - number: 16
     title:
@@ -232,8 +229,6 @@ tracks:
     translations:
       - label: AmeSubs + Mikabit (-Re:act- final chorus)
         url: https://shuuen-no-shiori.fandom.com/wiki/Mundane_Everyday#Re:act
-      - label: ShuuenNoShiori1713
-        url: https://www.facebook.com/ShuuenNoShiori1713/photos/pb.679318715454984.-2207520000.1448254320./890844247635762/
 
   - number: 17
     title:
