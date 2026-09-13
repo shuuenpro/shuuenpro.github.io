@@ -14,8 +14,8 @@ tracks:
   - number: 2
     title:
       japanese: 孤独ノ隠レンボ (Suzumu Arrangement)
-      romanized: Kodoku no Kakurenbo
-      english: Lonely Hide and Seek
+      romanized: Kodoku no Kakurenbo (Suzumu Arrangement)
+      english: Lonely Hide and Seek (Suzumu Arrangement)
     listen:
       - label: YT Reprint
         url: https://youtu.be/mhoyrWaKISo
@@ -24,8 +24,8 @@ tracks:
   - number: 3
     title:
       japanese: 猿マネ椅子盗りゲーム (Suzumu Arrangement)
-      romanized: Sarumane Isu Tori Game
-      english: Aimless Imitation Musical Chairs
+      romanized: Sarumane Isu Tori Game (Suzumu Arrangement)
+      english: Aimless Imitation Musical Chairs (Suzumu Arrangement)
     listen:
       - label: YT Reprint
         url: https://youtu.be/AEXNy53bd9I
@@ -34,8 +34,8 @@ tracks:
   - number: 4
     title:
       japanese: 終焉ノ栞 (Suzumu Arrangement)
-      romanized: Shuuen no Shiori
-      english: Bookmark of Demise
+      romanized: Shuuen no Shiori (Suzumu Arrangement)
+      english: Bookmark of Demise (Suzumu Arrangement)
     listen:
       - label: YT Reprint
         url: https://youtu.be/oK1glKa5kNI
@@ -44,7 +44,6 @@ tracks:
   - number: 5
     title:
       japanese: Load to Continue
-      romanized: Load to Continue
     vocals:
       japanese: そらる & ろん
       romanized: Soraru & Lon

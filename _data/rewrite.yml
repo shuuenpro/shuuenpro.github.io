@@ -34,8 +34,8 @@ tracks:
       romanized: Shuumatsu -Re:write-
       english: Conclusion -Re:write-
     vocals:
-      japanese: 初音ミク, 鏡音リン, GUMI, MAYU
-      romanized: Hatsune Miku, Kagamine Rin, GUMI, MAYU
+      japanese: 150P ft. 初音ミク, 鏡音リン, GUMI, MAYU
+      romanized: 150P ft. Hatsune Miku, Kagamine Rin, GUMI, MAYU
     listen:
       - label: YouTube
         url: https://youtu.be/fQ8SF6qHtOY
@@ -70,7 +70,8 @@ tracks:
       romanized: Shuuen no Shiori
       english: Bookmark of Demise
     vocals:
-      japanese: IA
+      japanese: 150P ft. IA
+      romanized: 150P ft. IA
     listen:
       - label: YouTube
         url: https://youtu.be/EBLcRwdcOZA
@@ -107,8 +108,8 @@ tracks:
       romanized: Kodoku no Kakurenbo
       english: Lonely Hide and Seek
     vocals:
-      japanese: 初音ミク
-      romanized: Hatsune Miku
+      japanese: 150P ft. 初音ミク
+      romanized: 150P ft. Hatsune Miku
     listen:
       - label: YouTube
         url: https://youtu.be/gB6UzoSuqNw
@@ -143,7 +144,8 @@ tracks:
       romanized: Kanzen Hanzai Love Letter
       english: Perfect Crime Love Letter
     vocals:
-      japanese: GUMI
+      japanese: 150P ft. GUMI
+      romanized: 150P ft. GUMI
     listen:
       - label: YouTube
         url: https://youtu.be/yeazJzCiAnE
@@ -180,8 +182,8 @@ tracks:
       romanized: Re:Fuzai Chakushin
       english: Re:Missed Call
     vocals:
-      japanese: 初音ミク, GUMI
-      romanized: Hatsune Miku, GUMI
+      japanese: 150P ft. 初音ミク, GUMI
+      romanized: 150P ft. Hatsune Miku, GUMI
     listen:
       - label: YouTube
         url: https://youtu.be/sMeLeVSQbWI
@@ -218,8 +220,8 @@ tracks:
       romanized: Nisemono Chuuihou
       english: Impostor Advisory
     vocals:
-      japanese: 鏡音リン
-      romanized: Kagamine Rin
+      japanese: 150P ft. 鏡音リン
+      romanized: 150P ft. Kagamine Rin
     listen:
       - label: YouTube
         url: https://youtu.be/kzDV845CfEs
@@ -256,7 +258,7 @@ tracks:
       romanized: Sarumane Isu Tori Game
       english: Aimless Imitation Musical Chairs
     vocals:
-      japanese: MAYU
+      japanese: 150P ft. MAYU
     listen:
       - label: YouTube
         url: https://youtu.be/l5YTAKmj1Sg
@@ -293,8 +295,8 @@ tracks:
       romanized: Re:Heikou Rensen
       english: Re:Parallel Love Lines
     vocals:
-      japanese: 鏡音リン, MAYU
-      romanized: Kagamine Rin, MAYU
+      japanese: 150P ft. 鏡音リン, MAYU
+      romanized: 150P ft. Kagamine Rin, MAYU
     listen:
       - label: YouTube
         url: https://youtu.be/1_LuY0MJb3Q
@@ -329,8 +331,8 @@ tracks:
       romanized: Makeinu Shijou-shugi
       english: Underdog Supremacy
     vocals:
-      japanese: 初音ミク, 鏡音リン
-      romanized: Hatsune Miku, Kagamine Rin
+      japanese: 150P ft. 初音ミク, 鏡音リン
+      romanized: 150P ft. Hatsune Miku, Kagamine Rin
     listen:
       - label: YouTube
         url: https://youtu.be/3C2Ut5yFFUI
@@ -365,7 +367,7 @@ tracks:
       romanized: Ryoukiteki High School Life
       english: Bizarre High School Life
     vocals:
-      japanese: GUMI, MAYU
+      japanese: 150P ft. GUMI, MAYU
     listen:
       - label: YouTube
         url: https://youtu.be/XYU1dx015EQ
@@ -400,8 +402,8 @@ tracks:
       romanized: Arikitari Heroes
       english: Common Heroes
     vocals:
-      japanese: 初音ミク, 鏡音リン, GUMI, MAYU
-      romanized: Hatsune Miku, Kagamine Rin, GUMI, MAYU
+      japanese: 150P ft. 初音ミク, 鏡音リン, GUMI, MAYU
+      romanized: 150P ft. Hatsune Miku, Kagamine Rin, GUMI, MAYU
     listen:
       - label: YouTube
         url: https://youtu.be/fks1SV9e_YI
@@ -440,7 +442,7 @@ tracks:
       romanized: Heibonna Nichijou
       english: Mundane Everyday
     vocals:
-      japanese: IA
+      japanese: 150P ft. IA
     listen:
       - label: YouTube
         url: https://youtu.be/evT_uXy3ukQ
