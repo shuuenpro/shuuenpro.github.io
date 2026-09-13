@@ -1,0 +1,54 @@
+tracks:
+  - number: 1
+    title:
+      japanese: ゼロサムゲーム
+      romanized: Zero-Sum Game
+    vocals:
+      japanese: そらる & ろん
+      romanized: Soraru & Lon
+    listen:
+      - label: YT Reprint
+        url: https://youtu.be/rOYkTDAF4vY
+    translations: []
+
+  - number: 2
+    title:
+      japanese: 孤独ノ隠レンボ (Suzumu Arrangement)
+      romanized: Kodoku no Kakurenbo
+      english: Lonely Hide and Seek
+    listen:
+      - label: YT Reprint
+        url: https://youtu.be/mhoyrWaKISo
+    translations: []
+
+  - number: 3
+    title:
+      japanese: 猿マネ椅子盗りゲーム (Suzumu Arrangement)
+      romanized: Sarumane Isu Tori Game
+      english: Aimless Imitation Musical Chairs
+    listen:
+      - label: YT Reprint
+        url: https://youtu.be/AEXNy53bd9I
+    translations: []
+
+  - number: 4
+    title:
+      japanese: 終焉ノ栞 (Suzumu Arrangement)
+      romanized: Shuuen no Shiori
+      english: Bookmark of Demise
+    listen:
+      - label: YT Reprint
+        url: https://youtu.be/oK1glKa5kNI
+    translations: []
+
+  - number: 5
+    title:
+      japanese: Load to Continue
+      romanized: Load to Continue
+    vocals:
+      japanese: そらる & ろん
+      romanized: Soraru & Lon
+    listen:
+      - label: YT Reprint
+        url: https://youtu.be/RnXklgez-G4
+    translations: []

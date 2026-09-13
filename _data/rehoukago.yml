@@ -1,0 +1,184 @@
+tracks:
+  - number: 1
+    title:
+      japanese: Re:「-犯行声明-」
+      romanized: Re:「-Hankou Seimei-」
+      english: Re:「-Claimed Responsibility-」
+    listen:
+      - label: YT Reprint
+        url: https://youtu.be/F4GAF4HPE5o
+    translations: []
+
+  - number: 2
+    title:
+      japanese: 孤独ノ隠レンボ
+      romanized: Kodoku no Kakurenbo
+      english: Lonely Hide and Seek
+    vocals:
+      japanese: IA
+      romanized: IA
+    listen:
+      - label: NND
+        url: https://www.nicovideo.jp/watch/sm17804161
+      - label: YT Reprint
+        url: https://youtu.be/bbOPDAb6AdI
+    translations:
+      - label: AmeSubs
+        url: https://amesubs.tumblr.com/post/64192699008/ia-lonely-hide-and-seek-孤独ノ隠レンボ-a-ya-a-ya
+
+  - number: 3
+    title:
+      japanese: ジブン観察日記
+      romanized: Jibun Kansatsu Nikki
+      english: Own Observation Diary
+    vocals:
+      japanese: IA
+    listen:
+      - label: YT Reprint
+        url: https://youtu.be/XANL7q0FaJc
+    translations:
+      - label: AmeSubs
+        url: https://amesubs.tumblr.com/post/35977964947/ia-own-observation-diary-ジブン観察日記
+
+  - number: 4
+    title:
+      japanese: Re:「-伝染予測-」
+      romanized: Re:「-Densen Yosoku-」
+      english: Re:「-Infectious Prediction-」
+    vocals:
+      japanese: 150P
+    listen:
+      - label: YT Reprint
+        url: https://youtu.be/82uUCoNa80w
+    translations:
+      - label: AmeSubs
+        url: https://amesubs.tumblr.com/post/40254575167/150p-instrumentals-part-12
+
+  - number: 5
+    title:
+      japanese: ニセモノ注意報
+      romanized: Nisemono Chuuihou
+      english: Impostor Advisory
+    vocals:
+      japanese: IA
+    listen:
+      - label: NND
+        url: https://www.nicovideo.jp/watch/sm18060733
+      - label: YT Reprint
+        url: https://youtu.be/Ra2xtVoVCcg
+    translations:
+      - label: AmeSubs
+        url: https://amesubs.tumblr.com/post/67535277852/ia-imposter-advisory-ニセモノ注意報-b-ko-i
+      - label: rippukun
+        url: https://rippukun.tumblr.com/post/710722999180050432/impostor-warning-translation-ニセモノ注意報
+
+  - number: 6
+    title:
+      japanese: Re:「-夕暮報道-」
+      romanized: Re:「-Yuugure Houdou-」
+      english: Re:「-Evening News-」
+    vocals:
+      japanese: 150P
+    listen:
+      - label: YT Reprint
+        url: https://youtu.be/q-jIZ7H6YD8
+    translations:
+      - label: AmeSubs
+        url: https://amesubs.tumblr.com/post/40254575167/150p-instrumentals-part-12
+
+  - number: 7
+    title:
+      japanese: 完全犯罪ラブレター
+      romanized: Kanzen Hanzai Love Letter
+      english: Perfect Crime Love Letter
+    vocals:
+      japanese: IA
+    listen:
+      - label: NND
+        url: https://www.nicovideo.jp/watch/sm18172311
+      - label: YT Reprint
+        url: https://youtu.be/LkkTRFFoN8U
+    translations:
+      - label: AmeSubs
+        url: https://amesubs.tumblr.com/post/53813932552/ia-perfect-crime-love-letter-完全犯罪ラブレター-the
+      - label: rippukun
+        url: https://rippukun.tumblr.com/post/720793076223868928/anonymously-they-say-he-performed-as
+
+  - number: 8
+    title:
+      japanese: 猿マネ椅子盗りゲーム
+      romanized: Sarumane Isu Tori Game
+      english: Aimless Imitation Musical Chairs
+    vocals:
+      japanese: IA
+    listen:
+      - label: YT Reprint
+        url: https://youtu.be/wQ4e4mEhUhY
+    translations:
+      - label: delusionwhore
+        url: https://delusionwhore.tumblr.com/post/30431485899/saru-mane-isu-tori-gameaimless-imitation-chair
+
+  - number: 9
+    title:
+      japanese: Re:「-童戯解説-」
+      romanized: Re:「-Dougi Kaisetsu-」
+      english: Re:「-Child’s Game Explanation-」
+    vocals:
+      japanese: 150P
+    listen:
+      - label: YT Reprint
+        url: https://youtu.be/oWtYMhid7zU
+    translations:
+      - label: AmeSubs
+        url: https://amesubs.tumblr.com/post/40254575167/150p-instrumentals-part-12
+
+  - number: 10
+    title:
+      japanese: 終焉ノ栞
+      romanized: Shuuen no Shiori
+      english: Bookmark of Demise
+    vocals:
+      japanese: IA
+    listen:
+      - label: YT Reprint
+        url: https://youtu.be/dcbz6Kc18zA
+    translations:
+      - label: AmeSubs
+        url: https://amesubs.tumblr.com/post/57819292908/ia-bookmark-of-demise-終焉ノ栞-oh-look-a-new-pv
+
+  - number: 11
+    title:
+      japanese: 平凡な日常
+      romanized: Heibonna Nichijou
+      english: Mundane Everyday
+    vocals:
+      japanese: IA
+    listen:
+      - label: YT Reprint
+        url: https://youtu.be/Jl7RUQl3P-g
+    translations:
+      - label: AmeSubs
+        url: https://amesubs.tumblr.com/post/40084281743/ia-mundane-days-平凡な日常
+
+  - number: 12
+    title:
+      japanese: Re:「-勝利宣言-」
+      romanized: Re:「-Shouri Sengen-」
+      english: Re:「-Victory Speech-」
+    vocals:
+      japanese: 150P
+    listen:
+      - label: YT Reprint
+        url: https://youtu.be/7XvqK_ILusE
+    translations: []
+
+  - number: 13
+    title:
+      japanese: "[サービストラック]"
+      romanized: "[Bonus Track]"
+    vocals:
+      japanese: 150P
+    listen:
+      - label: YT Reprint
+        url: https://youtu.be/xGaeCx3HxN0
+    translations: []

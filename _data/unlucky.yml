@@ -1,0 +1,137 @@
+tracks:
+  - number: 1
+    title:
+      japanese: -準備中-
+      romanized: -Junbichuu-
+      english: -Preparation-
+    listen:
+      - label: YT Reprint
+        url: https://youtu.be/K5wG1XpaXVU
+    translations: []
+
+  - number: 2
+    title:
+      japanese: アンラッキー末期ー@スクールトリップ
+      romanized: Unlucky -Makki- @ School Trip
+      english: Unlucky -Final Days- @ School Trip
+    vocals:
+      japanese: IA
+    listen:
+      - label: YT Reprint
+        url: https://youtu.be/6xYnrOFzLuQ
+    translations:
+      - label: eiyakutachi
+        url: https://eiyakutachi.tumblr.com/post/80099900548/終焉ノ栞if-アンラッキー-末期-スクールトリップ-shuuen-no-shiori-if#:~:text=unlucky -makki- @ school trip
+
+  - number: 3
+    title:
+      japanese: -散策中-
+      romanized: -Sansakuchuu-
+      english: -Strolling-
+    listen:
+      - label: YT Reprint
+        url: https://youtu.be/8v-tB2HA0xw
+    translations: []
+
+  - number: 4
+    title:
+      japanese: 一人ノ独占会
+      romanized: Hitori no Dokusenkai (Bocchi no One-Man Show)
+      english: A One-Person Meeting (Lonely One-Man Show)
+    vocals:
+      japanese: IA
+    listen:
+      - label: YT Reprint
+        url: https://youtu.be/7IwKzWu3pwc
+    translations:
+      - label: eiyakutachi
+        url: https://eiyakutachi.tumblr.com/post/80099900548/終焉ノ栞if-アンラッキー-末期-スクールトリップ-shuuen-no-shiori-if#:~:text=hitori no dokusenkai
+
+  - number: 5
+    title:
+      japanese: ホンモノ注意報
+      romanized: Honmono Chuuihou
+      english: A Warning of Real People
+    vocals:
+      japanese: IA
+    listen:
+      - label: YT Reprint
+        url: https://youtu.be/JSVh5-Omfgs
+    translations:
+      - label: eiyakutachi
+        url: https://eiyakutachi.tumblr.com/post/80099900548/終焉ノ栞if-アンラッキー-末期-スクールトリップ-shuuen-no-shiori-if#:~:text=honmono chuuihou
+
+  - number: 6
+    title:
+      japanese: -休憩中-
+      romanized: -Kyuukeichuu-
+      english: -Resting-
+    listen:
+      - label: YT Reprint
+        url: https://youtu.be/jdTQ-5RMFgU
+    translations: []
+
+  - number: 7
+    title:
+      japanese: ドラマティック・ショーケース
+      romanized: Dramatic Showcase
+    vocals:
+      japanese: IA
+    listen:
+      - label: YT Reprint
+        url: https://youtu.be/ErPIddHH_P0
+    translations:
+      - label: eiyakutachi
+        url: https://eiyakutachi.tumblr.com/post/80099900548/終焉ノ栞if-アンラッキー-末期-スクールトリップ-shuuen-no-shiori-if#:~:text=doramatikku shookeesu
+
+  - number: 8
+    title:
+      japanese: 恋心アンダーウォーター
+      romanized: Koigokoro Underwater
+      english: Love Underwater
+    vocals:
+      japanese: IA
+    listen:
+      - label: YT Reprint
+        url: https://youtu.be/JAm6qoWODXI
+    translations:
+      - label: eiyakutachi
+        url: https://eiyakutachi.tumblr.com/post/80099900548/終焉ノ栞if-アンラッキー-末期-スクールトリップ-shuuen-no-shiori-if#:~:text=koigokoro underwater
+
+  - number: 9
+    title:
+      japanese: -青春中-
+      romanized: -Seishunchuu-
+      english: -Being Youthful-
+    listen:
+      - label: YT Reprint
+        url: https://youtu.be/EZrVSi8zr0c
+    translations: []
+
+  - number: 10
+    title:
+      japanese: 群青メモリーズ
+      romanized: Gunjou Memories
+      english: Ultramarine Memories
+    vocals:
+      japanese: IA
+    listen:
+      - label: YT Reprint
+        url: https://youtu.be/bP4jCFOq2lw
+    translations:
+      - label: eiyakutachi
+        url: https://eiyakutachi.tumblr.com/post/80099900548/終焉ノ栞if-アンラッキー-末期-スクールトリップ-shuuen-no-shiori-if#:~:text=gunjyou memories
+
+  - number: 11
+    title:
+      japanese: やる気への木さんの唄
+      romanized: Yaruki Enoki-san no Uta
+      english: Motreevational Mushroom-san’s Song
+    vocals:
+      japanese: IA
+    listen:
+      - label: YT Reprint
+        url: https://youtu.be/rrJ7hfA2VhI
+    translations:
+      - label: eiyakutachi
+        url: https://eiyakutachi.tumblr.com/post/80099900548/終焉ノ栞if-アンラッキー-末期-スクールトリップ-shuuen-no-shiori-if#:~:text=yaruki e no ki-san no uta

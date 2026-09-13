@@ -1,0 +1,486 @@
+tracks:
+  - number: 1
+    title:
+      japanese: 「-はじめの後悔-」
+      romanized: 「-Hajime no Koukai-」
+      english: 「-The First Regret-」
+    vocals:
+      japanese: 神谷浩史
+      romanized: Kamiya Hiroshi
+    listen:
+      - label: YT Reprint
+        url: https://youtu.be/TI7CEgfoz5w
+    translations:
+      - label: sailorenna
+        url: https://sailorenna.tumblr.com/post/45454679240/shuuen-rewrite-instrumentals-tracks-01-02-04
+      - label: Mikabit
+        url: https://shuuen-no-shiori.fandom.com/wiki/Instrumental_Transcripts#First_Regrets_(はじめの後悔,_Hajime_no_Koukai)
+
+  - number: 2
+    title:
+      japanese: 「-犯行声明-」
+      romanized: 「-Hankou Seimei-」
+      english: 「-Claim of Responsibility-」
+    listen:
+      - label: YouTube
+        url: https://youtu.be/an8dCqzDeSU
+      - label: Spotify
+        url: https://open.spotify.com/track/67yCNBOT17End2pJvhsPK8
+    translations: []
+
+  - number: 3
+    title:
+      japanese: 終末-Re:write-
+      romanized: Shuumatsu -Re:write-
+      english: Conclusion -Re:write-
+    vocals:
+      japanese: 初音ミク, 鏡音リン, GUMI, MAYU
+      romanized: Hatsune Miku, Kagamine Rin, GUMI, MAYU
+    listen:
+      - label: YouTube
+        url: https://youtu.be/fQ8SF6qHtOY
+      - label: Spotify
+        url: https://open.spotify.com/track/37NGDjEfa3pMdkRaue4cPF
+    translations:
+      - label: re-missedcall-blog1
+        url: https://re-missedcall-blog1.tumblr.com/post/65672034550/shuumatsu-rewrite
+
+  - number: 4
+    title:
+      japanese: 「-ふるぼけた日記-」
+      romanized: 「-Furuboketa Nikki-」
+      english: 「-The Old Diary-」
+    vocals:
+      japanese: 相沢舞
+      romanized: Aizawa Mai
+    listen:
+      - label: YouTube
+        url: https://youtu.be/K03hPF4bYME
+      - label: Spotify
+        url: https://open.spotify.com/track/7z6E4PdmwMrktpKTT3uU0e
+    translations:
+      - label: sailorenna
+        url: https://sailorenna.tumblr.com/post/45454679240/shuuen-rewrite-instrumentals-tracks-01-02-04
+      - label: Mikabit
+        url: https://shuuen-no-shiori.fandom.com/wiki/Instrumental_Transcripts#The_Old_Diary_(ふるぼけた日記,_Furuboketa_Nikki)
+
+  - number: 5
+    title:
+      japanese: 終焉ノ栞
+      romanized: Shuuen no Shiori
+      english: Bookmark of Demise
+    vocals:
+      japanese: IA
+    listen:
+      - label: YouTube
+        url: https://youtu.be/EBLcRwdcOZA
+      - label: Spotify
+        url: https://open.spotify.com/track/5AfrfAEtiVA8tuh4Rk6b7k
+      - label: NND
+        url: https://www.nicovideo.jp/watch/sm21552346
+    translations:
+      - label: AmeSubs
+        url: https://amesubs.tumblr.com/post/57819292908/ia-bookmark-of-demise-終焉ノ栞-oh-look-a-new-pv
+
+  - number: 6
+    title:
+      japanese: 「-ひとりぼっち遊戯-」
+      romanized: 「-Hitoribocchi Yuugi-」
+      english: 「-Playing Alone-」
+    vocals:
+      japanese: 相沢舞
+      romanized: Aizawa Mai
+    listen:
+      - label: YouTube
+        url: https://youtu.be/QJMC0PIWI7c
+      - label: Spotify
+        url: https://open.spotify.com/track/3UkfkhsPEgIXXmwqK4YHdO
+    translations:
+      - label: sailorenna
+        url: https://sailorenna.tumblr.com/post/45454679240/shuuen-rewrite-instrumentals-tracks-01-02-04
+      - label: Mikabit
+        url: https://shuuen-no-shiori.fandom.com/wiki/Instrumental_Transcripts#Lonely_Game_(ひとりぼっち遊戯,_Hitori_Bocchi_Yuugi)
+
+  - number: 7
+    title:
+      japanese: 孤独ノ隠レンボ
+      romanized: Kodoku no Kakurenbo
+      english: Lonely Hide and Seek
+    vocals:
+      japanese: 初音ミク
+      romanized: Hatsune Miku
+    listen:
+      - label: YouTube
+        url: https://youtu.be/gB6UzoSuqNw
+      - label: Spotify
+        url: https://open.spotify.com/track/7cRpVl5boYGK6ZohVC76MB
+    translations:
+      - label: AmeSubs
+        url: https://amesubs.tumblr.com/post/64192699008/ia-lonely-hide-and-seek-孤独ノ隠レンボ-a-ya-a-ya
+
+  - number: 8
+    title:
+      japanese: 「-つくられた脚本-」
+      romanized: 「-Tsukurareta Kyakuhon-」
+      english: 「-Hand-written Screenplay-」
+    vocals:
+      japanese: 相沢舞
+      romanized: Aizawa Mai
+    listen:
+      - label: YouTube
+        url: https://youtu.be/nW7PuJaPCSg
+      - label: Spotify
+        url: https://open.spotify.com/track/5MionQeXbZmUZdICBJF4ix
+    translations:
+      - label: sailorenna
+        url: https://sailorenna.tumblr.com/post/45454679240/shuuen-rewrite-instrumentals-tracks-01-02-04
+      - label: Mikabit
+        url: https://shuuen-no-shiori.fandom.com/wiki/Instrumental_Transcripts#Handwritten_Screenplay_(つくられた脚本,_Tsukurareta_Kyakuhon)
+
+  - number: 9
+    title:
+      japanese: 完全犯罪ラブレター
+      romanized: Kanzen Hanzai Love Letter
+      english: Perfect Crime Love Letter
+    vocals:
+      japanese: GUMI
+    listen:
+      - label: YouTube
+        url: https://youtu.be/yeazJzCiAnE
+      - label: Spotify
+        url: https://open.spotify.com/track/4NXlF4LpLBhzh4NTA3Zlgh
+    translations:
+      - label: AmeSubs
+        url: https://amesubs.tumblr.com/post/53813932552/ia-perfect-crime-love-letter-完全犯罪ラブレター-the
+      - label: rippukun
+        url: https://rippukun.tumblr.com/post/720793076223868928/anonymously-they-say-he-performed-as
+
+  - number: 10
+    title:
+      japanese: 「-いきちがいの電話-」
+      romanized: 「-Ikichigai no Denwa-」
+      english: 「-Unanswered Phonecall-」
+    vocals:
+      japanese: 相沢舞
+      romanized: Aizawa Mai
+    listen:
+      - label: YouTube
+        url: https://youtu.be/Gj4tyovyANI
+      - label: Spotify
+        url: https://open.spotify.com/track/3vA96lqzAvG9v0wWGNzm5r
+    translations:
+      - label: re-missedcall-blog1
+        url: https://re-missedcall-blog1.tumblr.com/post/50931518396/unanswered-phonecall-instrumental-track
+      - label: Mikabit
+        url: https://shuuen-no-shiori.fandom.com/wiki/Instrumental_Transcripts#Lost_Call_(いきちがいの電話,_Ikichigai_no_Denwa)
+
+  - number: 11
+    title:
+      japanese: Re:不在着信
+      romanized: Re:Fuzai Chakushin
+      english: Re:Missed Call
+    vocals:
+      japanese: 初音ミク, GUMI
+      romanized: Hatsune Miku, GUMI
+    listen:
+      - label: YouTube
+        url: https://youtu.be/sMeLeVSQbWI
+      - label: Spotify
+        url: https://open.spotify.com/track/1PHUJvrG9axP4CUSSV8kUC
+    translations:
+      - label: re-missedcall-blog1
+        url: https://re-missedcall-blog1.tumblr.com/post/50931071278/remissed-call-translation
+      - label: E-noru
+        url: https://vocaloidlyrics.miraheze.org/wiki/Re:不在着信_(Re:_Fuzai_Chakushin)
+
+  - number: 12
+    title:
+      japanese: 「-しらない双子-」
+      romanized: 「-Shiranai Futago-」
+      english: 「-Unknown Twin-」
+    vocals:
+      japanese: 相沢舞
+      romanized: Aizawa Mai
+    listen:
+      - label: YouTube
+        url: https://youtu.be/E1Nf0irLj0Y
+      - label: Spotify
+        url: https://open.spotify.com/track/0uaNuMMdpVVYeVWEYkqXYO
+    translations:
+      - label: sailorenna
+        url: https://sailorenna.tumblr.com/post/45641910425/shuuen-rewrite-instumentals-tracks-12-26
+      - label: Mikabit
+        url: https://shuuen-no-shiori.fandom.com/wiki/Instrumental_Transcripts#Unknown_Twins_(しらない双子,_Shiranai_Futago)
+
+  - number: 13
+    title:
+      japanese: ニセモノ注意報
+      romanized: Nisemono Chuuihou
+      english: Impostor Advisory
+    vocals:
+      japanese: 鏡音リン
+      romanized: Kagamine Rin
+    listen:
+      - label: YouTube
+        url: https://youtu.be/kzDV845CfEs
+      - label: Spotify
+        url: https://open.spotify.com/track/2jC92TGrVknMq462DFk35o
+    translations:
+      - label: AmeSubs
+        url: https://amesubs.tumblr.com/post/67535277852/ia-imposter-advisory-ニセモノ注意報-b-ko-i
+      - label: rippukun
+        url: https://rippukun.tumblr.com/post/710722999180050432/impostor-warning-translation-ニセモノ注意報
+
+  - number: 14
+    title:
+      japanese: 「-あわせ鏡-」
+      romanized: 「-Awase Kagami-」
+      english: 「-Aligned Mirrors-」
+    vocals:
+      japanese: 相沢舞
+      romanized: Aizawa Mai
+    listen:
+      - label: YouTube
+        url: https://youtu.be/QhUBy9jOfTU
+      - label: Spotify
+        url: https://open.spotify.com/track/451GQhsIRLKlGrTdvyuXeA
+    translations:
+      - label: sailorenna
+        url: https://sailorenna.tumblr.com/post/45641910425/shuuen-rewrite-instumentals-tracks-12-26
+      - label: Mikabit
+        url: https://shuuen-no-shiori.fandom.com/wiki/Instrumental_Transcripts#Aligned_Mirrors_(あわせ鏡,_Awase_Kagami)
+
+  - number: 15
+    title:
+      japanese: 猿マネ椅子盗りゲーム
+      romanized: Sarumane Isu Tori Game
+      english: Aimless Imitation Musical Chairs
+    vocals:
+      japanese: MAYU
+    listen:
+      - label: YouTube
+        url: https://youtu.be/l5YTAKmj1Sg
+      - label: Spotify
+        url: https://open.spotify.com/track/6r7EOVdybQMOjSKj0xTrsh
+    translations:
+      - label: AmeSubs
+        url: https://amesubs.tumblr.com/post/80556836998/ia-aimless-imitation-musical-chairs
+      - label: Vimeo
+        url: https://vimeo.com/89882055
+
+  - number: 16
+    title:
+      japanese: 「-ゆがんだ憧憬-」
+      romanized: 「-Yuganda Doukei-」
+      english: 「-Distorted Admiration-」
+    vocals:
+      japanese: 相沢舞
+      romanized: Aizawa Mai
+    listen:
+      - label: YouTube
+        url: https://youtu.be/urUosbEHrvY
+      - label: Spotify
+        url: https://open.spotify.com/track/6yZMuXPrfuIQDBNfBKOqvE
+    translations:
+      - label: sailorenna
+        url: https://sailorenna.tumblr.com/post/45641910425/shuuen-rewrite-instumentals-tracks-12-26
+      - label: Mikabit
+        url: https://shuuen-no-shiori.fandom.com/wiki/Instrumental_Transcripts#Warped_Admiration_(ゆがんだ憧憬,_Yuganda_Doukei)
+
+  - number: 17
+    title:
+      japanese: Re:平行恋線
+      romanized: Re:Heikou Rensen
+      english: Re:Parallel Love Lines
+    vocals:
+      japanese: 鏡音リン, MAYU
+      romanized: Kagamine Rin, MAYU
+    listen:
+      - label: YouTube
+        url: https://youtu.be/1_LuY0MJb3Q
+      - label: Spotify
+        url: https://open.spotify.com/track/4AmFn3gCK4Tmrtj48QAuJq
+    translations:
+      - label: AmeSubs
+        url: https://amesubs.tumblr.com/post/51126110827/kagamine-rin-mayu-re-parallel-love-lines
+
+  - number: 18
+    title:
+      japanese: 「-にちじょうと舞台裏-」
+      romanized: 「-Nichijou to Butaiura-」
+      english: 「-Everyday and Backstage-」
+    vocals:
+      japanese: 相沢舞
+      romanized: Aizawa Mai
+    listen:
+      - label: YouTube
+        url: https://youtu.be/EiUcGzmySSY
+      - label: Spotify
+        url: https://open.spotify.com/track/72cp9hZpbUCS9zr2cn1BUc
+    translations:
+      - label: sailorenna
+        url: https://sailorenna.tumblr.com/post/45641910425/shuuen-rewrite-instumentals-tracks-12-26
+      - label: Mikabit
+        url: https://shuuen-no-shiori.fandom.com/wiki/Instrumental_Transcripts#Everyday_and_Behind-the-Scenes_(にちじょうと舞台裏,_Nichijou_to_Butaiura)
+
+  - number: 19
+    title:
+      japanese: 負け犬至上主義
+      romanized: Makeinu Shijou-shugi
+      english: Underdog Supremacy
+    vocals:
+      japanese: 初音ミク, 鏡音リン
+      romanized: Hatsune Miku, Kagamine Rin
+    listen:
+      - label: YouTube
+        url: https://youtu.be/3C2Ut5yFFUI
+      - label: Spotify
+        url: https://open.spotify.com/track/6zNOWXQmS0clp1cDfvpcsc
+    translations:
+      - label: AmeSubs
+        url: https://amesubs.tumblr.com/post/45573934506/ia-underdog-supremacist-負け犬至上主義-that-childs
+
+  - number: 20
+    title:
+      japanese: 「-いつわりの入学式-」
+      romanized: 「-Itsuwari no Nyuugakushiki-」
+      english: 「-Fake Entrance Ceremony-」
+    vocals:
+      japanese: 相沢舞
+      romanized: Aizawa Mai
+    listen:
+      - label: YouTube
+        url: https://youtu.be/lqUjiKwOjkk
+      - label: Spotify
+        url: https://open.spotify.com/track/0W7tH76uRB2XxQr9kiaALM
+    translations:
+      - label: sailorenna
+        url: https://sailorenna.tumblr.com/post/45641910425/shuuen-rewrite-instumentals-tracks-12-26
+      - label: Mikabit
+        url: https://shuuen-no-shiori.fandom.com/wiki/Instrumental_Transcripts#Fictitious_Entrance_Ceremony_(いつわりの入学式,_Itsuwari_no_Nyuugakushiki)
+
+  - number: 21
+    title:
+      japanese: 猟奇的ハイスクールライフ
+      romanized: Ryoukiteki High School Life
+      english: Bizarre High School Life
+    vocals:
+      japanese: GUMI, MAYU
+    listen:
+      - label: YouTube
+        url: https://youtu.be/XYU1dx015EQ
+      - label: Spotify
+        url: https://open.spotify.com/track/2ZN7azHhAEh08CsrXn8THs
+    translations:
+      - label: Renna's Translations (sailorenna)
+        url: https://renna-translations.tumblr.com/post/50861495700
+
+  - number: 22
+    title:
+      japanese: 「-はじまりの鐘-」
+      romanized: 「-Hajimari no Kane-」
+      english: 「-Bell of Beginning-」
+    vocals:
+      japanese: 相沢舞
+      romanized: Aizawa Mai
+    listen:
+      - label: YouTube
+        url: https://youtu.be/zjmiHZHfjeQ
+      - label: Spotify
+        url: https://open.spotify.com/track/6augmVkjYv7UwZxXZ8aGsT
+    translations:
+      - label: AmeSubs
+        url: https://sailorenna.tumblr.com/post/45641910425/shuuen-rewrite-instumentals-tracks-12-26
+      - label: Mikabit
+        url: https://shuuen-no-shiori.fandom.com/wiki/Instrumental_Transcripts#Bell_of_the_Beginning_(はじまりの鐘,_Hajimari_no_Kane)
+
+  - number: 23
+    title:
+      japanese: 在来ヒーローズ
+      romanized: Arikitari Heroes
+      english: Common Heroes
+    vocals:
+      japanese: 初音ミク, 鏡音リン, GUMI, MAYU
+      romanized: Hatsune Miku, Kagamine Rin, GUMI, MAYU
+    listen:
+      - label: YouTube
+        url: https://youtu.be/fks1SV9e_YI
+      - label: Spotify
+        url: https://open.spotify.com/track/0h7KEmlFDw4XlcuvLR88s1
+      - label: NND
+        url: https://www.nicovideo.jp/watch/sm19811204
+    translations:
+      - label: AmeSubs
+        url: https://amesubs.tumblr.com/post/47185376806/hatsune-miku-gumi-kagamine-rin-mayu-common
+      - label: rippukun
+        url: https://rippukun.tumblr.com/post/721384924229353472/im-tired-of-listening-to-cliché
+
+  - number: 24
+    title:
+      japanese: 「-いつもの日-」
+      romanized: 「-Itsumo no Hi-」
+      english: 「-A Usual Day-」
+    vocals:
+      japanese: 相沢舞
+      romanized: Aizawa Mai
+    listen:
+      - label: YouTube
+        url: https://youtu.be/6cl4JpCt47s
+      - label: Spotify
+        url: https://open.spotify.com/track/1NbGRLzBReEkcYigjXiAV1
+    translations:
+      - label: sailorenna
+        url: https://sailorenna.tumblr.com/post/45641910425/shuuen-rewrite-instumentals-tracks-12-26
+      - label: Mikabit
+        url: https://shuuen-no-shiori.fandom.com/wiki/Instrumental_Transcripts#A_Usual_Day_(いつもの日,_Itsumo_no_Hi)
+
+  - number: 25
+    title:
+      japanese: 平凡な日常
+      romanized: Heibonna Nichijou
+      english: Mundane Everyday
+    vocals:
+      japanese: IA
+    listen:
+      - label: YouTube
+        url: https://youtu.be/evT_uXy3ukQ
+      - label: Spotify
+        url: https://open.spotify.com/track/6DfpdZE7R18D7hKGQ9damh
+    translations:
+      - label: AmeSubs
+        url: https://amesubs.tumblr.com/post/52609374998/ia-mundane-everyday-平凡な日常-shuuen-rewrite
+
+  - number: 26
+    title:
+      japanese: 「-舞台挨拶-」
+      romanized: 「-Butai Aisatsu-」
+      english: 「-Greetings from the Stage-」
+    vocals:
+      japanese: 神谷浩史
+      romanized: Kamiya Hiroshi
+    listen:
+      - label: YouTube
+        url: https://youtu.be/vCFpYoofjDI
+      - label: Spotify
+        url: https://open.spotify.com/track/1SBSBJ8PUFrjCN53nsYxTT
+    translations:
+      - label: sailorenna
+        url: https://sailorenna.tumblr.com/post/45641910425/shuuen-rewrite-instumentals-tracks-12-26
+      - label: Mikabit
+        url: https://shuuen-no-shiori.fandom.com/wiki/Instrumental_Transcripts#Stage_Greeting_(舞台挨拶,_Butai_Aisatsu)
+
+  - number: 27
+    title:
+      japanese: 「-かくされた後書-」
+      romanized: 「-Kakusareta Atogaki-」
+      english: 「-Hidden Afterword-」
+    vocals:
+      japanese: 150P
+    listen:
+      - label: YT Reprint
+        url: https://youtu.be/J64cfcAkaEI
+    translations:
+      - label: sailorenna
+        url: https://sailorenna.tumblr.com/post/45641910425/shuuen-rewrite-instumentals-tracks-12-26
+      - label: Mikabit
+        url: https://shuuen-no-shiori.fandom.com/wiki/Instrumental_Transcripts#Hidden_Afterword_(かくされた後書,_Kakusareta_Atogaki)

@@ -1,0 +1,244 @@
+tracks:
+  - number: 1
+    title:
+      japanese: 衝撃リアクト
+      romanized: Shougeki React
+      english: Shock Reaction
+    vocals:
+      japanese: 片霧烈火
+      romanized: Katakiri Rekka
+    listen:
+      - label: YT Reprint
+        url: https://youtu.be/XCST9xj8u_4
+    translations:
+      - label: Mikabit
+        url: https://shuuen-no-shiori.fandom.com/wiki/Shock_Reaction#English
+
+  - number: 2
+    title:
+      japanese: -Parallel-
+    listen:
+      - label: YT Reprint
+        url: https://youtu.be/eicfTDlvOCs
+    translations: []
+
+  - number: 3
+    title:
+      japanese: 孤独ノ隠レンボ
+      romanized: Kodoku no Kakurenbo
+      english: Lonely Hide and Seek
+    vocals:
+      japanese: 緒方恵美
+      romanized: Ogata Megumi
+    listen:
+      - label: NND
+        url: https://www.nicovideo.jp/watch/sm27071257
+      - label: YT Reprint
+        url: https://youtu.be/npMUwVXCxZQ
+    translations:
+      - label: AmeSubs
+        url: https://amesubs.tumblr.com/post/64192699008/ia-lonely-hide-and-seek-孤独ノ隠レンボ-a-ya-a-ya
+
+  - number: 4
+    title:
+      japanese: ニセモノ注意報
+      romanized: Nisemono Chuuihou
+      english: Impostor Advisory
+    vocals:
+      japanese: 東山奈央
+      romanized: Touyama Nao
+    listen:
+      - label: YT Reprint
+        url: https://youtu.be/uj5hjMNSLso
+    translations:
+      - label: AmeSubs
+        url: https://amesubs.tumblr.com/post/67535277852/ia-imposter-advisory-ニセモノ注意報-b-ko-i
+      - label: rippukun
+        url: https://rippukun.tumblr.com/post/710722999180050432/impostor-warning-translation-ニセモノ注意報
+
+  - number: 5
+    title:
+      japanese: 完全犯罪ラブレター
+      romanized: Kanzen Hanzai Love Letter
+      english: Perfect Crime Love Letter
+    vocals:
+      japanese: 寺島拓篤
+      romanized: Terashima Takuma
+    listen:
+      - label: YT Reprint
+        url: https://youtu.be/D_a-koJtvAI
+    translations:
+      - label: AmeSubs
+        url: https://amesubs.tumblr.com/post/53813932552/ia-perfect-crime-love-letter-完全犯罪ラブレター-the
+      - label: rippukun
+        url: https://rippukun.tumblr.com/post/720793076223868928/anonymously-they-say-he-performed-as
+
+  - number: 6
+    title:
+      japanese: 猿マネ椅子盗りゲーム
+      romanized: Sarumane Isu Tori Game
+      english: Aimless Imitation Musical Chairs
+    vocals:
+      japanese: 相沢舞
+      romanized: Aizawa Mai
+    listen:
+      - label: YT Reprint
+        url: https://youtu.be/LdWDVEZZL1A
+    translations:
+      - label: AmeSubs
+        url: https://amesubs.tumblr.com/post/80556836998/ia-aimless-imitation-musical-chairs
+      - label: Vimeo
+        url: https://vimeo.com/89882055
+
+  - number: 7
+    title:
+      japanese: リピートラジディー
+      romanized: Repeatragedy
+    vocals:
+      japanese: 片桐烈火
+      romanized: Katakiri Rekka
+    listen:
+      - label: YT Reprint
+        url: https://youtu.be/0qMVLPZzPOw
+    translations:
+      - label: AmeSubs
+        url: https://amesubs.tumblr.com/post/75775532063/ia-repeatragedy-リピートラジディー
+      - label: E-noru
+        url: https://vocaloidlyrics.miraheze.org/wiki/リピートラジディー_(RepeaTragedy)
+
+  - number: 8
+    title:
+      japanese: -Paradigm-
+    listen:
+      - label: YT Reprint
+        url: https://youtu.be/3-RCL4p1fqg
+    translations: []
+
+  - number: 9
+    title:
+      japanese: ファイティングガール
+      romanized: Fighting Girl
+    vocals:
+      japanese: 平野綾
+      romanized: Hirano Aya
+    listen:
+      - label: YT Reprint
+        url: https://youtu.be/9jl08vPnz1s
+    translations:
+      - label: E-noru
+        url: https://vocaloidlyrics.miraheze.org/wiki/ファイティングガール_(Fighting_Girl)
+
+  - number: 10
+    title:
+      japanese: やさしいおばけ話
+      romanized: Yasashii Obakebanashi
+      english: Gentle Ghost Story
+    vocals:
+      japanese: 加藤英美里
+      romanized: Katou Emiri
+    listen:
+      - label: NND
+        url: https://www.nicovideo.jp/watch/sm26733981
+      - label: YT Reprint
+        url: https://youtu.be/cXm1Mlho_n4
+    translations:
+      - label: AmeSubs
+        url: https://amesubs.tumblr.com/post/127158629673/ia-gentle-ghost-story-やさしいおばけ話-in-a-dream
+      - label: Vimeo
+        url: https://vimeo.com/136825577
+      - label: raspomme
+        url: https://raspomme.tumblr.com/post/115006811295
+
+  - number: 11
+    title:
+      japanese: ノスタルジージャンクフード
+      romanized: Nostalgia Junk Food
+    vocals:
+      japanese: 米澤円
+      romanized: Yonezawa Madoka
+    listen:
+      - label: YT Reprint
+        url: https://youtu.be/CRn53QBPFHQ
+    translations:
+      - label: Releska
+        url: https://releska.com/2020/04/10/nostalgia-junk-food/
+
+  - number: 12
+    title:
+      japanese: 四丁目の秘密屋さん
+      romanized: Yonchoume no Himitsuya-san
+      english: The Secret Seller of The 4th Block
+    vocals:
+      japanese: 小野友樹
+      romanized: Ono Yuuki
+    listen:
+      - label: YT Reprint
+        url: https://youtu.be/FKcdEpyhe5I
+    translations:
+      - label: Releska
+        url: https://releska.com/2019/05/14/the-secret-seller-of-the-4th-block/
+
+  - number: 13
+    title:
+      japanese: テレーゼの溜息
+      romanized: Tereeze no Tameiki
+      english: Therese's Sigh
+    vocals:
+      japanese: 松岡禎丞
+      romanized: Matsuoka Yoshitsugu
+    listen:
+      - label: YT Reprint
+        url: https://youtu.be/_LxBro65ZL8
+    translations:
+      - label: re-missedcall-blog1
+        url: https://re-missedcall-blog1.tumblr.com/post/124555727569/thereses-sigh
+      - label: rippukun
+        url: https://rippukun.tumblr.com/post/708833804054331392/thereses-sigh-translation-テレーゼの溜息
+
+  - number: 14
+    title:
+      japanese: -Paradox-
+    listen:
+      - label: YT Reprint
+        url: https://youtu.be/HWDiKiVRut4
+    translations: []
+
+  - number: 15
+    title:
+      japanese: 流れる星に願う
+      romanized: Nagareru Hoshi ni Negau
+      english: Wishing Upon A Shooting Star
+    vocals:
+      japanese: 理多
+      romanized: Rita
+    listen:
+      - label: YT Reprint
+        url: https://youtu.be/NcpticAiizI
+    translations:
+      - label: <strike>ShuuenNoShiori1713</strike> (broken link)
+        url: https://www.facebook.com/ShuuenNoShiori1713/photos/a.681434541910068/894672230586297/
+
+  - number: 16
+    title:
+      japanese: 平凡な日常
+      romanized: Heibonna Nichijou
+      english: Mundane Everyday
+    vocals:
+      japanese: 霜月はるか
+      romanized: Shimotsuki Haruka
+    listen:
+      - label: YT Reprint
+        url: https://youtu.be/Lk_CQhzFvsw
+    translations:
+      - label: AmeSubs + Mikabit (-Re:act- final chorus)
+        url: https://shuuen-no-shiori.fandom.com/wiki/Mundane_Everyday#Re:act
+      - label: ShuuenNoShiori1713
+        url: https://www.facebook.com/ShuuenNoShiori1713/photos/pb.679318715454984.-2207520000.1448254320./890844247635762/
+
+  - number: 17
+    title:
+      japanese: -Paranoia-
+    listen:
+      - label: YT Reprint
+        url: https://youtu.be/40uOXEwzE5o
+    translations: []

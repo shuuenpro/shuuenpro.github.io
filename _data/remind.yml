@@ -1,0 +1,319 @@
+tracks:
+  - number: 1
+    title:
+      japanese: ｢-反攻声明-｣
+      romanized: ｢-Hankou Seimei-｣
+      english: ｢-Counteroffensive Claim-｣
+    listen:
+      - label: YouTube
+        url: https://youtu.be/FE4FtBRnvCI
+      - label: Spotify
+        url: https://open.spotify.com/track/20aHjm1ttpHcTzaV76BI6K
+    translations:
+      - label: Mikabit
+        url: https://shuuen-no-shiori.fandom.com/wiki/Instrumental_Transcripts#Counteroffensive_Claim_(反攻声明,_Hankou_Seimei)
+
+  - number: 2
+    title:
+      japanese: 報復リヴァイバル
+      romanized: Houfuku Revival
+      english: Retribution Revival
+    vocals:
+      japanese: IA
+    listen:
+      - label: YouTube
+        url: https://youtu.be/fP2S1xQXpbo
+      - label: Spotify
+        url: https://open.spotify.com/track/0xopnh5Ui3q46kssuQ9lhH
+    translations:
+      - label: Mikabit
+        url: https://shuuen-no-shiori.fandom.com/wiki/Retribution_Revival#English
+
+  - number: 3
+    title:
+      japanese: 欠落 -Re:code-
+      romanized: Ketsuraku -Re:code-
+      english: Lost -Re:code-
+    vocals:
+      japanese: IA
+    listen:
+      - label: YouTube
+        url: https://youtu.be/0Ioq6myaBYA
+      - label: Spotify
+        url: https://open.spotify.com/track/4pGwyuek3gb9xCjLjIjxZI
+    translations:
+      - label: AmeSubs
+        url: https://amesubs.tumblr.com/post/67216397603/ia-lost-recode-欠落-recode
+      - label: rippukun
+        url: https://rippukun.tumblr.com/post/708836521962291200/lost-recode-translation-欠落-recode
+
+  - number: 4
+    title:
+      japanese: 結末ユメロディ
+      romanized: Ketsumatsu Yumelody
+      english: Conclusion Dreamelody
+    vocals:
+      japanese: IA
+    listen:
+      - label: YouTube
+        url: https://youtu.be/70Y7z7PhygY
+      - label: Spotify
+        url: https://open.spotify.com/track/2ssOkpNABWFrpsG7aqNEhY
+    translations:
+      - label: re-missedcall-blog1
+        url: https://re-missedcall-blog1.tumblr.com/post/114988602634/conclusion-dreamelody
+
+  - number: 5
+    title:
+      japanese: ｢-拝啓、舞台裏より-｣
+      romanized: ｢-Haikei, Butaiura Yori-｣
+      english: ｢-Greetings from Backstage-｣
+    vocals:
+      japanese: 神谷浩史
+      romanized: Kamiya Hiroshi
+    listen:
+      - label: YouTube
+        url: https://youtu.be/9454zn5T38g
+      - label: Spotify
+        url: https://open.spotify.com/track/6KZjYZGm6KRSTiHoSmv5Ax
+    translations:
+      - label: Mikabit
+        url: https://shuuen-no-shiori.fandom.com/wiki/Instrumental_Transcripts#Greetings_from_Backstage_(拝啓、舞台裏より,_Haikei,_Butaiura_Yori)
+
+  - number: 6
+    title:
+      japanese: ファイティングガール
+      romanized: Fighting Girl
+    vocals:
+      japanese: IA
+    listen:
+      - label: YouTube
+        url: https://youtu.be/BGu1EjHlOqA
+      - label: Spotify
+        url: https://open.spotify.com/track/2Fl4L6rnBFxXaHBlKOeimQ
+    translations:
+      - label: E-noru
+        url: https://vocaloidlyrics.miraheze.org/wiki/ファイティングガール_(Fighting_Girl)
+
+  - number: 7
+    title:
+      japanese: ノスタルジージャンクフード
+      romanized: Nostalgia Junk Food
+    vocals:
+      japanese: IA
+    listen:
+      - label: YouTube
+        url: https://youtu.be/fMTO8cFr_Dc
+      - label: Spotify
+        url: https://open.spotify.com/track/4k5Ho5xc7npeFsv1kAtl8c
+    translations:
+      - label: Releska
+        url: https://releska.com/2020/04/10/nostalgia-junk-food/
+
+  - number: 8
+    title:
+      japanese: ゲームアンドガールズ
+      romanized: Game and Girls
+    vocals:
+      japanese: IA & 鏡音リン
+      romanized: IA & Kagamine Rin
+    listen:
+      - label: YouTube
+        url: https://youtu.be/dhCyOp69WVo
+      - label: Spotify
+        url: https://open.spotify.com/track/27J9P0uSJHNP7erZTBS1LR
+    translations:
+      - label: Mikabit
+        url: https://shuuen-no-shiori.fandom.com/wiki/Game_and_Girls#English
+
+  - number: 9
+    title:
+      japanese: ｢-微炭酸レトロ-｣
+      romanized: ｢-Bitansan Retro-｣
+      english: ｢-Carbonated Retro-｣
+    vocals:
+      japanese: 神谷浩史
+      romanized: Kamiya Hiroshi
+    listen:
+      - label: YouTube
+        url: https://youtu.be/hupzDj49Hkg
+      - label: Spotify
+        url: https://open.spotify.com/track/68GB3WOI9fRHNzhrtJ9aei
+    translations:
+      - label: Shuuen Fan Wiki (see page history)
+        url: https://shuuen-no-shiori.fandom.com/wiki/Instrumental_Transcripts#Carbonated_Retro_(微炭酸レトロ,_Bitansan_Retro)
+
+  - number: 10
+    title:
+      japanese: やさしいおばけ話
+      romanized: Yasashii Obakebanashi
+      english: Gentle Ghost Story
+    vocals:
+      japanese: IA
+    listen:
+      - label: YouTube
+        url: https://youtu.be/9t93zTMixHk
+      - label: Spotify
+        url: https://open.spotify.com/track/08rQM35G8gIEtUhWMKYY8I
+      - label: NND
+        url: https://www.nicovideo.jp/watch/sm26733840
+    translations:
+      - label: AmeSubs
+        url: https://amesubs.tumblr.com/post/127158629673/ia-gentle-ghost-story-やさしいおばけ話-in-a-dream
+      - label: Vimeo
+        url: https://vimeo.com/136825577
+      - label: raspomme
+        url: https://raspomme.tumblr.com/post/115006811295
+
+  - number: 11
+    title:
+      japanese: 四丁目の秘密屋さん
+      romanized: Yonchoume no Himitsuya-san
+      english: The Secret Seller of The 4th Block
+    vocals:
+      japanese: IA
+    listen:
+      - label: YouTube
+        url: https://youtu.be/efj31dP_CYA
+      - label: Spotify
+        url: https://open.spotify.com/track/55qqyy2JPvWGdQXGTYihVf
+    translations:
+      - label: Releska
+        url: https://releska.com/2019/05/14/the-secret-seller-of-the-4th-block/
+
+  - number: 12
+    title:
+      japanese: ぼくたちデイズ
+      romanized: Bokutachi Days
+      english: Our Days
+    vocals:
+      japanese: 初音ミク, 鏡音リン, GUMI, MAYU, 巡音ルカ
+      romanized: Hatsune Miku, Kagamine Rin, GUMI, MAYU, Megurine Luka
+    listen:
+      - label: YouTube
+        url: https://youtu.be/RzFnrA-v5VE
+      - label: Spotify
+        url: https://open.spotify.com/track/47fr0LKKBha2YLhALIzbq7
+    translations:
+      - label: Mikabit
+        url: https://shuuen-no-shiori.fandom.com/wiki/Our_Days#English
+
+  - number: 13
+    title:
+      japanese: ｢-笑顔サミット-｣
+      romanized: ｢-Egao Summit-｣
+      english: ｢-Smiling Summit-｣
+    vocals:
+      japanese: 神谷浩史
+      romanized: Kamiya Hiroshi
+    listen:
+      - label: YouTube
+        url: https://youtu.be/0S8pDgPi8vY
+      - label: Spotify
+        url: https://open.spotify.com/track/2giDVmvmX2P09HgfVhASik
+    translations:
+      - label: Mikabit
+        url: https://shuuen-no-shiori.fandom.com/wiki/Instrumental_Transcripts#Smiling_Summit_(笑顔サミット,_Egao_Summit)
+
+  - number: 14
+    title:
+      japanese: テレーゼの溜息
+      romanized: Tereeze no Tameiki
+      english: Therese's Sigh
+    vocals:
+      japanese: IA
+    listen:
+      - label: YouTube
+        url: https://youtu.be/cozVITwP7U8
+      - label: Spotify
+        url: https://open.spotify.com/track/1YRvrboyfoBX8dcrkMAYR9
+    translations:
+      - label: re-missedcall-blog1
+        url: https://re-missedcall-blog1.tumblr.com/post/124555727569/thereses-sigh
+      - label: rippukun
+        url: https://rippukun.tumblr.com/post/708833804054331392/thereses-sigh-translation-テレーゼの溜息
+
+  - number: 15
+    title:
+      japanese: ハイカラコーポパーク
+      romanized: High-Collar Corp Park
+      english: A Stylish Apartment Park
+    vocals:
+      japanese: IA
+    listen:
+      - label: YouTube
+        url: https://youtu.be/-Awm6clPRh8
+      - label: Spotify
+        url: https://open.spotify.com/track/6mWoPUFfmkrV5E5GAApH89
+    translations:
+      - label: Releska
+        url: https://releska.com/2020/12/22/a-stylish-apartment-park/
+
+  - number: 16
+    title:
+      japanese: リピートラジディー
+      romanized: Repeatragedy
+    vocals:
+      japanese: IA
+    listen:
+      - label: YouTube
+        url: https://youtu.be/jVKKFCp6jec
+      - label: Spotify
+        url: https://open.spotify.com/track/2hns8tYR8wmN5JvH7mC51z
+    translations:
+      - label: AmeSubs
+        url: https://amesubs.tumblr.com/post/75775532063/ia-repeatragedy-リピートラジディー
+      - label: E-noru
+        url: https://vocaloidlyrics.miraheze.org/wiki/リピートラジディー_(RepeaTragedy)
+
+  - number: 17
+    title:
+      japanese: ｢-十年後より-｣
+      romanized: ｢-Juunengo Yori-｣
+      english: ｢-From Ten Years Later-｣
+    vocals:
+      japanese: 神谷浩史
+      romanized: Kamiya Hiroshi
+    listen:
+      - label: YouTube
+        url: https://youtu.be/WCpjK276k74
+      - label: Spotify
+        url: https://open.spotify.com/track/55fw465YcmsVlQCVtoA3PS
+    translations:
+      - label: Mikabit
+        url: https://shuuen-no-shiori.fandom.com/wiki/Instrumental_Transcripts#From_Ten_Years_Later_(十年後より,_Juunengo_Yori)
+
+  - number: 18
+    title:
+      japanese: シュレディンガーの猫
+      romanized: Schrödinger no Neko
+      english: Schrödinger's Cat
+    vocals:
+      japanese: IA
+    listen:
+      - label: YouTube
+        url: https://youtu.be/jReESxHzkvQ
+      - label: Spotify
+        url: https://open.spotify.com/track/1J0pQaqh848TGReJdSIshg
+    translations:
+      - label: rippukun
+        url: https://rippukun.tumblr.com/post/709185193238577152/schrodingers-cat-translation-シュレディンガーの猫
+      - label: fairy-4pril
+        url: https://www.tumblr.com/fairy-4pril/118836672097/schroedingers-cat-translation
+
+  - number: 19
+    title:
+      japanese: ｢-病室1713号-｣
+      romanized: ｢-Byoushitsu 1713 Gou-｣
+      english: ｢-Hospital Room No.1713-｣
+    vocals:
+      japanese: 神谷浩史
+      romanized: Kamiya Hiroshi
+    listen:
+      - label: YouTube
+        url: https://youtu.be/2i3qw04bvk0
+      - label: Spotify
+        url: https://open.spotify.com/track/21wtFo7aXkMe7vyrm7Dwrz
+    translations:
+      - label: Mikabit
+        url: https://shuuen-no-shiori.fandom.com/wiki/Instrumental_Transcripts#Hospital_Room_No.1713_(病室1713号,_Byoushitsu_1713-Gou)

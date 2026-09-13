@@ -1,0 +1,39 @@
+tracks:
+  - title:
+      japanese: やさしいおばけ話
+      romanized: Yasashii Obakebanashi
+      english: Gentle Ghost Story
+    vocals:
+      japanese: スズム
+      romanized: Suzumu
+    listen: []
+    translations:
+      - label: AmeSubs
+        url: https://amesubs.tumblr.com/post/127158629673/ia-gentle-ghost-story-やさしいおばけ話-in-a-dream
+      - label: Vimeo
+        url: https://vimeo.com/136825577
+      - label: raspomme
+        url: https://raspomme.tumblr.com/post/115006811295
+
+  - title:
+      japanese: ハイカラコーポパーク
+      romanized: High-Collar Corp Park
+      english: A Stylish Apartment Park
+    vocals:
+      japanese: 150P
+      romanized: 150P
+    listen: []
+    translations:
+      - label: Releska
+        url: https://releska.com/2020/12/22/a-stylish-apartment-park/
+
+  - title:
+      japanese: 就寝-Re:clining-
+      romanized: Shuushin -Re:clining-
+    vocals:
+      japanese: 150P & スズム
+      romanized: 150P & Suzumu
+    listen:
+      - label: YT Reprint
+        url: https://youtu.be/FdnDXv05Kuo
+    translations: []

@@ -1,0 +1,88 @@
+tracks:
+  - number: 1
+    title:
+      japanese: プロローグ：Next Error
+      english: "Prologue: Next Error"
+    listen:
+      - label: YT Reprint
+        url: https://youtu.be/31Oc4s4BbmY&t=0s
+      - label: Soundcloud Reprint
+        url: https://soundcloud.com/munynotameiki/01-next-error?in=munynotameiki/sets/shuuen-re-act-cd-drama
+    translations:
+      - label: June
+        url: https://youtu.be/MFgPHoaP9rs
+  - number: 2
+    title:
+      japanese: 第一章：未来への手紙
+      english: "First Chapter: Letter to the Future"
+    listen:
+      - label: YT Reprint
+        url: https://youtu.be/31Oc4s4BbmY&t=0s
+      - label: Soundcloud Reprint
+        url: https://soundcloud.com/munynotameiki/02a?in=munynotameiki/sets/shuuen-re-act-cd-drama
+    translations: []
+  - number: 3
+    title:
+      japanese: 第二章：ボク達の証拠
+      english: "Second Chapter: Our Evidence"
+    listen:
+      - label: YT Reprint
+        url: https://youtu.be/31Oc4s4BbmY&t=277s
+      - label: Soundcloud Reprint
+        url: https://soundcloud.com/munynotameiki/03a?in=munynotameiki/sets/shuuen-re-act-cd-drama
+    translations: []
+  - number: 4
+    title:
+      japanese: 第三章：あの日の惨劇
+      english: "Third Chapter: The Tragedy of that Day"
+    listen:
+      - label: YT Reprint
+        url: https://youtu.be/31Oc4s4BbmY&t=784s
+      - label: Soundcloud Reprint
+        url: https://soundcloud.com/munynotameiki/04a?in=munynotameiki/sets/shuuen-re-act-cd-drama
+    translations: []
+  - number: 5
+    title:
+      japanese: 第四章：10年後のキミ達へ
+      english: "Fourth Chapter: To the 10-years-after You"
+    listen:
+      - label: YT Reprint
+        url: https://youtu.be/31Oc4s4BbmY&t=1280s
+      - label: Soundcloud Reprint
+        url: https://soundcloud.com/munynotameiki/05-10a?in=munynotameiki/sets/shuuen-re-act-cd-drama
+    translations: []
+  - number: 6
+    title:
+      japanese: 第五章：リピートラジディー
+      english: "Fifth Chapter: Repeatragedy"
+    listen:
+      - label: YT Reprint
+        url: https://youtu.be/31Oc4s4BbmY&t=1972s
+      - label: Soundcloud Reprint
+        url: https://soundcloud.com/munynotameiki/06a?in=munynotameiki/sets/shuuen-re-act-cd-drama
+    translations:
+      - label: June
+        url: https://docs.google.com/document/d/1p5rDqvFyGvBJP57G8m74N5GBfoSH6xZPkRPM-dHWox0/edit?usp=drivesdk
+  - number: 7
+    title:
+      japanese: エピローグ：放課後、音楽室にて
+      english: "Epilogue: After School, in the Music Room"
+    listen:
+      - label: YT Reprint
+        url: https://youtu.be/31Oc4s4BbmY&t=2963s
+      - label: Soundcloud Reprint
+        url: https://soundcloud.com/munynotameiki/07a?in=munynotameiki/sets/shuuen-re-act-cd-drama
+    translations:
+      - label: whisperscrawls
+        url: https://whisperscrawls.dreamwidth.org/6969.html
+  - number: 8
+    title:
+      japanese: "[Secret Track]"
+    listen:
+      - label: YT Reprint
+        url: https://youtu.be/31Oc4s4BbmY&t=3093s
+      - label: Soundcloud Reprint
+        url: https://soundcloud.com/munynotameiki/spoiler-secret?in=munynotameiki/sets/shuuen-re-act-cd-drama
+    translations:
+      - label: June
+        url: https://youtu.be/E7NgYpJ3UtA
